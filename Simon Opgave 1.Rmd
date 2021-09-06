@@ -1,0 +1,53 @@
+---
+title: "Opgave 1 Simon"
+output: html_document
+---
+
+#Opgave 1:Ramsey-Cass-Koopman model 
+
+##Explain crucial differences between the Solow model and the Ramsey, Cass and Koopman model. Does it affect the overall conclusions?
+
+
+
+##Piketty (2014) argues that a fall in the growth rate of the economy is likely to an increase in the difference between the real interest rate and the growth rate. This problem asks you to investigate this issue in the context of the Ramsey-Cass-Koopmans model. Specially, consider a Ramsey-CassKoopmans economy that is on its balanced growth path, and suppose there is a permanent fall in g
+
+
+1. How, if at all, does this affect the ˙k = 0-curve?
+
+We need to look at the function for a change in k 
+
+$$\dot k = f(k(t))- c(t)- (n+g)k(t)$$
+We can set up the rule for when $\dot k =0$ which is $c(t)= f(k(t))-(n+g)k(t)$ we can see that if there is a fall in g we can see that the right hand site will increase, which also means that c(t) must increase. 
+
+Next we can also see that $f'(k)=n+g$ we can see that $f'(k)$ will decrease as g decreases. Because of the falling marginal product of capital this means that K should be increasing. this also means that K will be increasing. 
+
+Hvis g falder vil det led der trækker kapital akkumuleringen ned dermed behøves du ik investere lige så meget dermed må forbruget stige. 
+
+
+2. How, if at all, does this affect the c˙ = 0-curve?
+
+
+We start by looking at the function $\frac{\dot c}{c}\frac{f'(k(t))=\rho+\theta g}{\theta}$ where we need this expretion to be equal to 0 which also means the nummerator (tæller) should be equal to zero so we can set up this 
+$ f'(k(t))=\rho+\theta g$ We can see that if g falls $f'(k(t))$ also needs to be falling, this again means K must be increasing. If we again look at the first function for each value of c K must be increased and the line goes to the right. 
+
+3. At the time of the change, does c rise, fall, or stay the same, or is it
+not possible to tell?
+
+Kan vi ik sige noget om 
+
+
+4. 
+
+K historisk givet sker ik noget. 
+
+Afstanden bliver større da r ikke ændres men g ændres
+
+5. 
+
+Find et ud tryk hvor vi skal finde diff af 
+
+er theta støre ligmed eller mindre end 1
+
+
+
+
