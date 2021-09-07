@@ -1,0 +1,28 @@
+---
+title: "Eksamensopgave 1"
+author: "Andreas Methling"
+date: "6 sep 2021"
+output: pdf_document
+---
+
+#Opgave 1
+
+##1. Explain crucial differences between the Solow model and the Ramsey, Cass and Koopman model. Does it affect the overall conclusions?
+
+##2.  Piketty (2014) argues that a fall in the growth rate of the economy is likely to an increase in the difference between the real interest rate and the growth rate. This problem asks you to investigate this issue in the context of the Ramsey-Cass-Koopmans model. Specially, consider a Ramsey-Cass-Koopmans economy that is on its balanced growth path, and suppose there is a permanent fall in g.
+
+##2.1  How, if at all, does this affect the $\dot k$ = 0-curve?
+Et fald i g vil påvirke $\dot k = 0$ igennem sidste led i nedenstående funktion:
+$$\dot k(t) = f(k(t)) -c(t) - (n+g)k(t)$$ 
+
+Sidste led $-(n+g)k(t)$ vil blive større når $g$ falder, hvilket vil resultere i, at det midterste led$-c(t)$ også bliver nødt til at blive større for at $\dot k$ bliver ved med at være = 0. Dette betyder, at kurven for $\dot k$ bliver højere for da der skal en højere $c$ til for at $\dot k$ forbliver 0. Ligeledes bliver kurven bredere da $f'(k) = n + g$ vil blive mindre, da k stiger, fordi vi er langt ude på kurven.
+For at holde kapitalapparatet stabilt skal man altså bruge færre investeringer, derfor stiger $c(t)$
+
+##2.2 How, if at all, does this affect the $\dot c$ = 0-curve?
+Det kan ses udfra udtrykket $$\frac{\dot c(t)}{c(t)} = \frac{f'(k(t))-\rho-\theta g}{\theta}$$
+Hvor tælleren skal være 0, hvilket omskrevet giver $f'(k) = \rho+g$
+Et fald i $g$ vil medfører et fald i $f'(k)$ og da vi antager aftagende marginalprodukt, så betyder det, at vi er langt ude på af k, hvilket medfører, at givet en vilkårlig c-værdi vil der skulle bruges en større K, hvilket betyder at C-linjen skal skubes til højre.
+
+##2.3 At the time of the change, does c rise, fall, or stay the same, or is it not possible to tell?
+
+Det kan vi ikke sige noget om, for vi rykker begge både kurven og linjen og vi aner ikke hvor vi kommer til at starte, det kommer an på hvor meget man rykker dem på tegningen. 
