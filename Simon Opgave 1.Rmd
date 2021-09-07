@@ -12,7 +12,7 @@ output: html_document
 ##Piketty (2014) argues that a fall in the growth rate of the economy is likely to an increase in the difference between the real interest rate and the growth rate. This problem asks you to investigate this issue in the context of the Ramsey-Cass-Koopmans model. Specially, consider a Ramsey-CassKoopmans economy that is on its balanced growth path, and suppose there is a permanent fall in g
 
 
-1. How, if at all, does this affect the ˙k = 0-curve?
+*1. How, if at all, does this affect the ˙k = 0-curve?*
 
 We need to look at the function for a change in k 
 
@@ -24,30 +24,40 @@ Next we can also see that $f'(k)=n+g$ we can see that $f'(k)$ will decrease as g
 Hvis g falder vil det led der trækker kapital akkumuleringen ned dermed behøves du ik investere lige så meget dermed må forbruget stige. 
 
 
-2. How, if at all, does this affect the c˙ = 0-curve?
+*2. How, if at all, does this affect the c˙ = 0-curve?*
 
+Maybe tell something ffrom page 57
 
-We start by looking at the function $\frac{\dot c}{c}\frac{f'(k(t))=\rho+\theta g}{\theta}$ where we need this expretion to be equal to 0 which also means the nummerator (tæller) should be equal to zero so we can set up this 
+We get the used equation below from the Euler- equation $\frac{\dot c}{c}\frac{r(t)-\rho-\theta g}{\theta}$ where the marginal product of capital  $r(t)$ is equal to $f'(k(t))$ so we can do the substitution. 
+
+We start by looking at the function $\frac{\dot c}{c}\frac{f'(k(t))-\rho-\theta g}{\theta}$ where we need this expretion to be equal to 0 which also means the nummerator (tæller) should be equal to zero so we can set up this 
 $ f'(k(t))=\rho+\theta g$ We can see that if g falls $f'(k(t))$ also needs to be falling, this again means K must be increasing. If we again look at the first function for each value of c K must be increased and the line goes to the right. 
 
-3. At the time of the change, does c rise, fall, or stay the same, or is it
-not possible to tell?
+*3. At the time of the change, does c rise, fall, or stay the same, or is it not possible to tell?*
+
+Assume it is an unepected fall? hvis det er uforventet vil de ik ha haft mulighed for at tilpasse sig deres makimeringsproblem. 
 
 Kan vi ik sige noget om 
 
+Vi ligger vel ikke på den anden side af det maksimale c pga $\rho$ så hvordan kan c ikke falde?
 
-4. 
+Jeg kan faktisk ikke se hvordan c ikke kun kan falde ved mindre $\rho$ kan være negativ. --> Kan kun se det ske hvis $k^*=0$ kurven rykker sig sygt meget opad 
 
-K historisk givet sker ik noget. 
 
-Afstanden bliver større da r ikke ændres men g ændres
+*4. At the time of the change, does r − g rise, fall, or stay the same, or is it not possible to tell?*
 
-5. 
+If we assume that the shock is unexpected then the amount of capital is historically build up and will not imidially change when the shock is made to g. Therefor there will be no changes in $r(t)$ because there will be no changes in k therefor no changes in $f(k)$ and last no change in $f'(k)$ and we know $f'(k)= r(t)$. Therfor the distance will be larger. 
+
+
+*5. In the long run, does r − g rise, fall, or stay the same, or is it not possible to tell?*
 
 Find et ud tryk hvor vi skal finde diff af 
 
 er theta støre ligmed eller mindre end 1
 
+*6. Find an expression for the impact of a marginal change in g on the fraction of output that is saved on the balanced growth path. Can one tell whether this expression is positive or negative?*
 
+
+7. For the case where the production function is Cobb-Douglas, $f(x) =k^\alpha$, rewrite your answer to part (f) in terms of $\rho, n, g, \theta$ and $ \alpha$, (Hint:Use the fact that $f'(k^*) = \rho + \theta g$)
 
 
