@@ -25,4 +25,13 @@ Et fald i $g$ vil medfører et fald i $f'(k)$ og da vi antager aftagende margina
 
 ##2.3 At the time of the change, does c rise, fall, or stay the same, or is it not possible to tell?
 
-Det kan vi ikke sige noget om, for vi rykker begge både kurven og linjen og vi aner ikke hvor vi kommer til at starte, det kommer an på hvor meget man rykker dem på tegningen. 
+Det kan vi ikke sige noget om, for vi rykker begge både kurven og linjen og vi aner ikke hvor vi kommer til at starte, det kommer an på hvor meget man rykker dem på tegningen. Alt andet lige kommer det nye start punkt til at være under $\dot k$ kurven og til venstre for $\dot c$ linjen.
+
+##2.4 At the time of the change, does r − g rise, fall, or stay the same, or is it not possible to tell?
+HUsholdningerne ved ikke at der kommer et stød, det er derved et uventet stød og de har ikke maksimeret historisk for det, hvilket vil sige, at K ikke ændre sig, da det er historisk opbygget. Da K ikke ændre sig, så ændre $f'(k)$ sig heller ikke, og da $f'(k) = r$, så ændre r sig heller ikke, hvilket vil sige, at kun g ændre sig. Afstanden bliver derved større i mellem de to, da g falder imens r forbliver det samme.
+
+##2.5 In the long run, does r − g rise, fall, or stay the same, or is it not possible to tell? 
+
+Find et ud tryk hvor vi skal finde diff af 
+
+er theta støre ligmed eller mindre end 1
