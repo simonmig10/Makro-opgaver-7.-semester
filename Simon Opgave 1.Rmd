@@ -51,13 +51,33 @@ If we assume that the shock is unexpected then the amount of capital is historic
 
 *5. In the long run, does r − g rise, fall, or stay the same, or is it not possible to tell?*
 
-Find et ud tryk hvor vi skal finde diff af 
+Find et ud tryk hvor vi skal finde diff af et udtry. 
 
 er theta støre ligmed eller mindre end 1
 
 *6. Find an expression for the impact of a marginal change in g on the fraction of output that is saved on the balanced growth path. Can one tell whether this expression is positive or negative?*
 
+We can start by defining the fraction of output that is saved on the balanced growth path called s $s=\frac {(f(k^*) - c^*)} {f(k^*)}$ 
 
-7. For the case where the production function is Cobb-Douglas, $f(x) =k^\alpha$, rewrite your answer to part (f) in terms of $\rho, n, g, \theta$ and $ \alpha$, (Hint:Use the fact that $f'(k^*) = \rho + \theta g$)
+since k is constant on the balanced growth path we can write the function $\dot k = f(k(t))- c(t)- (n+g)k(t)$ as $f(k^*) - c^*= (n+g)k^*$
+
+We can now rewrite the fraction of output saved on the balanced growth path. $s= \frac {(n+g)k^*} {f(k^*)}$
+
+We can now differentiate both sides with respect to g. We use the rules for differentiating a fraction. We should also use the chainrule as g is in the function for f(k). (Måske lige skrive hvordan)
+
+$$\frac {\delta s} {\delta g} = \frac {f(k^*)[(n+g)(\frac{\delta k^*}{\delta g})+k^*] - (n+g)k^* f'(k^*)(\frac{\delta k^*}{\delta g})}{[f(k^*)]^2}$$
+Vi ganger $f(k^*)$ ind i parentesen og sætter derefter $(n+g)(\frac {\delta k^*}{\delta g})$ udenfor parentes (sætter den bare på hver side af parentesen)
+
+$$\frac {\delta s} {\delta g} = \frac {(n+g)[f(k^*) -k^* f'(k^*)](\frac{\delta k^*} {\delta g}) + f(k^*)k^*} {[f(k^*)]^2}$$
+
+We know that $k^*$ is defined when $f'(k^*)= \rho + \theta g$
+
+
+
+
+
+
+7. For the case where the production function is Cobb-Douglas, $f(x) =k^\alpha$, rewrite your answer to part (f) in terms of $\rho, n, g, \theta$ and $ \alpha$, (Hint:Use the fact that $f'(k^*) = \rho + \theta g$) 
+
 
 
