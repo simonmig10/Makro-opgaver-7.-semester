@@ -9,6 +9,7 @@ output: html_document
 
 
 
+
 ##Piketty (2014) argues that a fall in the growth rate of the economy is likely to an increase in the difference between the real interest rate and the growth rate. This problem asks you to investigate this issue in the context of the Ramsey-Cass-Koopmans model. Specially, consider a Ramsey-CassKoopmans economy that is on its balanced growth path, and suppose there is a permanent fall in g
 
 
@@ -79,11 +80,15 @@ We can now substitute this into the above equation:
 
 
 
-
+The conclution is that we can not say anything about if a change in g has a positve effect on the fraction of output tht is saved on the balanced growthpath 
 
 
 
 7. For the case where the production function is Cobb-Douglas, $f(x) =k^\alpha$, rewrite your answer to part (f) in terms of $\rho, n, g, \theta$ and $ \alpha$, (Hint:Use the fact that $f'(k^*) = \rho + \theta g$) 
 
+
+
+
+##Analyze the effect of a public procurement, including a thorough presentation of the dynamics in Figures 2.8 and 2.9
 
 
