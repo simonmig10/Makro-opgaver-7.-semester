@@ -1,6 +1,7 @@
 ---
 title: "Opgave 1 Simon"
-output: html_document
+output:
+  pdf_document: default
 ---
 
 #Opgave 1:Ramsey-Cass-Koopman model 
@@ -13,7 +14,7 @@ output: html_document
 ##Piketty (2014) argues that a fall in the growth rate of the economy is likely to an increase in the difference between the real interest rate and the growth rate. This problem asks you to investigate this issue in the context of the Ramsey-Cass-Koopmans model. Specially, consider a Ramsey-CassKoopmans economy that is on its balanced growth path, and suppose there is a permanent fall in g
 
 
-*1. How, if at all, does this affect the ˙k = 0-curve?*
+*1. How, if at all, does this affect the k = 0-curve?*
 
 We need to look at the function for a change in k 
 
@@ -22,17 +23,17 @@ We can set up the rule for when $\dot k =0$ which is $c(t)= f(k(t))-(n+g)k(t)$ w
 
 Next we can also see that $f'(k)=n+g$ we can see that $f'(k)$ will decrease as g decreases. Because of the falling marginal product of capital this means that K should be increasing. this also means that K will be increasing. 
 
-Hvis g falder vil det led der trækker kapital akkumuleringen ned dermed behøves du ik investere lige så meget dermed må forbruget stige. 
+Hvis g falder vil det led der trekker kapital akkumuleringen ned dermed needer du ik investere lige so meget dermed may forbruget stige. 
 
 
-*2. How, if at all, does this affect the c˙ = 0-curve?*
+*2. How, if at all, does this affect the c = 0-curve?*
 
 Maybe tell something ffrom page 57
 
 We get the used equation below from the Euler- equation $\frac{\dot c}{c}\frac{r(t)-\rho-\theta g}{\theta}$ where the marginal product of capital  $r(t)$ is equal to $f'(k(t))$ so we can do the substitution. 
 
-We start by looking at the function $\frac{\dot c}{c}\frac{f'(k(t))-\rho-\theta g}{\theta}$ where we need this expretion to be equal to 0 which also means the nummerator (tæller) should be equal to zero so we can set up this 
-$ f'(k(t))=\rho+\theta g$ We can see that if g falls $f'(k(t))$ also needs to be falling, this again means K must be increasing. If we again look at the first function for each value of c K must be increased and the line goes to the right. 
+We start by looking at the function $\frac{\dot c}{c}\frac{f'(k(t))-\rho-\theta g}{\theta}$ where we need this expretion to be equal to 0 which also means the nummerator (teller) should be equal to zero so we can set up this 
+$f'(k(t))=\rho+\theta g$ We can see that if g falls $f'(k(t))$ also needs to be falling, this again means K must be increasing. If we again look at the first function for each value of c K must be increased and the line goes to the right. 
 
 *3. At the time of the change, does c rise, fall, or stay the same, or is it not possible to tell?*
 
@@ -40,21 +41,21 @@ Assume it is an unepected fall? hvis det er uforventet vil de ik ha haft mulighe
 
 Kan vi ik sige noget om 
 
-Vi ligger vel ikke på den anden side af det maksimale c pga $\rho$ så hvordan kan c ikke falde?
+Vi ligger vel ikke on den anden side af det maksimale c pga $\rho$ so hvordan kan c ikke falde?
 
-Jeg kan faktisk ikke se hvordan c ikke kun kan falde ved mindre $\rho$ kan være negativ. --> Kan kun se det ske hvis $k^*=0$ kurven rykker sig sygt meget opad 
+Jeg kan faktisk ikke se hvordan c ikke kun kan falde ved mindre $\rho$ kan be negativ. - Kan kun se det ske hvis $k^*=0$ kurven rykker sig sygt meget opad 
 
 
-*4. At the time of the change, does r − g rise, fall, or stay the same, or is it not possible to tell?*
+*4. At the time of the change, does r minus g rise, fall, or stay the same, or is it not possible to tell?*
 
 If we assume that the shock is unexpected then the amount of capital is historically build up and will not imidially change when the shock is made to g. Therefor there will be no changes in $r(t)$ because there will be no changes in k therefor no changes in $f(k)$ and last no change in $f'(k)$ and we know $f'(k)= r(t)$. Therfor the distance will be larger. 
 
 
-*5. In the long run, does r − g rise, fall, or stay the same, or is it not possible to tell?*
+*5. In the long run, does r minus g rise, fall, or stay the same, or is it not possible to tell?*
 
 Find et ud tryk hvor vi skal finde diff af et udtry. 
 
-er theta støre ligmed eller mindre end 1
+er theta larger ligmed eller mindre end 1
 
 *6. Find an expression for the impact of a marginal change in g on the fraction of output that is saved on the balanced growth path. Can one tell whether this expression is positive or negative?*
 
@@ -64,10 +65,10 @@ since k is constant on the balanced growth path we can write the function $\dot 
 
 We can now rewrite the fraction of output saved on the balanced growth path. $s= \frac {(n+g)k^*} {f(k^*)}$
 
-We can now differentiate both sides with respect to g. We use the rules for differentiating a fraction. We should also use the chainrule as g is in the function for f(k). (Måske lige skrive hvordan)
+We can now differentiate both sides with respect to g. We use the rules for differentiating a fraction. We should also use the chainrule as g is in the function for f(k). (maybe lige skrive hvordan)
 
 $$\frac {\delta s} {\delta g} = \frac {f(k^*)[(n+g)(\frac{\delta k^*}{\delta g})+k^*] - (n+g)k^* f'(k^*)(\frac{\delta k^*}{\delta g})}{[f(k^*)]^2}$$
-Vi ganger $f(k^*)$ ind i parentesen og sætter derefter $(n+g)(\frac {\delta k^*}{\delta g})$ udenfor parentes (sætter den bare på hver side af parentesen)
+Vi ganger $f(k^*)$ ind i parentesen og setter derefter $(n+g)(\frac {\delta k^*}{\delta g})$ udenfor parentes (setter den bare on hver side af parentesen)
 
 $$\frac {\delta s} {\delta g} = \frac {(n+g)[f(k^*) -k^* f'(k^*)](\frac{\delta k^*} {\delta g}) + f(k^*)k^*} {[f(k^*)]^2}$$
 
@@ -77,6 +78,8 @@ $$\frac{\delta k^*}{\delta g}= \frac{\theta}{f''(k^*)}$$
 
 We can now substitute this into the above equation:
 
+$$\frac{\delta s}{\delta g} = \frac{(n+g)[f(k^*)-k^*f'(k^*)]\theta + f(k^*)k^*f''(k^*)}{[f(k^*)]^2 f''(k^*)}$$
+
 
 
 
@@ -84,7 +87,7 @@ The conclution is that we can not say anything about if a change in g has a posi
 
 
 
-7. For the case where the production function is Cobb-Douglas, $f(x) =k^\alpha$, rewrite your answer to part (f) in terms of $\rho, n, g, \theta$ and $ \alpha$, (Hint:Use the fact that $f'(k^*) = \rho + \theta g$) 
+7. For the case where the production function is Cobb-Douglas, $f(x) =k^\alpha$, rewrite your answer to part (f) in terms of $\rho, n, g,\theta$ and $\alpha$, (Hint:Use the fact that $f'(k^*) = \rho + \theta g$) 
 
 
 
