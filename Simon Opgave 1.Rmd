@@ -78,8 +78,16 @@ $$\frac{\delta k^*}{\delta g}= \frac{\theta}{f''(k^*)}$$
 
 We can now substitute this into the above equation:
 
+$$\frac {\delta s} {\delta g} = \frac {(n+g)[f(k^*) -k^* f'(k^*)](\frac{\theta} {f''(k^*)}) + f(k^*)k^*} {[f(k^*)]^2}$$
+We then multiply by $f''(k^*)$ above and under the fraction (above: As the term is multiplied on the brackets it just disapears and is multiplied to the second term)
+
 $$\frac{\delta s}{\delta g} = \frac{(n+g)[f(k^*)-k^*f'(k^*)]\theta + f(k^*)k^*f''(k^*)}{[f(k^*)]^2 f''(k^*)}$$
 
+- First term should be positive?
+
+- as we know $f''(k^*)$ is negative the last term in the nummerator is negative. 
+
+- the denominator will be negative for the same reason. 
 
 
 
@@ -88,6 +96,15 @@ The conclution is that we can not say anything about if a change in g has a posi
 
 
 7. For the case where the production function is Cobb-Douglas, $f(x) =k^\alpha$, rewrite your answer to part (f) in terms of $\rho, n, g,\theta$ and $\alpha$, (Hint:Use the fact that $f'(k^*) = \rho + \theta g$) 
+
+
+We know when $f(k)= k^\alpha$, then $f'(k)=\alpha k^{\alpha - 1}$ and $f''(k)= \alpha(\alpha-1)k^{a-2}$. 
+
+if we substitute this into the answer from the question above:
+
+$$\frac{\delta s}{\delta g}= \frac{(n+g)[k^{*\alpha}-k^* \alpha k^{*\alpha - 1}]\theta + k^{*\alpha} k^* \alpha (\alpha - 1) k^{*\alpha - 2}}{k^{*\alpha} k^{*\alpha} \alpha(\alpha - 1)k^{*\alpha - 2}}$$
+
+
 
 
 
