@@ -70,7 +70,13 @@ Vi ganger $f(k^*)$ ind i parentesen og sætter derefter $(n+g)(\frac {\delta k^*
 
 $$\frac {\delta s} {\delta g} = \frac {(n+g)[f(k^*) -k^* f'(k^*)](\frac{\delta k^*} {\delta g}) + f(k^*)k^*} {[f(k^*)]^2}$$
 
-We know that $k^*$ is defined when $f'(k^*)= \rho + \theta g$
+We know that $k^*$ is defined when $f'(k^*)= \rho + \theta g$ we can now differentiate both sites with respect to g, and we get $f''(k^*)(\frac{\delta k^*}{\delta g})= \theta$ Solving for $\frac{\delta k^*}{\delta g}$ we get. 
+
+$$\frac{\delta k^*}{\delta g}= \frac{\theta}{f''(k^*)}$$
+
+We can now substitute this into the above equation:
+
+
 
 
 
