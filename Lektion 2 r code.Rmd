@@ -1,0 +1,99 @@
+---
+title: "Makro 7 lektion 2"
+output: html_document
+---
+
+```{r}
+setwd("C:/Users/pjkss/OneDrive/Skrivebord/Makro 7/Makro-opgaver-7.-semester")
+
+library(PKSFC)
+
+olg <- sfc.model("OLG.txt", modelName = "olg")
+olg <- sfc.check(olg, fill = T)
+data <- simulate(olg, maxIter = 200)
+
+```
+# Decrease in Rho from 0.4 to 0.1
+
+```{r}
+init = data$baseline[0, ]
+shock1 <- sfc.addScenario(model = olg, vars = list(c("rho")), values = list(c(0.1)),
+inits = 50, ends = 100, starts = init)
+shock1_data <- simulate(shock1, maxIter = 1000)
+
+r_shock1=shock1_data$scenario[,"r"]; s_shock1=shock1_data$scenario[,"s"]
+c1_shock1=shock1_data$scenario[,"c1"]; c2_shock1=shock1_data$scenario[,"c2"]
+
+plot(c1_shock1, t="l", ylab="consumption", xlab="", ylim=c(0,6), lwd=1) ;lines(c2_shock1, t="l", col="blue", lwd=1) ;legend(x = "bottomright", legend = c("c1 young", "c2 old"), lty = c(1,
+1), col = c("black", "blue"), lwd = c(1, 1))
+```
+
+We can see that when lowering the impatient parameter this lowers the consumption in the 1. periode. We can also see the consumption in the second periode increases. We should also notice that 
+
+```{r}
+plot(r_shock1, t="l", ylab = "", xlab = "", ylim =c (0,4), lwd=1); lines(s_shock1, t="l", col="blue", lwd=1); legend(x = "bottomright", legend = c("r_shock1", "s_shock1"), lty = c(1,1), col = c("black", "blue"), lwd = c(1, 1))
+```
+We can see the savings fraction of income increases when we lower the impatients paramter, which also makes since as people will be more likely to save consumption to next period. 
+
+
+#Increase in Rho from 0.4 to 0.9
+
+```{r}
+init = data$baseline[0, ]
+shock2 <- sfc.addScenario(model = olg, vars = list(c("rho")), values = list(c(0.9)),
+inits = 50, ends = 100, starts = init)
+shock2_data <- simulate(shock2, maxIter = 1000)
+```
+
+
+```{r}
+r_shock2=shock2_data$scenario[,"r"]; s_shock2=shock2_data$scenario[,"s"]
+c1_shock2=shock2_data$scenario[,"c1"]; c2_shock2=shock2_data$scenario[,"c2"]
+
+plot(c1_shock2, t="l", ylab="consumption", xlab="", ylim=c(0,6), lwd=1) ;lines(c2_shock2, t="l", col="blue", lwd=1) ;legend(x = "bottomright", legend = c("c1 young", "c2 old"), lty = c(1,
+1), col = c("black", "blue"), lwd = c(1, 1))
+```
+We can now see the opposite 
+
+
+```{r}
+plot(r_shock2, t="l", ylab="consumption", xlab="", ylim=c(0,6), lwd=1) ;lines(s_shock2, t="l", col="blue", lwd=1) ;legend(x = "bottomright", legend = c("r_shock", "s_shock"), lty = c(1,
+1), col = c("black", "blue"), lwd = c(1, 1))
+```
+We can again see the opposite 
+
+
+#Assume interest rate is exogenous in the baseline model (e.g., set rt = 0.01 in the text file). Now shock interest rate at period 50 by increasing it to 0.08. What is the effect of this shock on savings (intuition?)
+
+```{r}
+olg_exo_r <- sfc.model("OLG_exo_rente.txt", modelName = "olg_exo_r")
+olg_exo_r <- sfc.check(olg_exo_r, fill = T)
+data_exo_r <- simulate(olg_exo_r, maxIter = 200)
+```
+
+
+We make a shock from 0.01 to 0.08
+
+```{r}
+init_exo_r = data_exo_r$baseline[0, ]
+shock1_exo_r <- sfc.addScenario(model = olg_exo_r, vars = list(c("r")), values = list(c(0.8)),
+inits = 50, ends = 100, starts = init_exo_r)
+shock1_exo_r <- simulate(shock1_exo_r, maxIter = 1000)
+```
+
+
+```{r}
+r_shock_exo_r=shock1_exo_r$scenario[,"r"]; s_shock_exo_r=shock1_exo_r$scenario[,"s"]
+c1_shock_exo_r=shock1_exo_r$scenario[,"c1"]; c2_shock_exo_r=shock1_exo_r$scenario[,"c2"]
+
+plot(c1_shock_exo_r, t="l", ylab="consumption", xlab="", ylim=c(0,6), lwd=1) ;lines(c2_shock_exo_r, t="l", col="blue", lwd=1) ;legend(x = "bottomright", legend = c("c1 young", "c2 old"), lty = c(1,
+1), col = c("black", "blue"), lwd = c(1, 1))
+```
+We can see an exogenouse shock to the interrest rate will increase the consumption in period 2 and lowers the consumption in period 1 which makes since. It also increases the total consumption because there now is a larger interrest income duo to the higher r. 
+
+
+```{r}
+plot(r_shock_exo_r, t="l", ylab="consumption", xlab="", ylim=c(0,6), lwd=1) ;lines(s_shock_exo_r, t="l", col="blue", lwd=1) ;legend(x = "bottomright", legend = c("r_shock", "s_shock"), lty = c(1,
+1), col = c("black", "blue"), lwd = c(1, 1))
+```
+We can see r increases as we make the shock, and er can see this increases the savings rate as expected as this is part of the savings function 
