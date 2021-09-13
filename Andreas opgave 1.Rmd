@@ -35,3 +35,25 @@ Husholdningerne ved ikke at der kommer et stoed, det er derved et uventet stoed 
 Find et ud tryk hvor vi skal finde diff af 
 
 er theta stoerre ligmed eller mindre end 1
+
+#Opgave 2
+
+Consider the following overlapping generations framework. Welfare is equal to:
+
+$$U_t = u(C_{1t} + \beta u(C_{2t+1}$$ with $\beta = \frac{1}{1+\rho}$ the discount factor.
+
+Assume the utility function is logarithmic:
+$$u(C_{jt} = lnC_{jt}$$
+
+We will assume that the government implements a pension scheme, more specifically, a pay-as-you-go social security scheme, where the government taxes each young individual by an amount T , and uses that amount to pay benefits to old individuals. Hence, the budget constraints is given by:
+
+$$C_{1t}+S_t = w - T$$
+
+whereas period 2 consumption is givien by:
+$$C_{2t+1} = S_t(1+r) + (1+n)T$$
+
+Note that $n$ represents population growth. Take the wage $w$ and interest rate $r$ as exogenous and solve the following:
+
+##Set up the intertemporal maximazation problem and derive the EUler equation:
+
+##Derive $S_t$ as a function of $r$, $w$ and $T$. How does an increase in $T$ affect savings (show mathematically)? Discuss the result.
