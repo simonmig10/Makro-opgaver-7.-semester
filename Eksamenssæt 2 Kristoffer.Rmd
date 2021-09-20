@@ -1,0 +1,20 @@
+---
+title: "Eksamenssæt 2"
+author: "Kristoffer Herrig Thorndal"
+date: "20/9/2021"
+output: pdf_document
+---
+**Assume production function of final goods sector is given by:**
+$$Y(t)=[(1-a_K)K(t)^\alpha][A(t)(1-a_L)L(t)]^{1-\alpha}$$
+Where $1-a_L$ and $1-a_K$ is the proportion of labour and capital allocated for final production
+
+Capital stock is given by:
+$$\dot{K}(t)=sY(t)$$
+
+Production function of R&D sector is given by
+
+*Derive an expression for the growth rate of capital* $gK(t)$ *and growth rate of technology* $gA(t)$
+```{r}
+
+
+```
