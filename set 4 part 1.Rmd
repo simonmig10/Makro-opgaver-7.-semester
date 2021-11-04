@@ -1,0 +1,24 @@
+---
+title: "4. makro part 1"
+author: "Andreas Methling"
+date: "4/11/2021"
+output: pdf_document
+---
+
+## Opgave 2: Explain the following statement using Kalecki’s micro-foundations: "But pay can rise for a variety of reasons, some more benign than others. For a given level of productivity, higher wages must show up in one of two ways: as higher inflation or as a higher "labour share" of GDP". Why is it that, if nominal wages increase and firms choose not to pass on the higher labour costs to prices, the "labour share" increases?
+
+For et given niveau af $u$ kan der i modellen kun komme højere lønninger ved højere inflation, hvilket vil sige en stigning i $P = (1+\tau)W\alpha0$ eller 
+
+## Opgave 3: Assume that the increase in nominal wages discussed in the note is finally passed on to prices one-on-one. What would be the impact on output (proxied by the rate of capacity utilization and growth. Use the graphical setting developed in the Kalecki-Steindl model.
+
+
+## Opgave 4: Evaluate the following statement through the lenses of the Kalecki-Steindl graphical device: "But an ever-rising labour share would be a worry: it would crimp companies' profits and thus the investments that are crucial to improving long-run economic growth". Does an increase in the labour share reduce long-run growth in this model? Why? Why not?
+
+## Opgave 5:  The note stresses that: "There is another, happier, possibility. If productivity rises, then wage growth need not cause sustained inflation, nor push up the labour share. Instead the economic pie would grow, with more for everyone."
+
+
+### a) Explain why a raise in productivity could offset the inflationary pressure or increasing wages.
+
+
+### b) Illustrate this scenario using the Kalecki-Steindl graphical model. Does the model predict a higher size of the income (a.k.a. "the economic pie")? What would be needed for the "economic pie" to grow in the model?
+
