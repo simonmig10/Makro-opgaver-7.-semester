@@ -7,18 +7,28 @@ output: pdf_document
 
 ## Opgave 2: Explain the following statement using Kalecki’s micro-foundations: "But pay can rise for a variety of reasons, some more benign than others. For a given level of productivity, higher wages must show up in one of two ways: as higher inflation or as a higher "labour share" of GDP". Why is it that, if nominal wages increase and firms choose not to pass on the higher labour costs to prices, the "labour share" increases?
 
-For et given niveau af $u$ kan der i modellen kun komme højere lønninger ved højere inflation, hvilket vil sige en stigning i $P = (1+\tau)W\alpha0$ eller 
+Noget andreas skrev.... fjollet: For et given niveau af $u$ kan der i modellen kun komme højere lønninger ved højere inflation, hvilket vil sige en stigning i $P = (1+\tau)W\alpha0$ eller 
+
+
+Hvis nominel løn stiger, og stigningen ikke resulterer i stigninger i prisniveauet (og dermed inflationen), så er det fordi at virksomhederne lader disse prisstigninger gå ud over egen profit, som i det tilfælde falder grundet et fald i markup. Dermed ændres fordelingen af "the economic pie", og labour share stiger.
+
+TILFØJ LIGNIGNER OG VIS PIE. EQ. nr. 1 og 2
+
+FRA SEBASTIAN: 
 
 ## Opgave 3: Assume that the increase in nominal wages discussed in the note is finally passed on to prices one-on-one. What would be the impact on output (proxied by the rate of capacity utilization and growth. Use the graphical setting developed in the Kalecki-Steindl model.
+Hvis nominelle lønninger stiger 1 til 1 med inflationen, så sker der selvsagt ingen ændring i reallønningerne, hvilket dermed resulterer i, at der ingen effekt sker i realøkonomien. Således sker der ingen ændringer i "the graphical setting" fra Kalecki-Steindl model. Forbrug og produktion forbliver således konstant. Investment afhænger af rate of capacity utilisation og ... men ingen af de komponenter har et chok til sig. Så ingenting sker.
 
+Figuren fra slide "equilibrium" i lektion 10. Evt. vis denne og sig at der intet sker.
 
 ## Opgave 4: Evaluate the following statement through the lenses of the Kalecki-Steindl graphical device: "But an ever-rising labour share would be a worry: it would crimp companies' profits and thus the investments that are crucial to improving long-run economic growth". Does an increase in the labour share reduce long-run growth in this model? Why? Why not?
+Fra Sebastian: Hvis profitandelen (pi) går ned, så roterer investment schedule nedad og dermed højere growth, output og rate of profit og en højere lønandel.
 
 ## Opgave 5:  The note stresses that: "There is another, happier, possibility. If productivity rises, then wage growth need not cause sustained inflation, nor push up the labour share. Instead the economic pie would grow, with more for everyone."
 
 
 ### a) Explain why a raise in productivity could offset the inflationary pressure or increasing wages.
-
+Seb: a0 falder og man kan producere mere med samme antal arbejdere.
 
 ### b) Illustrate this scenario using the Kalecki-Steindl graphical model. Does the model predict a higher size of the income (a.k.a. "the economic pie")? What would be needed for the "economic pie" to grow in the model?
-
+Increase in real wage (alle andre variable i grafen skal forblive de samme når vi tegner grafen).
