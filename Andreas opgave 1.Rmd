@@ -5,40 +5,117 @@ date: "6 sep 2021"
 output: pdf_document
 ---
 
-#Opgave 1
+# Opgave 1
 
-##1. Explain crucial differences between the Solow model and the Ramsey, Cass and Koopman model. Does it affect the overall conclusions?
+## 1. Explain crucial differences between the Solow model and the Ramsey, Cass and Koopman model. Does it affect the overall conclusions?
 
-##2.  Piketty (2014) argues that a fall in the growth rate of the economy is likely to an increase in the difference between the real interest rate and the growth rate. This problem asks you to investigate this issue in the context of the Ramsey Cass Koopmans model. Specially, consider a Ramsey Cass Koopmans economy that is on its balanced growth path, and suppose there is a permanent fall in g.
+## 2.  Piketty (2014) argues that a fall in the growth rate of the economy is likely to an increase in the difference between the real interest rate and the growth rate. This problem asks you to investigate this issue in the context of the Ramsey Cass Koopmans model. Specially, consider a Ramsey Cass Koopmans economy that is on its balanced growth path, and suppose there is a permanent fall in g.
 
-##2.1  How, if at all, does this affect the $\dot k$ = 0 curve?
+## 2.1  How, if at all, does this affect the $\dot k$ = 0 curve?
+
 Et fald i g vil paavirke $\dot k = 0$ igennem sidste led i nedenstaaende funktion:
 $$\dot k(t) = f(k(t)) -c(t) - (n+g)k(t)$$ 
 
 Sidste led $-(n+g)k(t)$ vil blive stoerre naar $g$ falder, hvilket vil resultere i, at det midterste led$-c(t)$ ogsaa bliver noedt til at blive stoerre for at $\dot k$ bliver ved med at vaere = 0. Dette betyder, at kurven for $\dot k$ bliver hoejere for da der skal en hoejere $c$ til for at $\dot k$ forbliver 0. Ligeledes bliver kurven bredere da $f'(k) = n + g$ vil blive mindre, da k stiger, fordi vi er langt ude paa kurven.
 For at holde kapitalapparatet stabilt skal man altsaa bruge faerre investeringer, derfor stiger $c(t)$
 
-##2.2 How, if at all, does this affect the $\dot c$ = 0 curve?
-Det kan ses udfra udtrykket $$\frac{\dot c(t)}{c(t)} = \frac{f'(k(t))-\rho-\theta g}{\theta}$$
-Hvor taelleren skal vaere 0, hvilket omskrevet giver $f'(k) = \rho+g$
-Et fald i $g$ vil medfoerer et fald i $f'(k)$ og da vi antager aftagende marginalprodukt, saa betyder det, at vi er langt ude paa af k, hvilket medfoerer, at givet en vilkaarlig c vaerdi vil der skulle bruges en stoerre K, hvilket betyder at C linjen skal skubes til hoejre.
+## 2.2 How, if at all, does this affect the $\dot c$ = 0 curve?
 
-##2.3 At the time of the change, does c rise, fall, or stay the same, or is it not possible to tell?
+We get the used equation below from the Euler- equation $\frac{\dot c}{c}\frac{r(t)-\rho-\theta g}{\theta}$ where the marginal product of capital  $r(t)$ is equal to $f'(k(t))$ so we can do the substitution. 
+
+We start by looking at the function $\frac{\dot c}{c}\frac{f'(k(t))-\rho-\theta g}{\theta}$ where we need this expretion to be equal to 0 which also means the nummerator (teller) should be equal to zero so we can set up this 
+$f'(k(t))=\rho+\theta g$ We can see that if g falls $f'(k(t))$ also needs to be falling, this again means K must be increasing. If we again look at the first function for each value of c K must be increased and the line goes to the right. 
+
+## 2.3 At the time of the change, does c rise, fall, or stay the same, or is it not possible to tell?
 
 Det kan vi ikke sige noget om, for vi rykker begge baade kurven og linjen og vi aner ikke hvor vi kommer til at starte, det kommer an paa hvor meget man rykker dem paa tegningen. Alt andet lige kommer det nye start punkt til at vaere under $\dot k$ kurven og til venstre for $\dot c$ linjen.
 
-##2.4 At the time of the change, does r g rise, fall, or stay the same, or is it not possible to tell?
-Husholdningerne ved ikke at der kommer et stoed, det er derved et uventet stoed og de har ikke maksimeret historisk for det, hvilket vil sige, at K ikke aendre sig, da det er historisk opbygget. Da K ikke aendre sig, saa aendre $f'(k)$ sig heller ikke, og da $f'(k) = r$, saa aendre r sig heller ikke, hvilket vil sige, at kun g aendre sig. Afstanden bliver derved stoerre i mellem de to, da g falder imens r forbliver det samme.
+## 2.4 At the time of the change, does r g rise, fall, or stay the same, or is it not possible to tell?
 
-##2.5 In the long run, does r g rise, fall, or stay the same, or is it not possible to tell? 
+If we assume that the shock is unexpected then the amount of capital is historically build up and will not imidially change when the shock is made to g. Therefor there will be no changes in $r(t)$ because there will be no changes in k therefor no changes in $f(k)$ and last no change in $f'(k)$ and we know $f'(k)= r(t)$. Therfor the distance will be larger. 
+
+## 2.5 In the long run, does r g rise, fall, or stay the same, or is it not possible to tell? 
 
 Find et ud tryk hvor vi skal finde diff af 
 
 er theta stoerre ligmed eller mindre end 1
 
-#Opgave 2
+## 2.6 Find an expression for the impact of a marginal change in g on the fraction of output that is saved on the balanced growth path. Can one tell whether this expression is positive or negative? 
 
-Consider the following overlapping generations framework. Welfare is equal to:
+We can start by defining the fraction of output that is saved on the balanced growth path called s $s=\frac {(f(k^*) - c^*)} {f(k^*)}$ 
+
+since k is constant on the balanced growth path we can write the function $\dot k = f(k(t))- c(t)- (n+g)k(t)$ as $f(k^*) - c^*= (n+g)k^*$
+
+We can now rewrite the fraction of output saved on the balanced growth path. $s= \frac {(n+g)k^*} {f(k^*)}$
+
+We can now differentiate both sides with respect to g. We use the rules for differentiating a fraction. We should also use the chainrule as g is in the function for f(k). (maybe lige skrive hvordan)
+
+$$\frac {\delta s} {\delta g} = \frac {f(k^*)[(n+g)(\frac{\delta k^*}{\delta g})+k^*] - (n+g)k^* f'(k^*)(\frac{\delta k^*}{\delta g})}{[f(k^*)]^2}$$
+Vi ganger $f(k^*)$ ind i parentesen og setter derefter $(n+g)(\frac {\delta k^*}{\delta g})$ udenfor parentes (setter den bare on hver side af parentesen)
+
+$$\frac {\delta s} {\delta g} = \frac {(n+g)[f(k^*) -k^* f'(k^*)](\frac{\delta k^*} {\delta g}) + f(k^*)k^*} {[f(k^*)]^2}$$
+
+We know that $k^*$ is defined when $f'(k^*)= \rho + \theta g$ we can now differentiate both sites with respect to g, and we get $f''(k^*)(\frac{\delta k^*}{\delta g})= \theta$ Solving for $\frac{\delta k^*}{\delta g}$ we get. 
+
+$$\frac{\delta k^*}{\delta g}= \frac{\theta}{f''(k^*)}$$
+
+We can now substitute this into the above equation:
+
+$$\frac {\delta s} {\delta g} = \frac {(n+g)[f(k^*) -k^* f'(k^*)](\frac{\theta} {f''(k^*)}) + f(k^*)k^*} {[f(k^*)]^2}$$
+We then multiply by $f''(k^*)$ above and under the fraction (above: As the term is multiplied on the brackets it just disapears and is multiplied to the second term)
+
+$$\frac{\delta s}{\delta g} = \frac{(n+g)[f(k^*)-k^*f'(k^*)]\theta + f(k^*)k^*f''(k^*)}{[f(k^*)]^2 f''(k^*)}$$
+
+- First term should be positive?
+
+- as we know $f''(k^*)$ is negative the last term in the nummerator is negative. 
+
+- the denominator will be negative for the same reason. 
+
+
+
+The conclution is that we can not say anything about if a change in g has a positve effect on the fraction of output tht is saved on the balanced growthpath 
+
+
+## 2.7  For the case where the production function is Cobb-Douglas, $f(x) = k^\alpha$, rewrite your answer to part (2.6) in terms of $\rho$, $n$, $g$, $\theta$ and $\alpha$ (Hint: Use the fact that $f'(k^*) = \rho + \theta g$ 
+
+We know when $f(k)= k^\alpha$, then $f'(k)=\alpha k^{\alpha - 1}$ and $f''(k)= \alpha(\alpha-1)k^{a-2}$. 
+
+if we substitute this into the answer from the question above:
+
+$$\frac{\delta s}{\delta g}= \frac{(n+g)[k^{*\alpha}-k^* \alpha k^{*\alpha - 1}]\theta + k^{*\alpha} k^* \alpha (\alpha - 1) k^{*\alpha - 2}}{k^{*\alpha} k^{*\alpha} \alpha(\alpha - 1)k^{*\alpha - 2}}$$
+
+
+We can now do some reduction: 
+
+$$\frac{\delta s}{\delta g}= \frac{(n+g)k^{^*\alpha}(1-\alpha)\theta - k^{^*a} \alpha (1-\alpha)k^{^* \alpha -1}} {\frac{-(1-\alpha) k^{* \alpha} \alpha k^{* \alpha -1} \alpha k^{* \alpha -1}} {\alpha}}$$
+
+And when we use $f'(k^*) = \rho + \theta g$) we get that:
+
+$$\frac{\delta s}{\delta g}= - \alpha \frac {[(n+g)\theta - (\rho+ \theta g)]} {(\rho + \theta g)^2}$$
+
+Multipling $\theta$ into the brackets: 
+
+$$\frac{\delta s}{\delta g}= - \alpha \frac {n \theta - \rho} {(\rho + \theta g)^2}$$
+And we can make the expretion psoitive by: 
+
+$$\frac{\delta s}{\delta g}= \alpha \frac {(\rho - n \theta)} {(\rho + \theta g)^2}$$
+
+## 3  Analyze the effect of a public procurement, including a thorough presentation of the dynamics in Figures 2.8 and 2.9
+
+Firstly the implementation of the government sector makes our k dot function change to this: $$\dot k(t) = f(k(t)) -c(t) - G(t) - (n+g)k(t)$$ where the government buys output at a rate of $G(t)$ per unit of effective labour per unit time. A higher G value shifts the $\dot k = 0$ down, because the more goods that are purchased by the government the fewer that can be purchased privately if $k$ is to be held constant.
+
+Starting with figure 2.8 suppose the economy is on a balanced growth path with $G(t)$ constant at some level $G_L$, and that there is an unexpected, permanent increase in $G$ to $G_H$. From the above equation we know, that this menas that $\dot k = 0$ has to shift downwards by the amount of increase in G. Since the purchase do not affect the euler equation, the $\dot c = 0$ is unaffected. This is shown below.
+
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\figur2.8.jpg)
+We know that in response to such a change $c$ must jump so that the economy is on its new saddle path. If not, then as before, either capital would become negative at some point or households would accumulate infinite wealth. In this case, the adjustment takes a simple form: $c$ falls by the amount of the increase in $G$, and the economy is immediately on its new balanced growth path. Intuitively, the permanent increase in government purchases and taxes reduce households' lifetime wealth. And because the increase in purchases and taxes are permanent, there is no scope for households to raise their utility by adjusting the time pattern of their consumption. Thus the size of the immediate fall in consumption is equal to the full amount of the increase in government purchases, and the capital stock and the real interest rate are unaffected.
+    An older approach to modeling consumption behavior assumes that consumption depends only on current disposable income and that it moves less than one-for-one with disposable income. Recall for example, that the Solow model assumes that consumption is simply a fraction $1-s$ of current disposable income. With that approach, consumption falls by less than the amount of the increase in government purchases. As a result, the rise in government purchases crowds out investment, and so the capital stock starts to fall and the real interest rate starts to rise. Our analysis shows that those results rest critically on the asumption that households follow mechanical rules: with full intertemporal optimization, a permanent increase in government purchases does not cause crowding out.
+
+Moving on to 2.9
+
+
+# Opgave 2 Diamond
+## Consider the following overlapping generations framework. Welfare is equal to:
 
 $$U_t = u(C_{1t} + \beta u(C_{2t+1}$$ with $\beta = \frac{1}{1+\rho}$ the discount factor.
 
