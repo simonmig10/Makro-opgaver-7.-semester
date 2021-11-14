@@ -9,6 +9,13 @@ output: pdf_document
 
 ## 1. Explain crucial differences between the Solow model and the Ramsey, Cass and Koopman model. Does it affect the overall conclusions?
 
+The Solow model assumes an exogenous saving rate, whereas the Ramsey model features a representative household which chooses the saving rate optimally. As we saw in the Solow model, although the saving rate does not affect the long-run growth rate, it affects the levels of capital and output.
+
+The parametric saving-income ratio, $s$, in the well-known Solow growth model, is replaced by two parameters in the ramsey model, the rate of impatience, $\rho$, and the rate of consumption smoothing, $theta$.This adds perspectives to the analysis and implies that the saving-income ratio will not generally be constant outside steady state. Replacing a mechanical saving rule by maximization of discounted utility, the model opens up for studying welfare consequences of alternative economic policies.
+
+Making the savings rate endogenous in the ramsey, cass and Koopman model didn't change the conclusions with respect to the solow model, because the only driver for growth in output pr. worker is A (technology growth). Jeg ved dog ikke med golden-rule...
+
+
 ## 2.  Piketty (2014) argues that a fall in the growth rate of the economy is likely to an increase in the difference between the real interest rate and the growth rate. This problem asks you to investigate this issue in the context of the Ramsey Cass Koopmans model. Specially, consider a Ramsey Cass Koopmans economy that is on its balanced growth path, and suppose there is a permanent fall in g.
 
 ## 2.1  How, if at all, does this affect the $\dot k$ = 0 curve?
@@ -122,12 +129,17 @@ Finally panel (c) shows the case of a short-lived rise in G. Here households cha
 ![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\figur2.9.jpg)  
 
 # Opgave 2 Diamond
+
+## Diffrences from Ramsey til Diamond 
+
+The central difference between the ramsey and diamond model is that there is a turnover in population: new individuals are continually being born, and ld individuals are continually dying.
+
 ## Consider the following overlapping generations framework. Welfare is equal to:
 
-$$U_t = u(C_{1t} + \beta u(C_{2t+1}$$ with $\beta = \frac{1}{1+\rho}$ the discount factor.
+$$U_t = u(C_{1t}) + \beta u(C_{2t+1})$$ with $\beta = \frac{1}{1+\rho} \leq$ the discount factor.
 
 Assume the utility function is logarithmic:
-$$u(C_{jt} = lnC_{jt}$$
+$$u(C_{jt}) = lnC_{jt}$$
 
 We will assume that the government implements a pension scheme, more specifically, a pay-as-you-go social security scheme, where the government taxes each young individual by an amount T , and uses that amount to pay benefits to old individuals. Hence, the budget constraints is given by:
 
@@ -136,8 +148,34 @@ $$C_{1t}+S_t = w - T$$
 whereas period 2 consumption is givien by:
 $$C_{2t+1} = S_t(1+r) + (1+n)T$$
 
-Note that $n$ represents population growth. Take the wage $w$ and interest rate $r$ as exogenous and solve the following:
+Note that $n$ - $L_t=(1+n)L_{t-1}$ represents population growth. Take the wage $w$ and interest rate $r$ as exogenous and solve the following:
 
-##Set up the intertemporal maximazation problem and derive the EUler equation:
+##Set up the intertemporal maximazation problem and derive the Euler equation:
+
+The utility function is given by: $$U_t = lnC_{1t} + [\frac{1}{1+\rho}] lnC_{2t+1}$$ 
+
+Then we need the budget constraint which we get by rearranging in the function for consumption 2 in period t+1 $$C_{2t+1} = S_t(1+r) + (1+n)T$$
+
+$S_t$ is isolated by subtracting $(1+n)T$ and then dividing by $(1+r)$ on both sides to yield $$ S_t = \frac{C_{2t+1}}{(1+r)} - \frac{(1+n)}{(1+r)}T$$
+
+Then inserting in the function for consumption in first period to get: $$C_{1t}+\frac{C_{2t+1}}{(1+r)} - \frac{(1+n)}{(1+r)}T = w - T$$ 
+
+then keeping the $C_{2t+1}$ part and moving the rest to the right hand side we get the budget constraint: $$C_{1t} + \frac{C_{2t+1}}{(1+r)} = w - T +  \frac{(1+n)}{(1+r)}T$$
+
+Setting up the Lagrangian: $$\Lambda = lnC_{1t} + [\frac{1}{1+\rho}] lnC_{2t+1} + \lambda\bigg[w - T +  \frac{(1+n)}{(1+r)}T - \bigg(C_{1t} + \frac{C_{2t+1}}{(1+r)}\bigg)\bigg]$$
+
+Taking the first order conditions to $C_{1t}$ and $C_{2t+1}$ gives: $$\frac{1}{C_{1t}} = \lambda$$
+and $$\frac{1}{C_{2t+1}(1+\rho)} = \frac{\lambda}{(1+r)}$$
+
+inserting the first in the second yields: $$\frac{1}{C_{2t+1}(1+\rho)} = \frac{1}{C_{1t}(1+r)}$$
+
+rearaing yields the euler equation: $$\frac{C_{2t+1}}{C_{1t}} = \frac{(1+r)}{(1+\rho)}$$
+
+Bigger discount rate means more consumption in period 1 and greater interest rate means higher in period 2.
 
 ##Derive $S_t$ as a function of $r$, $w$ and $T$. How does an increase in $T$ affect savings (show mathematically)? Discuss the result.
+
+We can use the euler equation and the budget constraint to express $C_{1t}$ in terms of labor income and the real interest rate by multiplying by $C_{1t}$ in our euler equation and afterwards inserting into the budget constraint: $$\frac{C_{2t+1}}{C_{1t}} = \frac{(1+r)}{(1+\rho)}$$ 
+$$C_{1t} + \frac{1}{(1+r)}C_{2t+1} = w - T +  \frac{(1+n)}{(1+r)}T$$
+$$C_{1t} + \frac{1}{(1+r)}  \frac{(1+r)}{(1+\rho)}C_{1t} = w - T +  \frac{(1+n)}{(1+r)}T$$
+factorizing by $C_{1t}$ and $T$ and removeing (1+r) we get: $$C_{1t}\bigg(1 + \frac{1}{(1+\rho)} \bigg) = w - T\bigg( 1+  \frac{(1+n)}{(1+r)}\bigg)$$
