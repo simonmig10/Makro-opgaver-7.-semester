@@ -179,3 +179,5 @@ We can use the euler equation and the budget constraint to express $C_{1t}$ in t
 $$C_{1t} + \frac{1}{(1+r)}C_{2t+1} = w - T +  \frac{(1+n)}{(1+r)}T$$
 $$C_{1t} + \frac{1}{(1+r)}  \frac{(1+r)}{(1+\rho)}C_{1t} = w - T +  \frac{(1+n)}{(1+r)}T$$
 factorizing by $C_{1t}$ and $T$ and removeing (1+r) we get: $$C_{1t}\bigg(1 + \frac{1}{(1+\rho)} \bigg) = w - T\bigg( 1+  \frac{(1+n)}{(1+r)}\bigg)$$
+
+$$S_t = \frac{-nT-rT-T\rho-nT\rho-2T+W+rW}{(1+r)(2+p)}$$
