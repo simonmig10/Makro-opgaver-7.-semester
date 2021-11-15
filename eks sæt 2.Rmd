@@ -15,8 +15,101 @@ Capital stock is given by: $$\dot K(t) = sY(t)$$
 
 Production functions of R&D sector is given by: $$\dot A(t)=B[\alpha_K K(t)]^\beta[\alpha_L L(t)]^\gamma A(t)^\theta$$
 
-where $B>0$ showa efficiency of research, $\gamma \in(0,1)$ is the output elasticity of labour allocated in R&D, and $\theta \leq 1$ is a parameter describing the elasticity of existing knowledge $(A)$ for the prodcution of increases in the stock of knownledge.
+where $B>0$ shows efficiency of research, $\gamma \in(0,1)$ is the output elasticity of labour allocated in R&D, and $\theta \leq 1$ is a parameter describing the elasticity of existing knowledge $(A)$ for the production of increases in the stock of knowledge.
 
 Population growth is exogenous $$\frac{\dot L(t)}{L(t)} = n \quad or \quad \dot L(t)=nL(t)$$
 
-## Derive an expression for the growth rate of capital $g_K(t)$ and growth rate of technology gA(t)
+## Derive an expression for the growth rate of capital $g_K(t)$ and growth rate of technology $g_A(t)$
+### $g_K(t)$
+
+We know the growth rate is found by finding the change in the capital stock so: $$\frac{\dot K(t)}{K(t)}=\frac{sY(t)}{K(t)}$$
+
+which means that the growth rate of capital is equal to the fraction between the amount saved and the capital stock or just the change in the capital stock as above: $$g_K(t) = \frac{sY(t)}{K(t)} \quad and \quad g_K(t) = \frac{\dot K(t)}{K(t)}$$
+
+### $g_A(t)$
+
+Again we divide the find the change by dividing by $A(t)$ on both sides of the equation $\dot A(t)=B[\alpha_K K(t)]^\beta[\alpha_L L(t)]^\gamma A(t)^\theta$: $$\frac{\dot A(t)}{A(t)}=\frac{B[\alpha_K K(t)]^\beta[\alpha_L L(t)]^\gamma A(t)^\theta}{A(t)}$$
+
+Then we simplify by getting rid of the brackets on the right hand side $$g_A(t) = \frac{B*\alpha_K^\beta * K(t)^\beta * \alpha_L^\gamma * L(t)^\gamma * A(t)^\theta}{A(t)}$$
+
+moving the other $A(t)$ down to the denominator by making the exponent negative and then simplifying $A(t)^1 * A(t)^{-\theta}$ to yield the final result: $$g_A(t) = \frac{B*\alpha_K^\beta * K(t)^\beta * \alpha_L^\gamma * L(t)^\gamma}{A(t)^{1-\theta}}$$
+
+##  Using the fact that $g_A(t)$ is constant overtime (i.e., $\frac{\partial g_A(t)}{\partial t} = 0$), derive an expression for the growth rate of technology $g^\ast_A$ along a balanced growth path (steady state), for the case when $\theta+\beta<1$? Intuitively, explain the equation
+
+We start by taking logs to get rid of all the exponents from the above equation: $$ln(g_A) = ln(B)+\beta*ln(\alpha_K)+\beta*ln(K)+\gamma*ln(\alpha_L)+\gamma*ln(L)+(\theta-1)*ln(A)$$
+
+Then we take the derivative with respect to time, where our constants disapear so we get: $$\frac{\partial ln(g_A)}{\partial t} = \beta \frac{\partial ln(K)}{\partial t} + \gamma \frac{\partial ln(L)}{\partial t} + (\theta-1) \frac{\partial ln(A)}{\partial t}$$
+
+We know that $\frac{\partial ln(X)}{\partial t} = \frac{\dot X}{X}$ so we now get: $$\frac{\dot g_A}{g_A} = \beta\frac{\dot K}{K} + \gamma \frac{\dot L}{L}+(\theta-1)\frac{\dot A}{A}$$
+
+all these are the growth rates so we get: $$\frac{\dot g_A}{g_A} = \beta g_K + \gamma n + (\theta-1)g_A$$
+
+which yields an equation for steady state as follows: $$\dot g_A = (\beta g_K + \gamma n + (\theta-1)g_A^\ast) g_A^\ast$$
+
+Assuming a case where $\theta+\beta<1$ we either need $g_A^\ast$ to be zero or other terms inside the bracket to be 0 to achieve a steady state. Given $\dot g_A = (\beta g_K + \gamma n + (\theta-1)g_A^\ast) g_A^\ast = 0$ we can find the growth rate where we can write: $$(\beta g_K + \gamma n + (\theta-1)g_A^\ast) g_A^\ast = 0$$
+
+We then get ride of the brackets: $$(\theta-1)g_A^\ast*g_A^\ast = -\beta g_Kg_A^\ast-\gamma n g_A^\ast$$
+
+then dividing by $g_A^\ast$ on both sides to get: $$(\theta-1)g_A^\ast = -\beta g_K-\gamma n$$
+
+and lastly dividing by $(\theta-1)$ to isolated $g_A^\ast$ and get the long run growth of technology: $$g_A^\ast = \frac{-\beta g_K-\gamma n}{(\theta-1)}$$
+
+which is the same as: $$g_A^\ast = \frac{\beta g_K+\gamma n}{(1-\theta)}$$
+
+So the long run growth rate of technology positively depends on five factors: $\beta$ the output elasticity of capital involved in research, $gamma$ the output elasticity of labour involved in research, $g_K$ the capital growth rate, $n$ the population growth rate and $\theta$ the elasticity of existing knowledge $(A)$ for the production of increases in the stock of knowledge
+
+# Real business cycle theory
+
+Assume the following utility function: $$u_t = ln(c_t)+\frac{b(1-l_t)^{1-\gamma}}{1-\gamma}$$
+
+where $c_t$ is consumption, $b>0$ and $\gamma >0$
+
+Income of the individuals is equal to $w_tl_t$
+
+where $w_t$ is wage, and $l_t$ is the labour supply
+
+## Define the budget constraint and answer the following: How, if at all, does labour supply depend on wage?
+
+The budget constraint is just consumption equal to wage times labour supply, which means that the Lagrangian is: $$\Lambda = ln(c_t) + \frac{b(1-l_l)^{1-\gamma}}{1-\gamma} + \lambda(w_tl_t-c_t)$$
+
+Taking first order condition with respect to $c$ and $l$ gives: $$\frac{1}{c_t}-\lambda = 0 \quad and \quad -\frac{b}{(1-l_t)^\gamma}+\lambda w_t$$
+
+Using the fact that $c_t= w_tl_t$ gives $\lambda = \frac{1}{w_tl_t}$ inserting that into the FOC of $l_t$ yields: $$-\frac{b}{(1-l_t)^\gamma}+\frac{1}{l_t}$$
+
+this can also be writen as: $$\frac{(1-l_t)^\gamma}{l_t} = b$$
+
+We see on the first equation that the wage in fact does not enter into this equation, which means in this static example that labour supply is independent of the wage level. This might not be the case over two periods, which will be looked at in the next task.
+
+We also see, that a higher $b$ implies more leisure.
+
+## Reconsider the above problem for two periods:
+
+$$u = ln(c_1)+\frac{b(1-l_1)^{1-\gamma}}{1-\gamma} + e^{-\rho}\bigg[ln(c_2) + \frac{b(1-l_2)^{1-\gamma}}{1-\gamma}\bigg]$$
+
+period 1 and 2 consumption is: $$c_1 =w_1l_1 \quad and \quad c_2 = w_2l_2 + s_1(1+r)$$ 
+
+where $s = w_1l_1-c_1$ 
+
+### How does the relative demand for leisure $\frac{1-l_1}{1-l_2}$ depend on the relative wage $\frac{w_1}{w_2}$?
+
+The budget constraint is found using the two above equations for consumption and the fact that $s = s = w_1l_1-c_1$ and replacing that with $s_1$ in $c_2$: $$c_2 = w_2l_2 + (1+r)(w_1l_1-c_1)$$
+
+Then dividing both sides with $(1+r)$ and adding $c_1$ yields: $$c_1+c_2\frac{1}{1+r} = w_1l_1+w_2l_2\frac{1}{1+r}$$
+
+then we can maximise by using the lagrangian: $$\Lambda = ln(c_1)+\frac{b(1-l_1)^{1-\gamma}}{1-\gamma} + e^{-\rho}\bigg[ln(c_2) + \frac{b(1-l_2)^{1-\gamma}}{1-\gamma}\bigg] + \lambda(w_1l_1+w_2l_2\frac{1}{1+r}-c_1-\frac{c_2}{1+r}$$
+
+then we take the first order conditions of $l_1$ and $l_2$ with yields: $$\frac{b}{1-l_1} = \lambda w_1 \quad and \quad \frac{e^{-\rho}b}{(1-l_2)^\gamma} = \frac{1}{1+r}\lambda w_2$$
+
+dividing both sides of the first by $w_1$ and both sides of the second by $\frac{w_2}{1+r}$ we get: $$\frac{b}{1-l_1}\frac{1}w_1 = \lambda \quad and \quad \frac{e^{-\rho}b}{(1-l_2)^\gamma}\frac{1+r}{w_2} = \lambda$$
+
+equating the two equations yields: $$\frac{e^{-\rho}b}{(1-l_2)^\gamma}\frac{1+r}{w_2} = \frac{b}{1-l_1}\frac{1}w_1$$
+
+which is also: $$\frac{1-l_1}{(1-l_2)^\gamma} = \frac{1}{e^{-\rho}(1+r)}\frac{w_2}{w_1}$$
+
+By taking a look at the above equation it can be stated that a relative fall in wages $\frac{w_2}{w_1}$ meaning smaller $w_1$, will lead to a relative fall in leisure $\frac{1-l_1}{(1-l_2)^\gamma}$. The relative fall in leisure means more people will work in period 1.
+
+$gamma$ might complicate this someone, but i am not sure
+
+### How does the relative demand for leisure $\frac{1-l_1}{1-l_2}$ depend on the interest rate $r$?
+
+Looking at the same equation as above it can be stated that an increase in the interest rate $r$ will lead to a relative fall in leisure $\frac{1-l_1}{(1-l_2)^\gamma}$
