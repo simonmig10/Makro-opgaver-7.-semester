@@ -1,0 +1,24 @@
+---
+title: "exam set 3 A"
+author: "Andreas Methling"
+date: "17/11/2021"
+output: pdf_document
+---
+
+#Opgave 1:
+
+## a) Identify and discuss weaknesses related to the RBC-models
+
+First and foremost the RBC-model rests on large aggregate technology shocks for which there is little evidence; its predictions about the effects of technology shocks and business-cycle dynamics appear to be far from what we observe; and it implies that monetary disturbances do not have real effects. The models also build on a perfect competitive market which doesnt allow for nominal changes in prices becuase both firms and consumers are pricetakers.
+
+## b) How does DSGE-models bypass these problems
+
+DSGE-models bypass these problems by incorporating incomplete adjustments of nominal prices, which occurs when labor, credit and goods market deviates from the assumption of perfect competion and uses imperfect competion, where some firms change prices every two period or have a chance to change price each period (not completly flexible both fixed for a number of periods at a time). This means, that a monetary shock has real effects because of the rigid structure of the model (prices cant instantly change for all firms). 
+
+
+## c) Write out and analyse the three main equations in the canonical New Keynesian Model
+
+
+
+
+# Opgave 2:
