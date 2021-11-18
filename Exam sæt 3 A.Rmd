@@ -22,3 +22,10 @@ DSGE-models bypass these problems by incorporating incomplete adjustments of nom
 
 
 # Opgave 2:
+
+
+
+
+
+
+Y pi plane of a loss function, jo længere væk fra equlibrium value jo større bliver cirklerne og losset
