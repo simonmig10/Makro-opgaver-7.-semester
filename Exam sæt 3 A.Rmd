@@ -18,9 +18,22 @@ DSGE-models bypass these problems by incorporating incomplete adjustments of nom
 
 ## c) Write out and analyse the three main equations in the canonical New Keynesian Model
 
+$$y_t = y_{t+1} - \frac{1}{\sigma}(r_t-E_t\pi_{t+1})+\epsilon^D_t$$
 
+$$\pi_t = \beta E_t\pi_{t+1}+ \lambda\frac{(1-\theta)(1-\theta\beta)}{\theta}y_t + e_t^S$$
 
+$$r_t = \bar r +\rho(r_{t-1}-r_o)+(1-\rho)(\phi^\pi(\pi_t-\pi_0))+\phi^Y(y_t-y_0)+\epsilon^R_t$$
+Not quiet the same as states in the book but i guess they must be somehow similar. Firstly we can see that the model is forward looking by using future values of a variable to describe the present value. First we have the new Keynesian IS curve, then the new Keynesian Phillips curve and lastly we have a monetary policy function.
 
+Going a little closer we can see, that the IS-curve and the money policy function is explained by all three variables and that inflation only is a function of itself and output. 
+
+These equations are easier to understand if we look at a static example where the central bank is perfectly credible so $E_t\pi_{t+1} = \pi_0$ and the economy is very close to full employment, so that the authorities are able to close the gap in the future: $E_ty_{t+1}=y_0$ This makes us able to express the monetary policy rule in terms of the real interest rate (like the taylor rule) and the model can now be express as follows: 
+$$y = y_0-\frac{1}{\sigma}r+\epsilon^D$$ $$\pi = \pi_0 + \kappa y +\epsilon^S$$ $$r = \phi^\pi(\pi-\pi_0) + \phi^Y(y-y_0)+\epsilon^R$$
+When finding the equilibrium all the values of our variables are a linear combination of exogenous shocks.
+
+These shcoks tells us, that a supply shock lowers output, raises inflation and raises the interest rate.
+demand shocks raises all our variables
+And a monetary shock lowers output, lowers inflation and of course raises the interest rate.
 # Opgave 2:
 
 
@@ -28,4 +41,4 @@ DSGE-models bypass these problems by incorporating incomplete adjustments of nom
 
 
 
-Y pi plane of a loss function, jo længere væk fra equlibrium value jo større bliver cirklerne og losset
+Y pi plane of a loss function, jo længere væk fra equlibrium value jo større bliver cirklerne og losset. Svær at tegne i tredimensionelt space.
