@@ -32,3 +32,5 @@ Seb: a0 falder og man kan producere mere med samme antal arbejdere.
 
 ### b) Illustrate this scenario using the Kalecki-Steindl graphical model. Does the model predict a higher size of the income (a.k.a. "the economic pie")? What would be needed for the "economic pie" to grow in the model?
 Increase in real wage (alle andre variable i grafen skal forblive de samme når vi tegner grafen).
+
+
