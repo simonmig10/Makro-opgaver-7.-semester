@@ -34,11 +34,71 @@ When finding the equilibrium all the values of our variables are a linear combin
 These shcoks tells us, that a supply shock lowers output, raises inflation and raises the interest rate.
 demand shocks raises all our variables
 And a monetary shock lowers output, lowers inflation and of course raises the interest rate.
-# Opgave 2:
+
+
+# Opgave 2:Consider the model presented in Byrialsen and Olesen 2014
+
+## a) Solve the Lagragian shown on page 78 (the solution is presented later on page 78 - hint: begin with finding the FOC)
 
 
 
+## b) In this model a Calvo price setting is used. Explain the intuition behind this method. How does it affect the price settings of the firms?
+A calvo price setting basically means that the firms which can change price is determined by a stochastic proces. So the prices are fixed in the model by every firm but the one who are chosen by $\theta$, so theta can be said to descirbe the inertia of the prices. This means that every period $1-\theta$ of the firms change there prices, and $\theta$ firms does not.
+
+Later in the paper it is stated, that the firms who change their prices will change it to there wanted mark-up over a weighted average of their marginal costs now and in the future. So i mean it says that every time you can change the price you change it to get the wanted markup, but you dont know when you can change it again, so you calculate an average of you future and present marginal costs.
 
 
+## c) How does the choice of θ affect the New Keynesian Phillips curve?
+
+$\theta$ is present in the last part of the new keynesian Phillips curve so if we say that $\theta$ is constant it is a driver of how much inflation will raise when there is a gap between the frictionless optimal price $\mu+mc_t$ and the current price level $p_t$. Everytime there is a gap here $1-\theta$ firms want to change there price which drives up inflation in the new keynesian phillips curve.
+
+If we say that $theta$ is not fixed and that it can change, then the smaller $theta$ are the more inflation will rise because then multiple firms would push up there price.
+
+
+# Opgave 3 Consider the empirical DSGE-model for the Danish Economy presented in Pedersen and Ravn 2014.
+
+## a) Explain the effect of a shock to government consumption in the model
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\public C.png)  
+
+The effect of a positive shock to public consumption of 1 percent of GDP. GDP increases by approximately 0.7 in the first quarter, but is rapidly crowded out through a decline in exports and lower consumption (not shown). After 4 quarters the increase in government spending has caused a mild but long-lasting period with relatively low growth until the price level is back to its steady state value. The mechanisms behind this multiplier are as follows. The extra demand coming from the extra public consumption results partly in extra production as some firms can not change (increase) their prices due to the assumption of sticky prices, resulting in lower margins. This gives rise to a suboptimal relationship between prices and marginal costs as seen from the firms perspective, increasing the price pressure in the economy. In sum, production increases in the short run, while inflation picks up over time as more and more prices are adjusted. The higher prices implies that firms have lost
+competitiveness vis-a-vis their trading partners. The consequence of this is a crowding out through lower exports and higher imports (not shown in the figure). When firms reoptimise their prices they look not only at their current marginal costs but also at their expected future marginal costs, as they may again find themselves unable to change their price in the future. Observing that they have lost competitiveness, i.e. that they face relatively lower demand, they lower their prices and slowly regain competitiveness.
+
+In the end exports rises because the price level ends lower but GDP falls because of the lower price level on all goods.
+
+
+
+## b) Discuss the three shocks performed in the paper - what are the main intuitions behind these shocks?
+
+So the first shock or scenario is to reduce public consumption between 2006 Q1 and 2008 Q3. This is to test whether a contractionary fiscal policy contributes to the reduction of the output gap. So if the government had used countercyclical fiscal policy, had the crisis of the 2008-09 been easier on the danish economy. 
+
+The second shock is to use countercyclical fiscal policy between 2006 Q1 and 2012Q4. The longer timeline is to obtain a picture of the benefits from having a less overheated economy before the financial crisis as well as the greater ability to withstand the negative shocks which hit the Danish economy during the crisis both in terms of a lower level of wages and prices and in terms of the conduct of extra expansionary fiscal policy made available through lower debt and primary deficit during and after the crisis.
+
+The third shock iscountercyclical fiscal policy between 2006 Q1 and 2012 Q4, but with a broader set of policy tools. Before there had only been used G now also changes in the tax rate on consuption and capital is used. 
+
+## c) Explain the results of the three shocks
+
+Result of the first shock is: The "cost" of having conducted the actual discretionary fiscal policy is that the output gap was between 1 and 2 percentage points of
+GDP lower during 2009 and 2010 than it would have been with a different (closer the the optimal) policy. But in order to get to this result G had to fall from 27% of GDP to 11% of GDP which in a socialistic country like Denmark or in any other country is very much unrealistic.
+
+The result of the second shock was that instead of overheating before the crisis and a sharp decline during, the economy would have been much more stable than without the implied policy measures. But again we see it all depends on G going from 27% of GDP to 11% in a couple of quarters and that again is very unrealistic.
+
+
+In the last shock one might say we get a more realistic outcome. The public consumption will only have to fall around 5 pp, which is still a lot, but less than before. This is due to the fact that the contractionary fiscal policy is not only to reduce G but also to raise taxes up to the crisis and lower them during again to get a much more stable economy.
+
+
+
+## d) Discuss the relevance of the results?
+
+The period we have considered in this study was characterized by large fluctuations seen in the perspective of Denmarks recent economic history, and therefore required large and perhaps unrealistic fiscal policy responses. While less dramatic policy changes may be sufficient in more "normal" times, this raises concerns about the ability of Danish policymakers to cope with large economic fluctuations - or avoid them entirely by dealing with imbalances as they arise - with the economic instruments available today.
+
+# Opgave 4 The Divine Coincidence
+
+We start by assuming that the central bank aims at minimizing a loss function that consists of the deviation of inflation ($\pi_t$) and output ($y_t$) with respect to their long run levels (($\pi^T$) and ($y_e$)). The loss function has the following shape: $$L = (y_t-y_e)^2+\beta(\pi_t-\pi^T)^2 \quad with \quad \beta>0$$
+
+## a) What is the interpretation of the parameter $\beta$? What are the implications of $\beta$ being bigger, equal or smaller than 1?
+
+$\beta$ is a parameter that tells how important the inflation gap is. If $\beta >1$ than the calculated output gap is bigger than it actually is because it is multiplied with a factor bigger than 1. This means that the actually loss is perceived bigger by the loss function than it actually is. This can be said to mean, that you put a lot of importance on the inflation gap. If $\beta = 1$ then the inflation gap in the model is the actually inflation gap, and if $\beta < 1$ then the important of the inflation gap is smaller than the actually inflation gap.
+
+## b) Plot the loss function in the $y-\pi$ space (you can put $y$ on the horizontal axis and $\pi$ in the vertical, such that the graph is the same that we use when plotting the Phillps curve) for the case where $\beta >1,\quad \beta = 1 \quad and \quad \beta < 1$
 
 Y pi plane of a loss function, jo længere væk fra equlibrium value jo større bliver cirklerne og losset. Svær at tegne i tredimensionelt space.
