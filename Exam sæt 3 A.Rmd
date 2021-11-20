@@ -102,3 +102,16 @@ $\beta$ is a parameter that tells how important the inflation gap is. If $\beta 
 ## b) Plot the loss function in the $y-\pi$ space (you can put $y$ on the horizontal axis and $\pi$ in the vertical, such that the graph is the same that we use when plotting the Phillps curve) for the case where $\beta >1,\quad \beta = 1 \quad and \quad \beta < 1$
 
 Y pi plane of a loss function, jo længere væk fra equlibrium value jo større bliver cirklerne og losset. Svær at tegne i tredimensionelt space.
+
+## c) Now assume that inflation is determined by a Philips curve which, for simplicity, takes lagged inflation as a proxy of expected inflation ($E[\pi_{t+1}]=\pi_{t-1}$). The Philips curve then takes the following form: $\pi_t = \pi_{t-1}+\alpha(y_t-y_e)$. Plot the Philips curve in the same graphs that you drew the Central Bank’s loss function.
+
+
+
+## d) The loss function tells us that the central bank aims at making inflation converge to its target. The Philips curve describes how inflation is determined over time. As such, it can be considered as a constraint for the central bank (since it must minimize its inflation subject to the way in which inflation is determined in the economy). Given a specific rate of inflation in period t (i.e., a given Philips curve) define what is the optimal point in the loss function where the central bank would want to situate.
+
+
+
+## e) Derive graphically the monetary policy curve, which is given by the combination of all the optimal points for the central bank, each of them given by the different possible Philips curves. For simplicity, just draw two Philips curves and derive the monetary policy rule as the line joining the optimal points that result from those two Philips curves.
+
+
+## f) Now we will solve analytically the same derivation that we did graphically in the previous points. In order to do that, you have to minimize the loss function of the central bank subject to the constraint given by the Philips curve. You should find a first order condition that is consistent with the concept of the divine coincidence, i.e., the first order condition has to describe a negative relationship between the deviations of output and inflation with respect to their long run levels.
