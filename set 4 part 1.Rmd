@@ -5,6 +5,8 @@ date: "4/11/2021"
 output: pdf_document
 ---
 
+# Post Keynesian theory
+
 ## Opgave 2: Explain the following statement using Kalecki’s micro-foundations: "But pay can rise for a variety of reasons, some more benign than others. For a given level of productivity, higher wages must show up in one of two ways: as higher inflation or as a higher "labour share" of GDP". Why is it that, if nominal wages increase and firms choose not to pass on the higher labour costs to prices, the "labour share" increases?
 
 For et given niveau af $u$ kan der i modellen kun komme højere lønninger ved højere inflation, hvilket vil sige en stigning i $P = (1+\tau)W\alpha0$ eller ved en stigning i lønandel af BNP givet ved $\tau$ i $\pi = \frac{\tau}{1+\tau}$, hvor lønandel er $1-\pi$. 
@@ -36,5 +38,36 @@ A rise in wages in this model is always expansionary, this can be because of the
 
 In order to illustrate the scenario you ahve to bear in mind the labour productitivty is one of the determinants of the equilibrium real wage. A higher productivity (lower a0) increased the equillibrium real wage. However since a0 is not a determinat of the equlibrium level of the rate of profit, the rate of capacatiy utilization and the rate of growth alle the three reamin unchanged. The reason why there are no cahnges in outout and growrth is that in PK theiry theses variables are demand determmined, and the shcok on a0 is a supply-side shock. SO, the increase in productivity leads to higher wages and a lower level of employment, leaving total workers' disposable income unchanged. Con sumption and output are therefor constant.
 
-INcrease realwage on the graph without changing any other levels, can be hard.
+Increase realwage on the graph without changing any other levels, can be hard.
+
+# SFC
+## Opgave 1:  Explain crucial differences between Post-Keynesian SFC-models and General Equilibrium models?
+
+DSGE-models is born of the New Neoclassic Synthesis which implies Rationalizes expectations, inter temporal optimizing, imperfect competition, and price inertia. SFC models are older models with keynesian behavioral relations, national accounting identities and single equation estimations. Furthermore DSGE models have recieved critics in the form of that the finacial sector only plays the role of distributing credit not as a cause of instability. Financial flows also didnt play any role or a small one and privat debt played no role. All these three critics can be looked at in an SFC framework.
+
+## Opgave 2: Explain some of the key transmission channels between financial markets and the real economy - how does a drop in the price of a financial asset affect the realeconomy?
+
+
+## Opgave 3:  Discuss the macroeconomic effects of a drop in house prices within the empirical SFC-model.
+
+
+
+## Opgave 4: Does the high level of household debt pose a risk to macroeconomic stability in case of a negative shock to the Danish Economy?
+
+
+# MMT
+
+## Opgave 1: Why would a Central Bank normally refrain from setting the policy rate significantly below 0%?
+
+
+## Opgave 2: Can Central Banks keep on pursuing an expansionary monetary policy when the zero-lower bound has been hit? If so, how can they do it?
+
+
+## Opgave 3: Why is it that quantitative easing does not necessarily lead to an increase in lending?
+
+
+## Opgave 4: Taking into account Epstein’s concerns about the international spillovers of expansionary monetary policies, what are the risks of sustaining quantitative easing for an extended period? What might be the reasons why despite these risks, Central Banks these days (end of 2021) are being slow at tapering quantitative easing?
+
+
+
 
