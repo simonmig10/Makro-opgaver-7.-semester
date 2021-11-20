@@ -8,6 +8,26 @@ output: pdf_document
 #Opgave 1
 
 ##1. Explain crucial differences between the Solow model and the Ramsey, Cass and Koopman model. Does it affect the overall conclusions?
+Solow:
+To inputs: arbejdskraft og kapital
+Cobb douglas vækstfunktion
+Produktionsfunktion: $Y_t=f(K(t), A(t)*L(t))$
+  - Vækstrate i arbejdsstyrken og A (effektiviteten af arbejdskraft) antages konstante: $L(t)=L(0)e^{nt}$ og $A(t)=A(0)e^{gt}$
+  - Det er således udviklingen i K(t) der er afgørende i Solow modellen.
+
+Antager konstant opsparingsrate (lille s), så kapitalakkumuleringen kan skrives som: $\dot{K}(t)=sY(t)-\delta K(t)$, da $I=S$
+
+Konstant skalaafkast
+Hver enhed arbejdskraft aflønnes hver periode med lønnen w
+Hver enhed kapitalapparat lejes hver periode for prisen r
+Lukket økonomi
+Ingen offentlig sektor
+Kun ét homogent gode
+
+
+"The Ramsey model can be viewed as a generalisation of the Solow growth model. The Solow model assumes an exogenous saving rate, whereas the Ramsey model features a representative household which chooses the saving rate optimally. As we saw in the Solow model, although the saving rate does not affect the long-run growth rate, it affects the levels of capital and output. Therefore, the Ramsey model allows us to explore the question on why the saving rate differs across countries, which explains some of the variation in the level of income across countries. In summary, we find that the saving rate is determined by the household’s discount rate, the degree of capital intensity in production and the depreciation rate of capital but independent of the level of technology. Aside from the endogenous saving rate, the rest of the Ramsey model is the same as the Solow model."
+
+
 
 ##2.  Piketty (2014) argues that a fall in the growth rate of the economy is likely to an increase in the difference between the real interest rate and the growth rate. This problem asks you to investigate this issue in the context of the Ramsey Cass Koopmans model. Specially, consider a Ramsey Cass Koopmans economy that is on its balanced growth path, and suppose there is a permanent fall in g.
 
