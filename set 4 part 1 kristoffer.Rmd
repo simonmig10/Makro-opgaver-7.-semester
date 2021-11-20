@@ -1,6 +1,6 @@
 ---
 title: "4. makro part 1"
-author: "Andreas Methling"
+author: "Kristoffer Herrig Thorndal"
 date: "4/11/2021"
 output: pdf_document
 --- 
