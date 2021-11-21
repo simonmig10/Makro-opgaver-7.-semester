@@ -43,31 +43,51 @@ Increase realwage on the graph without changing any other levels, can be hard.
 # SFC
 ## Opgave 1:  Explain crucial differences between Post-Keynesian SFC-models and General Equilibrium models?
 
-DSGE-models is born of the New Neoclassic Synthesis which implies Rationalizes expectations, inter temporal optimizing, imperfect competition, and price inertia. SFC models are older models with keynesian behavioral relations, national accounting identities and single equation estimations. Furthermore DSGE models have recieved critics in the form of that the finacial sector only plays the role of distributing credit not as a cause of instability. Financial flows also didnt play any role or a small one and privat debt played no role. All these three critics can be looked at in an SFC framework.
+DSGE-models is born of the New Neoclassic Synthesis which implies Rationalizes expectations, inter temporal optimizing, imperfect competition, and price inertia. SFC models are older models with keynesian behavioral relations, national accounting identities and single equation estimations. Furthermore DSGE models have recieved critics in the form of that the finacial sector only plays the role of distributing credit not as a cause of instability. Financial flows also didnt play any role or a small one and privat debt played no role. All these three critics can be looked at in an SFC framework with its natural integration between the real and the financial side of the economy with its inclusion of financing, portfolio management and decisions to invest and consume.
+
+SFC-models also include post-keynesian features like backward looking expectations, uncertainty, path dependency, no maximizing behavior, no representative agent, the effect of inequality and the link between growth and distribution of wealth.
 
 ## Opgave 2: Explain some of the key transmission channels between financial markets and the real economy - how does a drop in the price of a financial asset affect the realeconomy?
 
+A danish example: A fall in asset prices leads to worsening of the household balance sheet, which increases the risk of defaults and bankruptcies in the case of negative shocks. This is due to the fact that the danish households have a large gross debt which mainly comes from house loans. Debt defaults leads to lower capitalization of the banks, which may lead to a reduction in lending. This then feeds back into the financial system and lower prices of houses, which again can lead to households owning houses with far less value, then they loaned to purchase them for, which can make them insolvent. 
+
 
 ## Opgave 3:  Discuss the macroeconomic effects of a drop in house prices within the empirical SFC-model.
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\sfc house.png) 
 
+A fall in house prices first and for most lowers investment, which inturn lowers the general economic activity. THe fall on investment is only 1% from baseline so the shock has a small shock on the system. Households consume less because of the fall in there wealth due to the fall in house prices and thereby also import less. The unemployment rate deviates 0.05 % from the baseline this is due to the small fall in economic activity we see a very small rise in the unemployment rate. 
+
+The effect of the shock on the financial balances is most notable on the external balance, primarily due to the fall in Danish imports. NFC falls a bit due to the overall lower economic activity and so does G due to lower tax revenue. For households the fall in houseprices leads to capital loses, leading to fall in total net wealth, which in turn negativeli affects investment and consumption. Moreover a fall in prices also directly reduces the incentive to invest in new houseing, leading to a slowdown in the demand for loans. The slowdown in demand for loans combined with a fall in consumption leads to an improvement in the financial balance of the household sector.
 
 
 ## Opgave 4: Does the high level of household debt pose a risk to macroeconomic stability in case of a negative shock to the Danish Economy?
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\both shocks.png) 
 
+As can be seen in the above figure, the effect of a 3pp increase in the interest rate and a 10% fall in housing prices on output is still limited, since a fall of GDP by 0.3% in the medium term compared to the baseline. The effect on GDP is mainly explained by a large relative drop in investment and consumption on the one side, and a large drop in import on the other side compared to the baseline. Overall, these results apparently suggest that the recent level of household debt does not seem to pose a serious macroeconomic risk, if the economy is hit by strong interest rate and house price shocks.
+
+If the model is expanded with a thrid shock to global output, then we see a mimic'ed situation of what happend during the financial crisis. So the households level of debt doesnt seem to pose any threat to the economy as long as we dont see a global shock to the economy (which i guess is the most common shock in a small open economy). During the corona crisis we also saw this, which lead to a fall in GDP by 2.7% and because of a big fall in exports by 7.7%, domestic consumption did stay put due to a good timing of fiscal policy.
 
 # MMT
 
 ## Opgave 1: Why would a Central Bank normally refrain from setting the policy rate significantly below 0%?
 
+My best guess will be because it creates inflationary pressure which is one of the thinks the central bank tries to avoid. A below 0% interst rate can be good in deflationary periods to kickstart the economy via spending and investing and will lead to a fall in deposits for commercial banks because the money will move to higher-yielding assets. This in my opinion can also create speculative bubbles as we might be seeing right now, because so many people are investing their savings in stocks and bonds instead of deposits. 
 
 ## Opgave 2: Can Central Banks keep on pursuing an expansionary monetary policy when the zero-lower bound has been hit? If so, how can they do it?
 
+When interest rate are at there effective lower-bound, money creation and spending in the economy may still be to low to be consistent with the central banks' monetary policy objectives. One possible response is to undertake a series of asset purchases (quantitative easing). QE is intended to boost the amount of money in the economy directly by purchasing assets, mainly from non-bank financial companies.
+
+QE initially increases the amount of bank deposits those companies hold (in place of assets they sell). Those companies will then wish to rebalance their portfolios of assets buying higher-yielding assets, raising the price of those assets and stimulating spending in the economy. As a by-product of QE, new central bank reserves are created
 
 ## Opgave 3: Why is it that quantitative easing does not necessarily lead to an increase in lending?
+
+QE involves a shift in the focus of monetary policy to the quantity of money: the central bank purchases a quantity of assets, financed by the creation of broad money and a corresponding increase in the amount of central bank reserves. The sellers of the assets will be left holding the newly created deposits in place of government bonds. They will be likely to be holding more money than they would like, relative to other assets that they wish to hold. They will therefore want to rebalance their portfolios, for example by using the new deposits to buy higher-yielding assets such as bonds and shares issued by companies. This will raise the value of those assets and lower the cost to companies of raising funds in these markets. That, in turn, should lead to higher spending in the economy, so not necessarily higher lending. The bank which end up holding the deposit have kinda received "free money" but ultimately only works here as a middle man and have to pay interest on the deposit to the consumer.
 
 
 ## Opgave 4: Taking into account Epstein’s concerns about the international spillovers of expansionary monetary policies, what are the risks of sustaining quantitative easing for an extended period? What might be the reasons why despite these risks, Central Banks these days (end of 2021) are being slow at tapering quantitative easing?
 
+I guess inflationary pressure since increaseing the broad and base money will lead to a fall in the purchasing power at least if the QE continues over a long period of times as we see here in the aftermatch if the corona pandemic.
 
+It can be due to the fact that there are no evidence that increases in money supply and debt monetization leads to high levels of inflatin, instead it is often cause by structural disruptions in economies
 
 
