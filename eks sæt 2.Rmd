@@ -80,6 +80,8 @@ this can also be writen as: $$\frac{(1-l_t)^\gamma}{l_t} = b$$
 
 We see on the first equation that the wage in fact does not enter into this equation, which means in this static example that labour supply is independent of the wage level. This might not be the case over two periods, which will be looked at in the next task.
 
+doesnt depend on wage because he only live 1 period, he has to work no matter the wage else you cant consume.
+
 We also see, that a higher $b$ implies more leisure.
 
 ## Reconsider the above problem for two periods:
@@ -108,7 +110,7 @@ which is also: $$\frac{1-l_1}{(1-l_2)^\gamma} = \frac{1}{e^{-\rho}(1+r)}\frac{w_
 
 By taking a look at the above equation it can be stated that a relative fall in wages $\frac{w_2}{w_1}$ meaning smaller $w_1$, will lead to a relative fall in leisure $\frac{1-l_1}{(1-l_2)^\gamma}$. The relative fall in leisure means more people will work in period 1.
 
-$gamma$ might complicate this someone, but i am not sure
+$gamma$ is the elasticity, the stronger the gamma the stronger the reaction on the change in wages. 
 
 ### How does the relative demand for leisure $\frac{1-l_1}{1-l_2}$ depend on the interest rate $r$?
 
