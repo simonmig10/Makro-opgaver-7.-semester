@@ -24,7 +24,7 @@ Et fald i g vil paavirke $\dot k = 0$ igennem sidste led i nedenstaaende funktio
 $$\dot k(t) = f(k(t)) -c(t) - (n+g)k(t)$$ 
 
 Sidste led $-(n+g)k(t)$ vil blive stoerre naar $g$ falder, hvilket vil resultere i, at det midterste led$-c(t)$ ogsaa bliver noedt til at blive stoerre for at $\dot k$ bliver ved med at vaere = 0. Dette betyder, at kurven for $\dot k$ bliver hoejere for da der skal en hoejere $c$ til for at $\dot k$ forbliver 0. Ligeledes bliver kurven bredere da $f'(k) = n + g$ vil blive mindre, da k stiger, fordi vi er langt ude paa kurven.
-For at holde kapitalapparatet stabilt skal man altsaa bruge faerre investeringer, derfor stiger $c(t)$
+For at holde kapitalapparatet stabilt skal man altsaa bruge faerre investeringer, derfor stiger $c(t)$.
 
 ## 2.2 How, if at all, does this affect the $\dot c$ = 0 curve?
 
@@ -33,21 +33,30 @@ We get the used equation below from the Euler- equation $\frac{\dot c}{c}\frac{r
 We start by looking at the function $\frac{\dot c}{c}\frac{f'(k(t))-\rho-\theta g}{\theta}$ where we need this expretion to be equal to 0 which also means the nummerator (teller) should be equal to zero so we can set up this 
 $f'(k(t))=\rho+\theta g$ We can see that if g falls $f'(k(t))$ also needs to be falling, this again means K must be increasing. If we again look at the first function for each value of c K must be increased and the line goes to the right. 
 
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\dotkc.png) 
+
 ## 2.3 At the time of the change, does c rise, fall, or stay the same, or is it not possible to tell?
 
-Det kan vi ikke sige noget om, for vi rykker begge baade kurven og linjen og vi aner ikke hvor vi kommer til at starte, det kommer an paa hvor meget man rykker dem paa tegningen. Alt andet lige kommer det nye start punkt til at vaere under $\dot k$ kurven og til venstre for $\dot c$ linjen.
+At the time of change in g, the value of k, the stock of capital per unit of effective labor, is given by the history of the economy, and it cannot change discontinuosly. It remains equal to the $k^*$ on the old balanced growth path.
+    In contrast, c, the rate at which households are consuming in units of effective labor, can jump at the time of the shock. In order for the economy to reach the new balanced growth path, c must jump at the instant of the change so that the economy is on the new saddle path.
+    However, we cannot tell whether the new saddle path passes above or below the original point E. Thus we cannot tell whether c jumps up or down and in fact, if the new saddle path passes right through point E, c might even remain the same at the instant the g falls. Thereafter, c and k rise gradually to their new balanced-growth-path values; these are higher than their values on the original balanced growth path.
 
-## 2.4 At the time of the change, does r g rise, fall, or stay the same, or is it not possible to tell?
+
+## 2.4 At the time of the change, does r-g rise, fall, or stay the same, or is it not possible to tell?
 
 If we assume that the shock is unexpected then the amount of capital is historically build up and will not imidially change when the shock is made to g. Therefor there will be no changes in $r(t)$ because there will be no changes in k therefor no changes in $f(k)$ and last no change in $f'(k)$ and we know $f'(k)= r(t)$. Therefor the distance will be larger. 
 
-## 2.5 In the long run, does r g rise, fall, or stay the same, or is it not possible to tell? 
-
-Find et udtryk hvor vi skal finde diff af 
-
-er theta stoerre ligmed eller mindre end 1
+## 2.5 In the long run, does r-g rise, fall, or stay the same, or is it not possible to tell? 
 
 på langsigt er r=rho + theta*g, - g på begge sidder, og sætter g uden for parentes og differenciere for G og så noget med.
+
+In the long run we know that $$r = \rho + \theta g$$
+
+so we subtract $g$ from both sides to get our $r-g$ $$r-g = \rho + \theta g-g$$
+
+then we factor by g on the lefthand side to get $$r-g = \rho +g(\theta-1)$$
+
+and taking the FOC w.r.t. $g$ just yields $\theta$ so in the long run $g$ grows at a rate of $\theta$, so if $\theta <1$ is falls, if $\theta = 1$ it doesnt change and lastly if $\theta>1$ it grows.
 
 ## 2.6 Find an expression for the impact of a marginal change in g on the fraction of output that is saved on the balanced growth path. Can one tell whether this expression is positive or negative? 
 
@@ -134,7 +143,7 @@ Finally panel (c) shows the case of a short-lived rise in G. Here households cha
 
 ## Diffrences from Ramsey til Diamond 
 
-The central difference between the ramsey and diamond model is that there is a turnover in population: new individuals are continually being born, and ld individuals are continually dying.
+The central difference between the ramsey and diamond model is that there is a turnover in population: new individuals are continually being born, and old individuals are continually dying.
 
 ## Consider the following overlapping generations framework. Welfare is equal to:
 
@@ -177,10 +186,20 @@ Bigger discount rate means more consumption in period 1 and greater interest rat
 
 ##Derive $S_t$ as a function of $r$, $w$ and $T$. How does an increase in $T$ affect savings (show mathematically)? Discuss the result.
 
-We can use the euler equation and the budget constraint to express $C_{1t}$ in terms of labor income and the real interest rate by multiplying by $C_{1t}$ in our euler equation and afterwards inserting into the budget constraint: $$\frac{C_{2t+1}}{C_{1t}} = \frac{(1+r)}{(1+\rho)}$$ 
-$$C_{1t} + \frac{1}{(1+r)}C_{2t+1} = w - T +  \frac{(1+n)}{(1+r)}T$$
-$$C_{1t} + \frac{1}{(1+r)}  \frac{(1+r)}{(1+\rho)}C_{1t} = w - T +  \frac{(1+n)}{(1+r)}T$$
-factorizing by $C_{1t}$ and $T$ and removeing (1+r) we get: $$C_{1t}\bigg(1 + \frac{1}{(1+\rho)} \bigg) = w - T\bigg( 1+  \frac{(1+n)}{(1+r)}\bigg)$$
+We can use the euler equation to express $S_t$ in terms of labor income, the real interest rate and Taxes by using the fact that $\beta = \frac{1}{1-\rho}$ so we get
+$$\frac{C_2}{C_1} = \beta(1+r)$$
 
-$$S_t = \frac{-nT-rT-T\rho-nT\rho-2T+W+rW}{(1+r)(2+p)}$$
+and now insert the functions of $C_1$ and $C_2$
+
+$$\frac{S_t(1+r)+T(1+n)}{w-T-S_t} = \beta(1+r)$$
+
+First divide through with $(1+r)$  $$\frac{S_t}{(w-T-S_t)}+\frac{T(1+n)}{(w-T-S_t)(1+r)} = \beta$$
+
+Then multiply by $(w-T-S_t)$ on both sides $$S_t + \frac{T(1+n)}{(1+r)} = \beta(w-T-S_t)$$
+
+Taking $S_t$ out of the bracket and move it to the left hand side and move $\frac{T(1+n)}{(1+r)}$ to the right hand side $$S_t+\beta S_t = \beta(w-T) -\frac{T(1+n)}{(1+r)}$$ 
+
+Then we factor by $S_t$ and divide by $(1+\beta)$ and we have pur final result
+
+$$S = \frac{\beta(w-T)}{(1+\beta)}-\frac{T(1+n)}{(1+r)(1+\beta)}$$
 
