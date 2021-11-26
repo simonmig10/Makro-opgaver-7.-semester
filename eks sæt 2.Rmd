@@ -100,13 +100,13 @@ Then dividing both sides with $(1+r)$ and adding $c_1$ yields: $$c_1+c_2\frac{1}
 
 then we can maximise by using the lagrangian: $$\Lambda = ln(c_1)+\frac{b(1-l_1)^{1-\gamma}}{1-\gamma} + e^{-\rho}\bigg[ln(c_2) + \frac{b(1-l_2)^{1-\gamma}}{1-\gamma}\bigg] + \lambda(w_1l_1+w_2l_2\frac{1}{1+r}-c_1-\frac{c_2}{1+r}$$
 
-then we take the first order conditions of $l_1$ and $l_2$ with yields: $$b-(1-l_1)^\gamma = \lambda w_1 \quad and \quad e^{-\rho}b(1-l_2)^\gamma = \frac{1}{1+r}\lambda w_2$$
+then we take the first order conditions of $l_1$ and $l_2$ with yields: $$\frac{-b}{(1-l_1)^\gamma} = \lambda w_1 \quad and \quad \frac{-e^{-\rho}b}{(1-l_2)^\gamma} = \frac{1}{1+r}\lambda w_2$$
 
-dividing both sides of the first by $w_1$ and both sides of the second by $\frac{w_2}{1+r}$ we get: $$\frac{b}{1-l_1}\frac{1}w_1 = \lambda \quad and \quad \frac{e^{-\rho}b}{(1-l_2)^\gamma}\frac{1+r}{w_2} = \lambda$$
+dividing both sides of the first by $w_1$ and both sides of the second by $\frac{w_2}{1+r}$ we get: $$\frac{-b}{(1-l_1)^\gamma}\frac{1}w_1 = \lambda \quad and \quad \frac{-e^{-\rho}b}{(1-l_2)^\gamma}\frac{1+r}{w_2} = \lambda$$
 
-equating the two equations yields: $$\frac{e^{-\rho}b}{(1-l_2)^\gamma}\frac{1+r}{w_2} = \frac{b}{1-l_1}\frac{1}w_1$$
+equating the two equations yields: $$\frac{-e^{-\rho}b}{(1-l_2)^\gamma}\frac{1+r}{w_2} = \frac{-b}{(1-l_1)^\gamma}\frac{1}w_1$$
 
-which is also: $$\frac{1-l_1}{(1-l_2)^\gamma} = \frac{1}{e^{-\rho}(1+r)}\frac{w_2}{w_1}$$
+which is also: $$(\frac{1-l_1}{(1-l_2)})^\gamma = \frac{1}{e^{-\rho}(1+r)}\frac{w_2}{w_1}$$
 
 By taking a look at the above equation it can be stated that a relative fall in wages $\frac{w_2}{w_1}$ meaning smaller $w_1$, will lead to a relative fall in leisure $\frac{1-l_1}{(1-l_2)^\gamma}$. The relative fall in leisure means more people will work in period 1.
 
