@@ -99,21 +99,36 @@ We start by assuming that the central bank aims at minimizing a loss function th
 
 ## a) What is the interpretation of the parameter $\beta$? What are the implications of $\beta$ being bigger, equal or smaller than 1?
 
-$\beta$ is a parameter that tells how important the inflation gap is. If $\beta >1$ than the calculated output gap is bigger than it actually is because it is multiplied with a factor bigger than 1. This means that the actually loss is perceived bigger by the loss function than it actually is. This can be said to mean, that you put a lot of importance on the inflation gap. If $\beta = 1$ then the inflation gap in the model is the actually inflation gap, and if $\beta < 1$ then the important of the inflation gap is smaller than the actually inflation gap.
+$\beta$ is the relative weight attached to the loss from inflation. This is a critical parameter: a $\beta >1$ will characterize a central bank that places less weight on deviations in employment from its target than on deviations in inflation, and vice versa. A more inflation—averse central bank is characterized by a higher $\beta$. With $\beta = 1$, the central bank is equally concerned about inflation and output deviations from its targets. 
 
 ## b) Plot the loss function in the $y-\pi$ space (you can put $y$ on the horizontal axis and $\pi$ in the vertical, such that the graph is the same that we use when plotting the Phillps curve) for the case where $\beta >1,\quad \beta = 1 \quad and \quad \beta < 1$
 
-Y pi plane of a loss function, jo længere væk fra equlibrium value jo større bliver cirklerne og losset. Svær at tegne i tredimensionelt space. Side 100
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\dc base.png) 
+
+Each indifference curve is a circle with ($y_e$, $\pi^t$) at its centre (see Fig. 3.5a). The loss declines as the circle gets smaller. When $\pi_t = pi^t$ and $y_t = y_e$, the circle shrinks to a single point (called the 'bliss point') and the loss is at a minimum, which is zero. With$\beta = 1$, the central bank is indifferent between inflation 1% above (or below) $\pi^t$ and output 1% below (or above) $y_e$. They are on the same loss circle. If $\beta >1$, the central bank is called inflation-averse: it is indifferent between (say) inflation 1% above (or below) $\pi^t$ and output 2% above (or below) $y_e$. They are on the same loss curve. This makes the indifference curves ellipsoid as in Fig. 3.5b. They are flat because the central bank is willing to trade off a small fall in inflation for a large rise in unemployment above equilibrium. A central bank with less aversion to inflation $\beta <1$  will have ellipsoid indifference curves with a vertical rather than a horizontal orientation (Fig. 3.5c). In that case, the indifference curves are steep, reflecting  that the central bank is only willing to trade off a given
+fall in inflation for a smaller fall in output than in the other two cases. If the central bank cares only about inflation then the loss ellipses become one dimensional along the line at $\pi_t = \pi^t$.
+
+The value of $\beta$ does not reflect whether the central bank focuses on achieving an inflation target or an output target. Rather, a central bank with lower $\beta$ is willing to trade off a longer period during which inflation is away from target to reduce the impact on unemployment of the adjustment path back to equilibrium than would a more inflation—averse central bank with a higher $\beta$
 
 ## c) Now assume that inflation is determined by a Philips curve which, for simplicity, takes lagged inflation as a proxy of expected inflation ($E[\pi_{t+1}]=\pi_{t-1}$). The Philips curve then takes the following form: $\pi_t = \pi_{t-1}+\alpha(y_t-y_e)$. Plot the Philips curve in the same graphs that you drew the Central Bank’s loss function.
 
 
+The Phillips curve is a constraint for the central bank because it shows all the output and inflation combinations from which the central bank can choose for a given level of expected inflation. In other words, in any period, the central bank can only choose to locate the economy at a point on the Phillips curve it faces. It is assumed that $\alpha = 1$ to get a 45 degree slope. Each Phillips curve is labelled by a given level of expected inflation, which in the adaptive expectations Phillips curve is equal to lagged inflation
+
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\dc med phil.png) 
 
 ## d) The loss function tells us that the central bank aims at making inflation converge to its target. The Philips curve describes how inflation is determined over time. As such, it can be considered as a constraint for the central bank (since it must minimize its inflation subject to the way in which inflation is determined in the economy). Given a specific rate of inflation in period t (i.e., a given Philips curve) define what is the optimal point in the loss function where the central bank would want to situate.
-
-
-
 ## e) Derive graphically the monetary policy curve, which is given by the combination of all the optimal points for the central bank, each of them given by the different possible Philips curves. For simplicity, just draw two Philips curves and derive the monetary policy rule as the line joining the optimal points that result from those two Philips curves.
 
+I have combined these because the optimal points for each expected inflation yields the Monetary policy rule curve as shown below.
+
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\dc optimal.png) 
+
+So the monetary rule is: $$(y_t-y_e) = -\alpha \beta (\pi_t-\pi^t)$$
+
+The MR tells the central bank what output gap it should choose when it observes that inflation is away from its target. The monetary policy rules used by central banks are often described as Taylor Rules. The difference between the monetary policy rule and a Taylor Rule is that the latter is expressed in terms of the interest rate the central bank should choose to implement its chosen output gap.
 
 ## f) Now we will solve analytically the same derivation that we did graphically in the previous points. In order to do that, you have to minimize the loss function of the central bank subject to the constraint given by the Philips curve. You should find a first order condition that is consistent with the concept of the divine coincidence, i.e., the first order condition has to describe a negative relationship between the deviations of output and inflation with respect to their long run levels.
+
+
+
