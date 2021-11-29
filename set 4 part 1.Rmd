@@ -9,7 +9,7 @@ output: pdf_document
 
 ## Opgave 2: Explain the following statement using Kalecki’s micro-foundations: "But pay can rise for a variety of reasons, some more benign than others. For a given level of productivity, higher wages must show up in one of two ways: as higher inflation or as a higher "labour share" of GDP". Why is it that, if nominal wages increase and firms choose not to pass on the higher labour costs to prices, the "labour share" increases?
 
-For et given niveau af $u$ kan der i modellen kun komme højere lønninger ved højere inflation, hvilket vil sige en stigning i $P = (1+\tau)W\alpha0$ eller ved en stigning i lønandel af BNP givet ved $\tau$ i $\pi = \frac{\tau}{1+\tau}$, hvor lønandel er $1-\pi$. 
+For et given niveau af $u$ kan der i modellen kun komme højere lønninger ved højere inflation, hvilket vil sige en stigning i $P = (1+\tau)W\alpha0$ eller ved en stigning i lønandel af BNP givet ved  mark-uppen$\tau$ i $\pi = \frac{\tau}{1+\tau}$, der bliver nødt til at falde, hvilket får $\pi$ til at falde, der får lønandel $1-\pi$ til at stige.
 
 given $P = (1+\tau)W\alpha0$ and $\frac{1}{\alpha0}$ is given the mark-up has to fall, then $\pi$ falls and the wage share increases.
 
@@ -17,12 +17,18 @@ given $P = (1+\tau)W\alpha0$ and $\frac{1}{\alpha0}$ is given the mark-up has to
 
 If the increase in the nominal wage is passed on to prices one-to-one, then the real wage would be unchanged, which means that the capacity utilization and growth also would be unchanged.
 
+This can be seen in the equation for wages $$w^* = \frac{W}{P} = \frac{1-\pi}{a_0}$$
 
 ## Opgave 4: Evaluate the following statement through the lenses of the Kalecki-Steindl graphical device: "But an ever-rising labour share would be a worry: it would crimp companies' profits and thus the investments that are crucial to improving long-run economic growth". Does an increase in the labour share reduce long-run growth in this model? Why? Why not?
 
-In the Kalecki-Steindl model an increase in the labour share $1-\pi$ does not reduced growth. On the contrary, it increases demand and growth. To see this graphically note that the reduction of $\pi$ changed the slope of $g$, which rotates $g$ downwards an thereby creating a higher eqilibrium for investment, long run growth capacity utilization the rate of profit and the real wage. There is no tension between the compensation of labour (the real wage) and capital(the rate of profit) because the level of income has increased as denoted by the outward movement of the wage-profit line (u*). In other words even if distribution is now more favourable for workers, this does not come at the expense of firms' absolute level of income. This would only happen if income cannot be increased, which only occurs when the rate of u is at its maximum level u = 1.
+Here is the base model
 
-In short the firms take a smaller part of the pie, but the pie is bigger, so they get more in absolute value. SO in the end, what matter? the relative level or the total share in absolute value?
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\ks model base.png) 
+Have to make the slope of g smaller and higher for u.
+
+In the Kalecki-Steindl model an increase in the labour share $1-\pi$ does not reduced growth. On the contrary, it increases demand and growth. To see this graphically note that the reduction of $\pi$ changed the slope of $g$ given by $g = g_0 +(g_1+g_2/\pi)r$, which rotates $g$ downwards an thereby creating a higher eqilibrium for investment (long run growth), capacity utilization (output), the rate of profit and the real wage. There is no tension between the compensation of labour (the real wage) and capital(the rate of profit) because the level of income has increased as denoted by the outward movement of the wage-profit line u* $u^* = \frac{g_0}{(s_r-g_1)(\pi/a_1)-g_2}$, where the denominator gets smaller and thereby $u^*$ increases. In other words even if distribution is now more favourable for workers, this does not come at the expense of firms' absolute level of income. This would only happen if income cannot be increased, which only occurs when the rate of u is at its maximum level u = 1.
+
+In short the firms take a smaller part of the pie, but the pie is bigger, so they get more in absolute value. SO in the end, what matters? the relative level or the total share in absolute value?
 
 ## Opgave 5:  The note stresses that: "There is another, happier, possibility. If productivity rises, then wage growth need not cause sustained inflation, nor push up the labour share. Instead the economic pie would grow, with more for everyone."
 
