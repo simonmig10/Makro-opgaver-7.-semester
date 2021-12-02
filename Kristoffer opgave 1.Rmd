@@ -1,6 +1,6 @@
 ---
 title: "Eksamensopgave 1"
-author: "Andreas Methling"
+author: "Kristoffer Herrig Thorndal"
 date: "6 sep 2021"
 output: pdf_document
 ---
