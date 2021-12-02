@@ -50,7 +50,7 @@ A calvo price setting basically means that the firms which can change price is d
 Later in the paper it is stated, that the firms who change their prices will change it to there wanted mark-up over a weighted average of their marginal costs now and in the future. So i mean it says that every time you can change the price you change it to get the wanted markup, but you dont know when you can change it again, so you calculate an average of you future and present marginal costs.
 
 
-## c) How does the choice of θ affect the New Keynesian Phillips curve?
+## c) How does the choice of $\theta$ affect the New Keynesian Phillips curve?
 
 $\theta$ is present in the last part of the new keynesian Phillips curve so if we say that $\theta$ is constant it is a driver of how much inflation will raise when there is a gap between the frictionless optimal price $\mu+mc_t$ and the current price level $p_t$. Everytime there is a gap here $1-\theta$ firms want to change there price which drives up inflation in the new keynesian phillips curve.
 
