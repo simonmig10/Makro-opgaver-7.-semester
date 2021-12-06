@@ -24,16 +24,16 @@ Et fald i g vil paavirke $\dot k = 0$ igennem sidste led i nedenstaaende funktio
 $$\dot k(t) = f(k(t)) -c(t) - (n+g)k(t)$$ 
 
 Sidste led $-(n+g)k(t)$ vil blive stoerre naar $g$ falder, hvilket vil resultere i, at det midterste led$-c(t)$ ogsaa bliver noedt til at blive stoerre for at $\dot k$ bliver ved med at vaere = 0. Dette betyder, at kurven for $\dot k$ bliver hoejere for da der skal en hoejere $c$ til for at $\dot k$ forbliver 0. Ligeledes bliver kurven bredere da $f'(k) = n + g$ vil blive mindre, da k stiger, fordi vi er langt ude paa kurven.
-For at holde kapitalapparatet stabilt skal man altsaa bruge faerre investeringer, derfor stiger $c(t)$.
+For at holde kapitalapparatet stabilt skal man altsaa bruge faerre investeringer, derfor giver det mulgihed for at $c(t)$ stiger.
 
 ## 2.2 How, if at all, does this affect the $\dot c$ = 0 curve?
 
 We get the used equation below from the Euler- equation $\frac{\dot c}{c}\frac{r(t)-\rho-\theta g}{\theta}$ where the marginal product of capital  $r(t)$ is equal to $f'(k(t))$ so we can do the substitution. 
 
 We start by looking at the function $\frac{\dot c}{c}\frac{f'(k(t))-\rho-\theta g}{\theta}$ where we need this expretion to be equal to 0 which also means the nummerator (teller) should be equal to zero so we can set up this 
-$f'(k(t))=\rho+\theta g$ We can see that if g falls $f'(k(t))$ also needs to be falling, this again means K must be increasing. If we again look at the first function for each value of c K must be increased and the line goes to the right. 
+$f'(k(t))=\rho+\theta g$ We can see that if g falls $f'(k(t))$ also needs to be falling, this again means K must be increasing. If we again look at the first function for each value of c, K must be increased for $\dot{c}=0$ and the line goes to the right. 
 
-![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\dotkc.png) 
+##![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\dotkc.png) 
 
 ## 2.3 At the time of the change, does c rise, fall, or stay the same, or is it not possible to tell?
 
