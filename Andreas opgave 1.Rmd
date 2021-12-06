@@ -137,7 +137,7 @@ Panel (b): since $r = f'(k)$, we can deduce the behavior of $r$ from the behavio
 Finally panel (c) shows the case of a short-lived rise in G. Here households change their consumption relatively little, choosing instead to pay for most of the temporarily higher taxes out of their savings. Because government purchases are high for only a short period, the effect on the capital stock and the real interest rate are similar.
    Note that once again allowing for forward-looking behavior yields insights we would not get from the older approach of assuming that consumption depends only on current disposable income. With that approach, the duration of the change in government purchases is irrelevant to the impact of thechange during the time that $G$ is high. But the idea that households do not look ahead and put some weight on the likely future path of government purchases and taxes is implausable.
    
-![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\figur2.9.jpg)  
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\figur2.9.jpg){width=50%, height = 50%}
 
 # Opgave 2 Diamond
 
