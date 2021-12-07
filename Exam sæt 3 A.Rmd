@@ -42,7 +42,8 @@ And a monetary shock lowers output, lowers inflation and of course raises the in
 
 ## a) Solve the Lagragian shown on page 78 (the solution is presented later on page 78 - hint: begin with finding the FOC)
 
-Den sender Simon!
+$$C_t^{-\sigma} = rE\beta\bigg[\frac{C_{t+1}}{\pi_{t+1}}\bigg]$$
+der mangler noget taylor aproksimation, men ja
 
 ## b) In this model a Calvo price setting is used. Explain the intuition behind this method. How does it affect the price settings of the firms?
 A calvo price setting basically means that the firms which can change price is determined by a stochastic proces. So the prices are fixed in the model by every firm but the one who are chosen by $\theta$, so theta can be said to descirbe the inertia of the prices. This means that every period $1-\theta$ of the firms change there prices, and $\theta$ firms does not.
