@@ -37,18 +37,43 @@ Udover ovenstående faktorer, er Ramsey- og Solow-modellen ens.
 ##2.  Piketty (2014) argues that a fall in the growth rate of the economy is likely to an increase in the difference between the real interest rate and the growth rate. This problem asks you to investigate this issue in the context of the Ramsey Cass Koopmans model. Specially, consider a Ramsey Cass Koopmans economy that is on its balanced growth path, and suppose there is a permanent fall in g.
 
 ##2.1  How, if at all, does this affect the $\dot k$ = 0 curve?
+Her skal vi kigge på følgende ligning: $\dot{k}(t)=f(k(t))-c(t)-(n+g)k(t)$.
 
+Det vides fra opgaven, at der sker et permanent fald i g, som indgår i sidste led af ligningen, $-(n+g)k(t)$. 
+
+Stigningen i c gør kurven højere
+
+Den bliver bredere pga. Inada betingelsen (f'(k)=n+g) fordi man kan sætte dot k = 0 og isolere f(k) og differentiere.
 
 ##2.2 How, if at all, does this affect the $\dot c$ = 0 curve?
+Saddelpunkt - vi ved ikke om C stiger eller falder (figur)
 
+$\bar{r}-g$. g falder og r ændrer sig ikke (da k ikke ændrer sig som vi lige har fundet ud af)
 
 ##2.3 At the time of the change, does c rise, fall, or stay the same, or is it not possible to tell?
+Her starter vi:
+$f'(k)=r$ og $c=0$
+$\frac{f(k)-P-\theta*g}{\theta}=0$
+
+$f(k)-P-\theta g=0$
+
+simpel matematik (og faktorering)
+
+Her slutter vi:
+$\frac{\partial r-g}{\partial g}=(\theta-1)$
+
+## 2.4 At the time of the change, does r g rise, fall, or stay the same, or is it not possible to tell?
 
 
-##2.4 At the time of the change, does r g rise, fall, or stay the same, or is it not possible to tell?
+## 2.5 In the long run, does r g rise, fall, or stay the same, or is it not possible to tell? 
+Der er nok en masse opgaver her i mellem
 
+## Analyze the effect of a public procurement, including a thorough presentation of the dynamics in Figures 2.8 and 2.9
+$T=G$
+$\dot{k}=f(k)-C-T-(n+g)k$
 
-##2.5 In the long run, does r g rise, fall, or stay the same, or is it not possible to tell? 
+$\dot{c}=0$ kurven (den som er lodret) og 2 halvcirkler med $\dot{k}=0$
+
 
 
 #Opgave 2
@@ -56,4 +81,11 @@ Udover ovenstående faktorer, er Ramsey- og Solow-modellen ens.
 
 ##Set up the intertemporal maximazation problem and derive the EUler equation:
 
+sæt op lagrangian (ln af nyttefunktionerne og lambda ganget med budgetrestriktionen) og for at finde euler ligningen differentiere man i forhold til den ene forbrug og sætter ind i den anden forbrug.
+
+facit bliver:
+$\frac{1+r}{1+\rho}=\frac{c_2}{c_1}$
+
 ##Derive $S_t$ as a function of $r$, $w$ and $T$. How does an increase in $T$ affect savings (show mathematically)? Discuss the result.
+
+Brug facit ovenfra: $\frac{1+r}{1+\rho}=\frac{c_2}{c_1}$
