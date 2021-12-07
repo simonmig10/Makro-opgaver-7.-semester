@@ -7,7 +7,7 @@ output: pdf_document
 
 # Endogenous growth theory
 
-Assume production functionof final goods sector is given by: $$Y(t)=[(1+\alpha_K)K(t)^\alpha][A(t)(1-\alpha_L)L(t)]^{1-\alpha}$$
+Assume production function of final goods sector is given by: $$Y(t)=[(1+\alpha_K)K(t)^\alpha][A(t)(1-\alpha_L)L(t)]^{1-\alpha}$$
 
 where $1-\alpha_L$ and $1-\alpha_K$ is proportion of labour and capital allocated for final production
 
@@ -21,6 +21,8 @@ Population growth is exogenous $$\frac{\dot L(t)}{L(t)} = n \quad or \quad \dot 
 
 ## Derive an expression for the growth rate of capital $g_K(t)$ and growth rate of technology $g_A(t)$
 ### $g_K(t)$
+
+Se side 109
 
 We know the growth rate is found by finding the change in the capital stock so: $$\frac{\dot K(t)}{K(t)}=\frac{sY(t)}{K(t)}$$
 
@@ -41,6 +43,7 @@ We start by taking logs to get rid of all the exponents from the above equation:
 Then we take the derivative with respect to time, where our constants disapear so we get: $$\frac{\partial ln(g_A)}{\partial t} = \beta \frac{\partial ln(K)}{\partial t} + \gamma \frac{\partial ln(L)}{\partial t} + (\theta-1) \frac{\partial ln(A)}{\partial t}$$
 
 We know that $\frac{\partial ln(X)}{\partial t} = \frac{\dot X}{X}$ so we now get: $$\frac{\dot g_A}{g_A} = \beta\frac{\dot K}{K} + \gamma \frac{\dot L}{L}+(\theta-1)\frac{\dot A}{A}$$
+Here we insert $g_k$ se side 109
 
 all these are the growth rates so we get: $$\frac{\dot g_A}{g_A} = \beta g_K + \gamma n + (\theta-1)g_A$$
 

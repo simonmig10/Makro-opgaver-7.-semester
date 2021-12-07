@@ -130,5 +130,5 @@ The MR tells the central bank what output gap it should choose when it observes 
 
 ## f) Now we will solve analytically the same derivation that we did graphically in the previous points. In order to do that, you have to minimize the loss function of the central bank subject to the constraint given by the Philips curve. You should find a first order condition that is consistent with the concept of the divine coincidence, i.e., the first order condition has to describe a negative relationship between the deviations of output and inflation with respect to their long run levels.
 
-
+side 111 i den der bog
 

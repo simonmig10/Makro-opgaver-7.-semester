@@ -48,7 +48,7 @@ If we assume that the shock is unexpected then the amount of capital is historic
 
 ## 2.5 In the long run, does r-g rise, fall, or stay the same, or is it not possible to tell? 
 
-på langsigt er r=rho + theta*g, - g på begge sidder, og sætter g uden for parentes og differenciere for G og så noget med.
+på langsigt er r=rho + theta*g, da $\frac{\dot{c}}{c}=\frac{f'(k)-\rho-\theta g}{\theta}$, hvilket da det skal være lig med 0 på langsigt kan skrives som $f'(k)-\rho -\theta g=0$, og da $f'k = r$ kan $r$ indsættes og $g$ isoleres, - g på begge sidder, og sætter g uden for parentes og differenciere for G og så noget med.
 
 In the long run we know that $$r = \rho + \theta g$$
 
@@ -56,7 +56,7 @@ so we subtract $g$ from both sides to get our $r-g$ $$r-g = \rho + \theta g-g$$
 
 then we factor by g on the lefthand side to get $$r-g = \rho +g(\theta-1)$$
 
-and taking the FOC w.r.t. $g$ just yields $\theta$ so in the long run $g$ grows at a rate of $\theta$, so if $\theta <1$ is falls, if $\theta = 1$ it doesnt change and lastly if $\theta>1$ it grows.
+and taking the FOC w.r.t. $g$ just yields $(\theta-1)$ so in the long run $g$ grows at a rate of $(\theta-1)$, so if $\theta <1$ is ½, if $\theta = 1$ it doesnt change and lastly if $\theta>1$ it grows.
 
 ## 2.6 Find an expression for the impact of a marginal change in g on the fraction of output that is saved on the balanced growth path. Can one tell whether this expression is positive or negative? 
 
@@ -203,3 +203,8 @@ Then we factor by $S_t$ and divide by $(1+\beta)$ and we have pur final result
 
 $$S = \frac{\beta(w-T)}{(1+\beta)}-\frac{T(1+n)}{(1+r)(1+\beta)}$$
 
+Then we need to differentiate with respect to $T$ which yields
+
+$$\frac{\partial S}{\partial T} = \frac{-\beta}{(1+\beta)}-\frac{(1+n)}{(1+r)(1+\beta)}$$
+
+We see that we get a negative result result, which means that a rise in T makes savings go down, this is due to that consumption doesnt fall with the full effect of the increase in T because they use some of their savings as consumtion, which is why we see the fall in savings. 
