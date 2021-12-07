@@ -5,16 +5,53 @@ date: "20/9/2021"
 output: pdf_document
 ---
 **Assume production function of final goods sector is given by:**
-$$Y(t)=[(1-a_K)K(t)^\alpha][A(t)(1-a_L)L(t)]^{1-\alpha}$$
+$$Y(t)=[(1-a_K)K(t)]^\alpha [A(t)(1-a_L)L(t)]^{1-\alpha}$$
 Where $1-a_L$ and $1-a_K$ is the proportion of labour and capital allocated for final production
 
 Capital stock is given by:
 $$\dot{K}(t)=sY(t)$$
 
-Production function of R&D sector is given by
+$$\frac{\dot{L}}{L}=n$$
+
+$$A(t)=B[\alpha_K*K(t)]^\beta*[\alpha_L L(t)]^\gamma * A(t)^\theta$$
+$$\dot{k}=s(1-\alpha_K)^\alpha*(1-\alpha_L)^{1-\alpha}*A(t)^{1-\alpha}*K(t)^\alpha*L(t)^{1-\alpha}$$
+
+hvor det gælder, at $s(1-\alpha_K)^\alpha*(1-\alpha_L)^{1-\alpha}=C_K$, så:
+
+$$\frac{\dot{k}}{k}=C_K*A(t)^{1-\alpha}*K(t)^{\alpha-1}*L(t)^{1-\alpha}$$
+Potensfejl enten i denne eller forrige: $K(t)^{\alpha-1}$ eller $K(t)^{\alpha}$?
+
+$$\frac{\dot{k}}{k}=C_K*\frac{A(t)^{1-\alpha}*L(t)^{1-\alpha}}{K(t)^{1-\alpha}}=C_K*[\frac{A(t)*L(t)}{K(t)}]^{1-\alpha}=g_k$$
+stort eller lille k?
+
+
+
+
+Ved ikke om det her hører med her, men sidste billede:
+
+$$\frac{\dot{g_k}}{g_k}=(1-\alpha)(g_A(t)+???-g_K(t))=0$$
+Noget blev slettet på tavlen ^
+
+$${g^\star_A}=\frac{\beta+\gamma}{1-(\theta+\beta)}n$$
+$$\frac{\partial g_a}{\partial L}=\frac{g_a^\star}{g_a}=\beta\frac{\dot{k}}{k}+\gamma\frac{\dot{L}}{L}+(\theta-1)\frac{\dot{A}}{A}$$
+regner med det er gammaer, og regner med det er theta minus 1 og ikke theta minus L
+
+
+$$\frac{g_A^\star}{g_A}=\beta g_K+\gamma n+(\theta-1)g_A=0$$
+
+$$(\beta g_K + \gamma n+(\theta-1) g_A^\star)g_A^\star=0$$
+
+$$\beta g_K g_a^\star+\gamma n g_a^\star+(\theta-1)g_A^\star)g_a^\star=0$$
+$$(\theta-1)g_a^\star=-\beta g_K-\gamma n$$
+
+HERTIL OG IKKE LÆNGERE
+
 
 *Derive an expression for the growth rate of capital* $gK(t)$ *and growth rate of technology* $gA(t)$
 ```{r}
 
 
 ```
+
+## Opgave fra billede:
+
