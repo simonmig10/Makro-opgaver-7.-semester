@@ -32,6 +32,8 @@ I Solow modellen hedder produktionsfunktionen: $Y_t=f(K(t), A(t)*L(t))$, hvor $A
 
 I Ramsey-modellen vælger husholdningerne den optimale opsparingsrate...
 
+The golden rule, ramsey modellen..
+
 Udover ovenstående faktorer, er Ramsey- og Solow-modellen ens.
 
 ##2.  Piketty (2014) argues that a fall in the growth rate of the economy is likely to an increase in the difference between the real interest rate and the growth rate. This problem asks you to investigate this issue in the context of the Ramsey Cass Koopmans model. Specially, consider a Ramsey Cass Koopmans economy that is on its balanced growth path, and suppose there is a permanent fall in g.
