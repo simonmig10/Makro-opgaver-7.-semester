@@ -7,7 +7,7 @@ output: pdf_document
 
 # Endogenous growth theory
 
-Assume production function of final goods sector is given by: $$Y(t)=[(1+\alpha_K)K(t)^\alpha][A(t)(1-\alpha_L)L(t)]^{1-\alpha}$$
+Assume production function of final goods sector is given by: $$Y(t)=[(1+\alpha_K)K(t)]^\alpha[A(t)(1-\alpha_L)L(t)]^{1-\alpha}$$
 
 where $1-\alpha_L$ and $1-\alpha_K$ is proportion of labour and capital allocated for final production
 
