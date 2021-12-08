@@ -5,45 +5,152 @@ date: "6 sep 2021"
 output: pdf_document
 ---
 
-#Opgave 1
+# Opgave 1
 
-##1. Explain crucial differences between the Solow model and the Ramsey, Cass and Koopman model. Does it affect the overall conclusions?
+## 1. Explain crucial differences between the Solow model and the Ramsey, Cass and Koopman model. Does it affect the overall conclusions?
 
-##2.  Piketty (2014) argues that a fall in the growth rate of the economy is likely to an increase in the difference between the real interest rate and the growth rate. This problem asks you to investigate this issue in the context of the Ramsey Cass Koopmans model. Specially, consider a Ramsey Cass Koopmans economy that is on its balanced growth path, and suppose there is a permanent fall in g.
+The Solow model assumes an exogenous saving rate, whereas the Ramsey model features a representative household which chooses the saving rate optimally. As we saw in the Solow model, although the saving rate does not affect the long-run growth rate, it affects the levels of capital and output.
 
-##2.1  How, if at all, does this affect the $\dot k$ = 0 curve?
+The parametric saving-income ratio, $s$, in the well-known Solow growth model, is replaced by two parameters in the ramsey model, the rate of impatience, $\rho$, and the rate of consumption smoothing, $theta$.This adds perspectives to the analysis and implies that the saving-income ratio will not generally be constant outside steady state. Replacing a mechanical saving rule by maximization of discounted utility, the model opens up for studying welfare consequences of alternative economic policies.
+
+Making the savings rate endogenous in the ramsey, cass and Koopman model didn't change the conclusions with respect to the solow model, because the only driver for growth in output pr. worker is A (technology growth). Jeg ved dog ikke med golden-rule...
+
+
+## 2.  Piketty (2014) argues that a fall in the growth rate of the economy is likely to an increase in the difference between the real interest rate and the growth rate. This problem asks you to investigate this issue in the context of the Ramsey Cass Koopmans model. Specially, consider a Ramsey Cass Koopmans economy that is on its balanced growth path, and suppose there is a permanent fall in g.
+
+## 2.1  How, if at all, does this affect the $\dot k$ = 0 curve?
+
 Et fald i g vil paavirke $\dot k = 0$ igennem sidste led i nedenstaaende funktion:
 $$\dot k(t) = f(k(t)) -c(t) - (n+g)k(t)$$ 
 
 Sidste led $-(n+g)k(t)$ vil blive stoerre naar $g$ falder, hvilket vil resultere i, at det midterste led$-c(t)$ ogsaa bliver noedt til at blive stoerre for at $\dot k$ bliver ved med at vaere = 0. Dette betyder, at kurven for $\dot k$ bliver hoejere for da der skal en hoejere $c$ til for at $\dot k$ forbliver 0. Ligeledes bliver kurven bredere da $f'(k) = n + g$ vil blive mindre, da k stiger, fordi vi er langt ude paa kurven.
-For at holde kapitalapparatet stabilt skal man altsaa bruge faerre investeringer, derfor stiger $c(t)$
+For at holde kapitalapparatet stabilt skal man altsaa bruge faerre investeringer, derfor giver det mulgihed for at $c(t)$ stiger.
 
-##2.2 How, if at all, does this affect the $\dot c$ = 0 curve?
-Det kan ses udfra udtrykket $$\frac{\dot c(t)}{c(t)} = \frac{f'(k(t))-\rho-\theta g}{\theta}$$
-Hvor taelleren skal vaere 0, hvilket omskrevet giver $f'(k) = \rho+g$
-Et fald i $g$ vil medfoerer et fald i $f'(k)$ og da vi antager aftagende marginalprodukt, saa betyder det, at vi er langt ude paa af k, hvilket medfoerer, at givet en vilkaarlig c vaerdi vil der skulle bruges en stoerre K, hvilket betyder at C linjen skal skubes til hoejre.
+## 2.2 How, if at all, does this affect the $\dot c$ = 0 curve?
 
-##2.3 At the time of the change, does c rise, fall, or stay the same, or is it not possible to tell?
+We get the used equation below from the Euler- equation $\frac{\dot c}{c}\frac{r(t)-\rho-\theta g}{\theta}$ where the marginal product of capital  $r(t)$ is equal to $f'(k(t))$ so we can do the substitution. 
 
-Det kan vi ikke sige noget om, for vi rykker begge baade kurven og linjen og vi aner ikke hvor vi kommer til at starte, det kommer an paa hvor meget man rykker dem paa tegningen. Alt andet lige kommer det nye start punkt til at vaere under $\dot k$ kurven og til venstre for $\dot c$ linjen.
+We start by looking at the function $\frac{\dot c}{c}\frac{f'(k(t))-\rho-\theta g}{\theta}$ where we need this expretion to be equal to 0 which also means the nummerator (teller) should be equal to zero so we can set up this 
+$f'(k(t))=\rho+\theta g$ We can see that if g falls $f'(k(t))$ also needs to be falling, this again means K must be increasing. If we again look at the first function for each value of c, K must be increased for $\dot{c}=0$ and the line goes to the right. 
 
-##2.4 At the time of the change, does r g rise, fall, or stay the same, or is it not possible to tell?
-Husholdningerne ved ikke at der kommer et stoed, det er derved et uventet stoed og de har ikke maksimeret historisk for det, hvilket vil sige, at K ikke aendre sig, da det er historisk opbygget. Da K ikke aendre sig, saa aendre $f'(k)$ sig heller ikke, og da $f'(k) = r$, saa aendre r sig heller ikke, hvilket vil sige, at kun g aendre sig. Afstanden bliver derved stoerre i mellem de to, da g falder imens r forbliver det samme.
+##![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\dotkc.png) 
 
-##2.5 In the long run, does r g rise, fall, or stay the same, or is it not possible to tell? 
+## 2.3 At the time of the change, does c rise, fall, or stay the same, or is it not possible to tell?
 
-Find et ud tryk hvor vi skal finde diff af 
+At the time of change in g, the value of k, the stock of capital per unit of effective labor, is given by the history of the economy, and it cannot change discontinuosly. It remains equal to the $k^*$ on the old balanced growth path.
+    In contrast, c, the rate at which households are consuming in units of effective labor, can jump at the time of the shock. In order for the economy to reach the new balanced growth path, c must jump at the instant of the change so that the economy is on the new saddle path.
+    However, we cannot tell whether the new saddle path passes above or below the original point E. Thus we cannot tell whether c jumps up or down and in fact, if the new saddle path passes right through point E, c might even remain the same at the instant the g falls. Thereafter, c and k rise gradually to their new balanced-growth-path values; these are higher than their values on the original balanced growth path.
 
-er theta stoerre ligmed eller mindre end 1
 
-#Opgave 2
+## 2.4 At the time of the change, does r-g rise, fall, or stay the same, or is it not possible to tell?
 
-Consider the following overlapping generations framework. Welfare is equal to:
+If we assume that the shock is unexpected then the amount of capital is historically build up and will not imidially change when the shock is made to g. Therefor there will be no changes in $r(t)$ because there will be no changes in k therefor no changes in $f(k)$ and last no change in $f'(k)$ and we know $f'(k)= r(t)$. Therefor the distance will be larger. 
 
-$$U_t = u(C_{1t} + \beta u(C_{2t+1}$$ with $\beta = \frac{1}{1+\rho}$ the discount factor.
+## 2.5 In the long run, does r-g rise, fall, or stay the same, or is it not possible to tell? 
+
+på langsigt er r=rho + theta*g, - g på begge sidder, og sætter g uden for parentes og differenciere for G og så noget med.
+
+In the long run we know that $$r = \rho + \theta g$$
+
+so we subtract $g$ from both sides to get our $r-g$ $$r-g = \rho + \theta g-g$$
+
+then we factor by g on the lefthand side to get $$r-g = \rho +g(\theta-1)$$
+
+and taking the FOC w.r.t. $g$ just yields $\theta$ so in the long run $g$ grows at a rate of $\theta$, so if $\theta <1$ is falls, if $\theta = 1$ it doesnt change and lastly if $\theta>1$ it grows.
+
+## 2.6 Find an expression for the impact of a marginal change in g on the fraction of output that is saved on the balanced growth path. Can one tell whether this expression is positive or negative? 
+
+We can start by defining the fraction of output that is saved on the balanced growth path called s $s=\frac {(f(k^*) - c^*)} {f(k^*)}$ 
+
+since k is constant on the balanced growth path we can write the function $\dot k = f(k(t))- c(t)- (n+g)k(t)$ as $f(k^*) - c^*= (n+g)k^*$
+
+We can now rewrite the fraction of output saved on the balanced growth path. $s= \frac {(n+g)k^*} {f(k^*)}$
+
+We can now differentiate both sides with respect to g. We use the rules for differentiating a fraction. We should also use the chainrule as g is in the function for f(k). (maybe lige skrive hvordan)
+
+$$\frac {\delta s} {\delta g} = \frac {f(k^*)[(n+g)(\frac{\delta k^*}{\delta g})+k^*] - (n+g)k^* f'(k^*)(\frac{\delta k^*}{\delta g})}{[f(k^*)]^2}$$
+Vi ganger $f(k^*)$ ind i parentesen og setter derefter $(n+g)(\frac {\delta k^*}{\delta g})$ udenfor parentes (setter den bare on hver side af parentesen)
+
+$$\frac {\delta s} {\delta g} = \frac {(n+g)[f(k^*) -k^* f'(k^*)](\frac{\delta k^*} {\delta g}) + f(k^*)k^*} {[f(k^*)]^2}$$
+
+We know that $k^*$ is defined when $f'(k^*)= \rho + \theta g$ we can now differentiate both sites with respect to g, and we get $f''(k^*)(\frac{\delta k^*}{\delta g})= \theta$ Solving for $\frac{\delta k^*}{\delta g}$ we get. 
+
+$$\frac{\delta k^*}{\delta g}= \frac{\theta}{f''(k^*)}$$
+
+We can now substitute this into the above equation:
+
+$$\frac {\delta s} {\delta g} = \frac {(n+g)[f(k^*) -k^* f'(k^*)](\frac{\theta} {f''(k^*)}) + f(k^*)k^*} {[f(k^*)]^2}$$
+We then multiply by $f''(k^*)$ above and under the fraction (above: As the term is multiplied on the brackets it just disapears and is multiplied to the second term)
+
+$$\frac{\delta s}{\delta g} = \frac{(n+g)[f(k^*)-k^*f'(k^*)]\theta + f(k^*)k^*f''(k^*)}{[f(k^*)]^2 f''(k^*)}$$
+
+- First term should be positive?
+
+- as we know $f''(k^*)$ is negative the last term in the nummerator is negative. 
+
+- the denominator will be negative for the same reason. 
+
+
+
+The conclution is that we can not say anything about if a change in g has a positve effect on the fraction of output tht is saved on the balanced growthpath 
+
+
+## 2.7  For the case where the production function is Cobb-Douglas, $f(x) = k^\alpha$, rewrite your answer to part (2.6) in terms of $\rho$, $n$, $g$, $\theta$ and $\alpha$ (Hint: Use the fact that $f'(k^*) = \rho + \theta g$ 
+
+We know when $f(k)= k^\alpha$, then $f'(k)=\alpha k^{\alpha - 1}$ and $f''(k)= \alpha(\alpha-1)k^{a-2}$. 
+
+if we substitute this into the answer from the question above:
+
+$$\frac{\delta s}{\delta g}= \frac{(n+g)[k^{*\alpha}-k^* \alpha k^{*\alpha - 1}]\theta + k^{*\alpha} k^* \alpha (\alpha - 1) k^{*\alpha - 2}}{k^{*\alpha} k^{*\alpha} \alpha(\alpha - 1)k^{*\alpha - 2}}$$
+
+
+We can now do some reduction: 
+
+$$\frac{\delta s}{\delta g}= \frac{(n+g)k^{^*\alpha}(1-\alpha)\theta - k^{^*a} \alpha (1-\alpha)k^{^* \alpha -1}} {\frac{-(1-\alpha) k^{* \alpha} \alpha k^{* \alpha -1} \alpha k^{* \alpha -1}} {\alpha}}$$
+
+And when we use $f'(k^*) = \rho + \theta g$) we get that:
+
+$$\frac{\delta s}{\delta g}= - \alpha \frac {[(n+g)\theta - (\rho+ \theta g)]} {(\rho + \theta g)^2}$$
+
+Multipling $\theta$ into the brackets: 
+
+$$\frac{\delta s}{\delta g}= - \alpha \frac {n \theta - \rho} {(\rho + \theta g)^2}$$
+And we can make the expretion psoitive by: 
+
+$$\frac{\delta s}{\delta g}= \alpha \frac {(\rho - n \theta)} {(\rho + \theta g)^2}$$
+
+## 3  Analyze the effect of a public procurement, including a thorough presentation of the dynamics in Figures 2.8 and 2.9
+
+Firstly the implementation of the government sector makes our k dot function change to this: $$\dot k(t) = f(k(t)) -c(t) - G(t) - (n+g)k(t)$$ where the government buys output at a rate of $G(t)$ per unit of effective labour per unit time. A higher G value shifts the $\dot k = 0$ down, because the more goods that are purchased by the government the fewer that can be purchased privately if $k$ is to be held constant.
+
+Starting with figure 2.8 suppose the economy is on a balanced growth path with $G(t)$ constant at some level $G_L$, and that there is an unexpected, permanent increase in $G$ to $G_H$. From the above equation we know, that this menas that $\dot k = 0$ has to shift downwards by the amount of increase in G. Since the purchase do not affect the euler equation, the $\dot c = 0$ is unaffected. This is shown below.
+
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\figur2.8.jpg)
+We know that in response to such a change $c$ must jump so that the economy is on its new saddle path. If not, then as before, either capital would become negative at some point or households would accumulate infinite wealth. In this case, the adjustment takes a simple form: $c$ falls by the amount of the increase in $G$, and the economy is immediately on its new balanced growth path. Intuitively, the permanent increase in government purchases and taxes reduce households' lifetime wealth. And because the increase in purchases and taxes are permanent, there is no scope for households to raise their utility by adjusting the time pattern of their consumption. Thus the size of the immediate fall in consumption is equal to the full amount of the increase in government purchases, and the capital stock and the real interest rate are unaffected.
+    An older approach to modeling consumption behavior assumes that consumption depends only on current disposable income and that it moves less than one-for-one with disposable income. Recall for example, that the Solow model assumes that consumption is simply a fraction $1-s$ of current disposable income. With that approach, consumption falls by less than the amount of the increase in government purchases. As a result, the rise in government purchases crowds out investment, and so the capital stock starts to fall and the real interest rate starts to rise. Our analysis shows that those results rest critically on the asumption that households follow mechanical rules: with full intertemporal optimization, a permanent increase in government purchases does not cause crowding out.
+
+Moving on to 2.9
+Panal (a) shows a case where the increase in G is relatively long-lasting. In this case $c$ falls by most of the amount of the increase in $G$. Because the increase is not permanent, however, households decrease their capital holdings somewhat. $c$ rises as the economy approaches the time that $G$ returns to $G_L$. After that time, $c$ continues to rise and households rebuild their capital holdings. IN the long run, the economy returns to its original balanced growth path.
+
+Panel (b): since $r = f'(k)$, we can deduce the behavior of $r$ from the behavior of $k$. Thus $r$ rises gradually during the period that government spending is high and then gradually returns ti its initial level. This is shown in panel (b): $t_0$ denotes the time of the increase in $G$ and $t_1$ the time of its return to its initial value.
+
+Finally panel (c) shows the case of a short-lived rise in G. Here households change their consumption relatively little, choosing instead to pay for most of the temporarily higher taxes out of their savings. Because government purchases are high for only a short period, the effect on the capital stock and the real interest rate are similar.
+   Note that once again allowing for forward-looking behavior yields insights we would not get from the older approach of assuming that consumption depends only on current disposable income. With that approach, the duration of the change in government purchases is irrelevant to the impact of thechange during the time that $G$ is high. But the idea that households do not look ahead and put some weight on the likely future path of government purchases and taxes is implausable.
+   
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\figur2.9.jpg){width=50%, height = 50%}
+
+# Opgave 2 Diamond
+
+## Diffrences from Ramsey til Diamond 
+
+The central difference between the ramsey and diamond model is that there is a turnover in population: new individuals are continually being born, and old individuals are continually dying.
+
+## Consider the following overlapping generations framework. Welfare is equal to:
+
+$$U_t = u(C_{1t}) + \beta u(C_{2t+1})$$ with $\beta = \frac{1}{1+\rho} \leq$ the discount factor.
 
 Assume the utility function is logarithmic:
-$$u(C_{jt} = lnC_{jt}$$
+$$u(C_{jt}) = lnC_{jt}$$
 
 We will assume that the government implements a pension scheme, more specifically, a pay-as-you-go social security scheme, where the government taxes each young individual by an amount T , and uses that amount to pay benefits to old individuals. Hence, the budget constraints is given by:
 
@@ -52,8 +159,47 @@ $$C_{1t}+S_t = w - T$$
 whereas period 2 consumption is givien by:
 $$C_{2t+1} = S_t(1+r) + (1+n)T$$
 
-Note that $n$ represents population growth. Take the wage $w$ and interest rate $r$ as exogenous and solve the following:
+Note that $n$ - $L_t=(1+n)L_{t-1}$ represents population growth. Take the wage $w$ and interest rate $r$ as exogenous and solve the following:
 
-##Set up the intertemporal maximazation problem and derive the EUler equation:
+##Set up the intertemporal maximazation problem and derive the Euler equation:
+
+The utility function is given by: $$U_t = lnC_{1t} + [\frac{1}{1+\rho}] lnC_{2t+1}$$ 
+
+Then we need the budget constraint which we get by rearranging in the function for consumption 2 in period t+1 $$C_{2t+1} = S_t(1+r) + (1+n)T$$
+
+$S_t$ is isolated by subtracting $(1+n)T$ and then dividing by $(1+r)$ on both sides to yield $$ S_t = \frac{C_{2t+1}}{(1+r)} - \frac{(1+n)}{(1+r)}T$$
+
+Then inserting in the function for consumption in first period to get: $$C_{1t}+\frac{C_{2t+1}}{(1+r)} - \frac{(1+n)}{(1+r)}T = w - T$$ 
+
+then keeping the $C_{2t+1}$ part and moving the rest to the right hand side we get the budget constraint: $$C_{1t} + \frac{C_{2t+1}}{(1+r)} = w - T +  \frac{(1+n)}{(1+r)}T$$
+
+Setting up the Lagrangian: $$\Lambda = lnC_{1t} + [\frac{1}{1+\rho}] lnC_{2t+1} + \lambda\bigg[w - T +  \frac{(1+n)}{(1+r)}T - \bigg(C_{1t} + \frac{C_{2t+1}}{(1+r)}\bigg)\bigg]$$
+
+Taking the first order conditions to $C_{1t}$ and $C_{2t+1}$ gives: $$\frac{1}{C_{1t}} = \lambda$$
+and $$\frac{1}{C_{2t+1}(1+\rho)} = \frac{\lambda}{(1+r)}$$
+
+inserting the first in the second yields: $$\frac{1}{C_{2t+1}(1+\rho)} = \frac{1}{C_{1t}(1+r)}$$
+
+rearaing yields the euler equation: $$\frac{C_{2t+1}}{C_{1t}} = \frac{(1+r)}{(1+\rho)}$$
+
+Bigger discount rate means more consumption in period 1 and greater interest rate means higher in period 2.
 
 ##Derive $S_t$ as a function of $r$, $w$ and $T$. How does an increase in $T$ affect savings (show mathematically)? Discuss the result.
+
+We can use the euler equation to express $S_t$ in terms of labor income, the real interest rate and Taxes by using the fact that $\beta = \frac{1}{1-\rho}$ so we get
+$$\frac{C_2}{C_1} = \beta(1+r)$$
+
+and now insert the functions of $C_1$ and $C_2$
+
+$$\frac{S_t(1+r)+T(1+n)}{w-T-S_t} = \beta(1+r)$$
+
+First divide through with $(1+r)$  $$\frac{S_t}{(w-T-S_t)}+\frac{T(1+n)}{(w-T-S_t)(1+r)} = \beta$$
+
+Then multiply by $(w-T-S_t)$ on both sides $$S_t + \frac{T(1+n)}{(1+r)} = \beta(w-T-S_t)$$
+
+Taking $S_t$ out of the bracket and move it to the left hand side and move $\frac{T(1+n)}{(1+r)}$ to the right hand side $$S_t+\beta S_t = \beta(w-T) -\frac{T(1+n)}{(1+r)}$$ 
+
+Then we factor by $S_t$ and divide by $(1+\beta)$ and we have pur final result
+
+$$S = \frac{\beta(w-T)}{(1+\beta)}-\frac{T(1+n)}{(1+r)(1+\beta)}$$
+
