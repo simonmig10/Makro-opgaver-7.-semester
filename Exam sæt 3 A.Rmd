@@ -18,12 +18,11 @@ DSGE-models bypass these problems by incorporating incomplete adjustments of nom
 
 ## c) Write out and analyse the three main equations in the canonical New Keynesian Model
 
-$$y_t = y_{t+1} - \frac{1}{\sigma}(r_t-E_t\pi_{t+1})+\epsilon^D_t$$
+$$y_t = E_t y_{t+1} - \frac{1}{\sigma}r_t)+\epsilon^D_t$$
 
-$$\pi_t = \beta E_t\pi_{t+1}+ \lambda\frac{(1-\theta)(1-\theta\beta)}{\theta}y_t + e_t^S$$
+$$\pi_t = \beta E_t\pi_{t+1}+ \kappa y_t + e_t^S$$
 
-$$r_t = \bar r +\rho(r_{t-1}-r_o)+(1-\rho)(\phi^\pi(\pi_t-\pi_0))+\phi^Y(y_t-y_0)+\epsilon^R_t$$
-Not quiet the same as states in the book but i guess they must be somehow similar. Firstly we can see that the model is forward looking by using future values of a variable to describe the present value. First we have the new Keynesian IS curve, then the new Keynesian Phillips curve and lastly we have a monetary policy function.
+$$r_t = \phi_\pi E_t \pi_{t+1}+ \phi_y E_t y_{t+1}\epsilon^R_t$$
 
 Going a little closer we can see, that the IS-curve and the money policy function is explained by all three variables and that inflation only is a function of itself and output. 
 
@@ -54,6 +53,8 @@ Later in the paper it is stated, that the firms who change their prices will cha
 ## c) How does the choice of $\theta$ affect the New Keynesian Phillips curve?
 
 $\theta$ is present in the last part of the new keynesian Phillips curve so if we say that $\theta$ is constant it is a driver of how much inflation will raise when there is a gap between the frictionless optimal price $\mu+mc_t$ and the current price level $p_t$. Everytime there is a gap here $1-\theta$ firms want to change there price which drives up inflation in the new keynesian phillips curve.
+
+Dette kan blive vist i ligningen her: $$\pi_t = (1-\theta)(p_t^*-p_{t-1})$$
 
 If we say that $theta$ is not fixed and that it can change, then the smaller $theta$ are the more inflation will rise because then multiple firms would push up there price.
 
