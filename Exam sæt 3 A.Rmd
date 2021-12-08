@@ -131,5 +131,14 @@ The MR tells the central bank what output gap it should choose when it observes 
 
 ## f) Now we will solve analytically the same derivation that we did graphically in the previous points. In order to do that, you have to minimize the loss function of the central bank subject to the constraint given by the Philips curve. You should find a first order condition that is consistent with the concept of the divine coincidence, i.e., the first order condition has to describe a negative relationship between the deviations of output and inflation with respect to their long run levels.
 
-side 111 i den der bog
+By choosing the interest rate in period zero, the central bank affects output and inflation in period 1, so the loss function we want to minimize is $$L = (y_1-y_e)^2+\beta(\pi_1-\pi^T)^2 \quad with \quad \beta>0$$ subject to the phillips curve: $$\pi_1 = \pi_0+\alpha(y_1-y_e) \quad with \quad \alpha>0$$
 
+Then we substitute the phillips curve into the centralbank loss function to get: $$L = (y_1-y_e)^2+\beta((\pi_0 + \alpha(y_1-y_e))-\pi^T)^2$$
+
+then we differentitate with respect to $y_1$ because this is the variable can control via its choice of interest rate, then we get: $$\frac{\partial L}{\partial y_1} = (y_1-y_e)+\alpha \beta(\pi_0 + \alpha(y_1-y_e)-\pi^T)$$
+
+rearraning the phillips curve to get $\pi_0 = \pi_1 -\alpha(y_1-y_e)$ and plugging the in yields the monetary rule because $\alpha(y_1-y_e)$ disappears and we move the bit with $\pi$'s to the other side and get again the monetary rule: $$(y_1-y_e) = -\alpha \beta(\pi_1-\pi^T)$$
+
+The monetary rules shows the central banks best response to a shcok; it is the relationship between the inflation rate chosen indirectly and the level of output chosen directly by the central bank to maximize its utility (minimize its loss) given its preferences and the constraints
+it faces. The monetary rule is an inverse relation between $\pi$ and $y$ with a negative slope, which shows that the central bank must reduce aggregate demand and output, $y$, below $y_e$ so as to reduce $\pi$ below $\pi^T$.
+In the general form of the MR curve shown above, it can be seen directly that the larger is $\alpha$ (i.e. the more responsive are wages to employment) or the larger is $\pi$ (i.e. the more inflation averse is the central bank), the flatter will be the slope of the monetary rule.
