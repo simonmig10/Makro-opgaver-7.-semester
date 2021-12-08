@@ -5,54 +5,51 @@ date: "6 sep 2021"
 output: pdf_document
 ---
 
-#Opgave 1
+# Opgave 1
 
-##1. Explain crucial differences between the Solow model and the Ramsey, Cass and Koopman model. Does it affect the overall conclusions?
-Solow:
-To inputs: arbejdskraft og kapital
-Cobb douglas vækstfunktion
-Produktionsfunktion: $Y_t=f(K(t), A(t)*L(t))$
-  - Vækstrate i arbejdsstyrken og A (effektiviteten af arbejdskraft) antages konstante: $L(t)=L(0)e^{nt}$ og $A(t)=A(0)e^{gt}$
-  - Det er således udviklingen i K(t) der er afgørende i Solow modellen.
-
-Antager konstant opsparingsrate (lille s), så kapitalakkumuleringen kan skrives som: $\dot{K}(t)=sY(t)-\delta K(t)$, da $I=S$
-
-Konstant skalaafkast
-Hver enhed arbejdskraft aflønnes hver periode med lønnen w
-Hver enhed kapitalapparat lejes hver periode for prisen r
-Lukket økonomi
-Ingen offentlig sektor
-Kun ét homogent gode
-
+## 1. Explain crucial differences between the Solow model and the Ramsey, Cass and Koopman model. Does it affect the overall conclusions?
+Solow antager konstant opsparingsrate (lille s), så kapitalakkumuleringen kan skrives som: $\dot{K}(t)=sY(t)-\delta K(t)$, da $I=S$
 
 Den største forskel mellem Solow-modellen og Ramsey-Kass-Koopman modellen er, at sidstnævnte implementerer opsparing som en endogen faktor i modellen.
 
 Solow-modellen holder opsparingsraten konstant, og således eksogent bestemt i modellen.
-I Solow modellen hedder produktionsfunktionen: $Y_t=f(K(t), A(t)*L(t))$, hvor $A(t)*L(t))$ antages at vækstraten i arbejdsstyrken (L) og effektiviteten af arbejdskraft (A) antages konstante: $L(t)=L(0)e^{nt}$ og $A(t)=A(0)e^{gt}$. Det er således kun kapitalakkumleringsfunktionen: $\dot{K}(t)=sY(t)-\delta K(t)$, der i Solow modellen er afgørende.
+I Solow modellen hedder produktionsfunktionen: $Y_t=f(K(t), A(t)*L(t))$, hvor $A(t)*L(t))$. Det antages at vækstraten i arbejdsstyrken (L) og effektiviteten af arbejdskraft (A) antages konstante: $L(t)=L(0)e^{nt}$ og $A(t)=A(0)e^{gt}$. Det er således kun kapitalakkumleringsfunktionen: $\dot{K}(t)=sY(t)-\delta K(t)$, der i Solow modellen er afgørende.
 
-I Ramsey-modellen vælger husholdningerne den optimale opsparingsrate...
+I Ramsey-modellen vælger husholdningerne den optimale opsparingsrate og denne er således endogeniseret. Her introduceres en utålmodighedsrate, $\rho$, og en rate der "smoother" forbruget, $theta$. Således vil opsparingsraten ikke længere være konstant udenfor steady state.
 
-The golden rule, ramsey modellen..
+Derudover ligger der en forskel i de 2 modellers "balanced growth paths": Det er nemlig ikke muligt for Ramsey-Cass-Koopman at have en balanced growth path med kapitalniveau over golden rule niveauet (golden rule kapitalniveauet er det højeste niveau af forbrug som kan vedligeholdes. Det er givet ved $f'(k)=n+g$). Dette skyldes, at opsparingsraten er udledt af husholdningerne ud fra nyttemaksimering.
 
-Udover ovenstående faktorer, er Ramsey- og Solow-modellen ens.
+Udover ovenstående faktorer, er Ramsey- og Solow-modellen ens og der er ikke forskel på de overordnede konklusioner.
 
-##2.  Piketty (2014) argues that a fall in the growth rate of the economy is likely to an increase in the difference between the real interest rate and the growth rate. This problem asks you to investigate this issue in the context of the Ramsey Cass Koopmans model. Specially, consider a Ramsey Cass Koopmans economy that is on its balanced growth path, and suppose there is a permanent fall in g.
+## 2.  Piketty (2014) argues that a fall in the growth rate of the economy is likely to an increase in the difference between the real interest rate and the growth rate. This problem asks you to investigate this issue in the context of the Ramsey Cass Koopmans model. Specially, consider a Ramsey Cass Koopmans economy that is on its balanced growth path, and suppose there is a permanent fall in g.
 
-##2.1  How, if at all, does this affect the $\dot k$ = 0 curve?
-Her skal vi kigge på følgende ligning: $\dot{k}(t)=f(k(t))-c(t)-(n+g)k(t)$.
+## 2.1  How, if at all, does this affect the $\dot k$ = 0 curve?
+Det vides fra opgaven, at der sker et permanent fald i vækstraten $g$
+Her skal vi kigge på følgende ligning: 
 
-Det vides fra opgaven, at der sker et permanent fald i g, som indgår i sidste led af ligningen, $-(n+g)k(t)$. 
+$$\dot{k}(t)=f(k(t))-c(t)-(n+g)k(t)$$.
 
-Stigningen i c gør kurven højere
+Effekten skal udledes fra sidste led af ligningen:
 
-Den bliver bredere pga. Inada betingelsen (f'(k)=n+g) fordi man kan sætte dot k = 0 og isolere f(k) og differentiere.
+$$-(n+g)k(t)$$. 
 
-##2.2 How, if at all, does this affect the $\dot c$ = 0 curve?
+Da g falder bliver tallet større (mindre negativt). Vi ser ved denne omskrivning (hvor $\dot{k}=0$),
+
+$$c=f(k)-(n+g)k$$
+at faldet i g medfører en stigning i $c(t)$ for at opretholde niveauet i $\dot{k}(t)$. Denne stigning i c skubber $\dot{k}$ kurven op og gør den dermed højere.
+
+Derudover ved vi, at $f'(k)=n+g$ (ved at sætte $\dot{k}=0$ og isolere f(k) og differentiere). Her ser vi, at et fald i g, får marginalproduktet af kapital ($f'(k)$) til at falde, hvilket får $k$ til at stige, hvilket ligeledes forskyder kurven opad og udad.
+
+(Inada betingelsen)
+
+## 2.2 How, if at all, does this affect the $\dot c$ = 0 curve?
 Saddelpunkt - vi ved ikke om C stiger eller falder (figur)
 
 $\bar{r}-g$. g falder og r ændrer sig ikke (da k ikke ændrer sig som vi lige har fundet ud af)
 
-##2.3 At the time of the change, does c rise, fall, or stay the same, or is it not possible to tell?
+##![dotkc](/Users/Kristoffer/Desktop/7. semester/V. Makro/Makro-opgaver-7.-semester/Images.-semester\dotkc.png) 
+
+## 2.3 At the time of the change, does c rise, fall, or stay the same, or is it not possible to tell?
 Her starter vi:
 $f'(k)=r$ og $c=0$
 $\frac{f(k)-P-\theta*g}{\theta}=0$
@@ -78,16 +75,16 @@ $\dot{c}=0$ kurven (den som er lodret) og 2 halvcirkler med $\dot{k}=0$
 
 
 
-#Opgave 2
+# Opgave 2
 
 
-##Set up the intertemporal maximazation problem and derive the EUler equation:
+## Set up the intertemporal maximazation problem and derive the EUler equation:
 
 sæt op lagrangian (ln af nyttefunktionerne og lambda ganget med budgetrestriktionen) og for at finde euler ligningen differentiere man i forhold til den ene forbrug og sætter ind i den anden forbrug.
 
 facit bliver:
 $\frac{1+r}{1+\rho}=\frac{c_2}{c_1}$
 
-##Derive $S_t$ as a function of $r$, $w$ and $T$. How does an increase in $T$ affect savings (show mathematically)? Discuss the result.
+## Derive $S_t$ as a function of $r$, $w$ and $T$. How does an increase in $T$ affect savings (show mathematically)? Discuss the result.
 
 Brug facit ovenfra: $\frac{1+r}{1+\rho}=\frac{c_2}{c_1}$
