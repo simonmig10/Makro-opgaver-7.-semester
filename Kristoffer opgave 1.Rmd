@@ -56,30 +56,52 @@ $$\frac{\dot c}{c}=\frac{f'(k(t))-\rho-\theta g}{\theta}$$
 ![dotkc](/Users/Kristoffer/Desktop/7. semester/V. Makro/Makro-opgaver-7.-semester/Images.-semester\dotkc.png) 
 
 ## 2.3 At the time of the change, does c rise, fall, or stay the same, or is it not possible to tell?
-Her starter vi:
-$f'(k)=r$ og $c=0$
-$\frac{f(k)-\rho-\theta*g}{\theta}=0$
 
-$f(k)-\rho-\theta g=0$
+At the time of change in g, the value of k, the stock of capital per unit of effective labor, is given by the history of the economy, and it cannot change discontinuosly. It remains equal to the $k^*$ on the old balanced growth path.
 
-simpel matematik (og faktorering)
+In contrast, c, the rate at which households are consuming in units of effective labor, can jump at the time of the shock. In order for the economy to reach the new balanced growth path, c must jump at the instant of the change so that the economy is on the new saddle path.
 
-Her slutter vi:
-$\frac{\partial r-g}{\partial g}=(\theta-1)$
-
-
-Saddelpunkt - vi ved ikke om C stiger eller falder (figur)
-
-$\bar{r}-g$. g falder og r ændrer sig ikke (da k ikke ændrer sig som vi lige har fundet ud af)
+However, we cannot tell whether the new saddle path passes above or below the original point E. Thus we cannot tell whether c jumps up or down and in fact, if the new saddle path passes right through point E, c might even remain the same at the instant the g falls. Thereafter, c and k rise gradually to their new balanced-growth-path values; these are higher than their values on the original balanced growth path.
 
 
 ## 2.4 At the time of the change, does r-g rise, fall, or stay the same, or is it not possible to tell?
 
+If we assume that the shock is unexpected then the amount of capital is historically build up and will not imidially change when the shock is made to g. Therefor there will be no changes in $r(t)$ because there will be no changes in k therefor no changes in $f(k)$ and last no change in $f'(k)$ and we know $f'(k)= r(t)$. Therefor the distance will be larger. 
 
 ## 2.5 In the long run, does r-g rise, fall, or stay the same, or is it not possible to tell? 
-Der er nok en masse opgaver her i mellem
 
-## Analyze the effect of a public procurement, including a thorough presentation of the dynamics in Figures 2.8 and 2.9
+Vi starter ud fra følgende ligning 
+
+$$\frac{\dot{c}}{c}=\frac{f'(k)-\rho-\theta g}{\theta}$$
+
+Man sætter $\dot{c}=0$ og isolerer $f(k)$ og differencierer og får:
+
+$$f'(k)=\rho+\theta g$$
+
+Vi ved også at $f'(k)=r$, så på lang sigt gælder det, at 
+
+$$r=\rho+\theta g$$
+Her trækkes $g$ fra på begge sider, så vi får 
+
+$$r-g=\rho+\theta g-g$$
+Der faktoreres for g på højresiden
+
+$$r-g=\rho+g(\theta-1)$$
+Til sidst differentierer vi for $g$ og får:
+
+$$\frac{\partial r-g}{\partial g}=\theta-1$$
+
+Dermed kan følgende konkluderes om $\theta$ (villighed til at ændre forbrug på tværs af perioder):
+
+Hvis $\theta>1$ vil 
+
+
+## 2.6 Find an expression for the impact of a marginal change in g on the fraction of output that is saved on the balanced growth path. Can one tell whether this expression is positive or negative? 
+
+## 2.7  For the case where the production function is Cobb-Douglas, $f(x) = k^\alpha$, rewrite your answer to part (2.6) in terms of $\rho$, $n$, $g$, $\theta$ and $\alpha$ (Hint: Use the fact that $f'(k^*) = \rho + \theta g$ 
+
+
+## 3. Analyze the effect of a public procurement, including a thorough presentation of the dynamics in Figures 2.8 and 2.9
 $T=G$
 $\dot{k}=f(k)-C-T-(n+g)k$
 
@@ -87,12 +109,27 @@ $\dot{c}=0$ kurven (den som er lodret) og 2 halvcirkler med $\dot{k}=0$
 
 
 
-# Opgave 2
+# Opgave 2 Diamond
 
+## Consider the following overlapping generations framework. Welfare is equal to:
 
-## Set up the intertemporal maximazation problem and derive the EUler equation:
+$$U_t = u(C_{1t}) + \beta u(C_{2t+1})$$ with $\beta = \frac{1}{1+\rho} \leq$ the discount factor.
 
-sæt op lagrangian (ln af nyttefunktionerne og lambda ganget med budgetrestriktionen) og for at finde euler ligningen differentiere man i forhold til den ene forbrug og sætter ind i den anden forbrug.
+Assume the utility function is logarithmic:
+$$u(C_{jt}) = lnC_{jt}$$
+
+We will assume that the government implements a pension scheme, more specifically, a pay-as-you-go social security scheme, where the government taxes each young individual by an amount T , and uses that amount to pay benefits to old individuals. Hence, the budget constraints is given by:
+
+$$C_{1t}+S_t = w - T$$
+
+whereas period 2 consumption is givien by:
+$$C_{2t+1} = S_t(1+r) + (1+n)T$$
+
+Note that $n$ - $L_t=(1+n)L_{t-1}$ represents population growth. Take the wage $w$ and interest rate $r$ as exogenous and solve the following:
+
+## Set up the intertemporal maximazation problem and derive the Euler equation:
+
+sæt op lagrangian ((ln af?) nyttefunktionerne og lambda ganget med budgetrestriktionen) og for at finde euler ligningen differentiere man i forhold til den ene forbrug og sætter ind i den anden forbrug.
 
 facit bliver:
 $\frac{1+r}{1+\rho}=\frac{c_2}{c_1}$
