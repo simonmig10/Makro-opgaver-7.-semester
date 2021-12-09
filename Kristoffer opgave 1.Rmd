@@ -100,6 +100,42 @@ Hvis $\theta<1$ vil $g$ vokse.
 
 ## 2.6 Find an expression for the impact of a marginal change in g on the fraction of output that is saved on the balanced growth path. Can one tell whether this expression is positive or negative? 
 
+
+We can start by defining the fraction of output that is saved on the balanced growth path called s $s=\frac {(f(k^*) - c^*)} {f(k^*)}$ 
+
+since k is constant on the balanced growth path we can write the function $\dot k = f(k(t))- c(t)- (n+g)k(t)$ as $f(k^*) - c^*= (n+g)k^*$
+
+We can now rewrite the fraction of output saved on the balanced growth path. $s= \frac {(n+g)k^*} {f(k^*)}$
+
+We can now differentiate both sides with respect to g. We use the rules for differentiating a fraction. We should also use the chainrule as g is in the function for f(k). (maybe lige skrive hvordan)
+
+$$\frac {\delta s} {\delta g} = \frac {f(k^*)[(n+g)(\frac{\delta k^*}{\delta g})+k^*] - (n+g)k^* f'(k^*)(\frac{\delta k^*}{\delta g})}{[f(k^*)]^2}$$
+Vi ganger $f(k^*)$ ind i parentesen og setter derefter $(n+g)(\frac {\delta k^*}{\delta g})$ udenfor parentes (setter den bare on hver side af parentesen)
+
+$$\frac {\delta s} {\delta g} = \frac {(n+g)[f(k^*) -k^* f'(k^*)](\frac{\delta k^*} {\delta g}) + f(k^*)k^*} {[f(k^*)]^2}$$
+
+We know that $k^*$ is defined when $f'(k^*)= \rho + \theta g$ we can now differentiate both sites with respect to g, and we get $f''(k^*)(\frac{\delta k^*}{\delta g})= \theta$ Solving for $\frac{\delta k^*}{\delta g}$ we get. 
+
+$$\frac{\delta k^*}{\delta g}= \frac{\theta}{f''(k^*)}$$
+
+We can now substitute this into the above equation:
+
+$$\frac {\delta s} {\delta g} = \frac {(n+g)[f(k^*) -k^* f'(k^*)](\frac{\theta} {f''(k^*)}) + f(k^*)k^*} {[f(k^*)]^2}$$
+We then multiply by $f''(k^*)$ above and under the fraction (above: As the term is multiplied on the brackets it just disapears and is multiplied to the second term)
+
+$$\frac{\delta s}{\delta g} = \frac{(n+g)[f(k^*)-k^*f'(k^*)]\theta + f(k^*)k^*f''(k^*)}{[f(k^*)]^2 f''(k^*)}$$
+
+- First term should be positive?
+
+- as we know $f''(k^*)$ is negative the last term in the nummerator is negative. 
+
+- the denominator will be negative for the same reason. 
+
+
+
+The conclution is that we can not say anything about if a change in g has a positve effect on the fraction of output tht is saved on the balanced growthpath 
+
+
 ## 2.7  For the case where the production function is Cobb-Douglas, $f(x) = k^\alpha$, rewrite your answer to part (2.6) in terms of $\rho$, $n$, $g$, $\theta$ and $\alpha$ (Hint: Use the fact that $f'(k^*) = \rho + \theta g$ 
 
 
