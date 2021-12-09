@@ -91,9 +91,11 @@ Til sidst differentierer vi for $g$ og får:
 
 $$\frac{\partial r-g}{\partial g}=\theta-1$$
 
-Dermed kan følgende konkluderes om $\theta$ (villighed til at ændre forbrug på tværs af perioder):
+Dermed kan følgende konkluderes om $\theta$ (villighed til at ændre forbrug på tværs af perioder) og $g$:
 
-Hvis $\theta>1$ vil 
+Hvis $\theta>1$ vil $g$ falde.
+Hvis $\theta=1$ vil $g$ forblive uændret.
+Hvis $\theta<1$ vil $g$ vokse.
 
 
 ## 2.6 Find an expression for the impact of a marginal change in g on the fraction of output that is saved on the balanced growth path. Can one tell whether this expression is positive or negative? 
