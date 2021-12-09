@@ -13,7 +13,6 @@ Solow antager konstant opsparingsrate (lille s), så kapitalakkumuleringen kan s
 Den største forskel mellem Solow-modellen og Ramsey-Kass-Koopman modellen er, at sidstnævnte implementerer opsparing som en endogen faktor i modellen.
 
 Solow-modellen holder opsparingsraten konstant, og således eksogent bestemt i modellen.
-I Solow modellen hedder produktionsfunktionen: $Y_t=f(K(t), A(t)*L(t))$, hvor $A(t)*L(t))$. Det antages at vækstraten i arbejdsstyrken (L) og effektiviteten af arbejdskraft (A) antages konstante: $L(t)=L(0)e^{nt}$ og $A(t)=A(0)e^{gt}$. Det er således kun kapitalakkumleringsfunktionen: $\dot{K}(t)=sY(t)-\delta K(t)$, der i Solow modellen er afgørende.
 
 I Ramsey-modellen vælger husholdningerne den optimale opsparingsrate og denne er således endogeniseret. Her introduceres en utålmodighedsrate, $\rho$, og en rate der "smoother" forbruget, $theta$. Således vil opsparingsraten ikke længere være konstant udenfor steady state.
 
@@ -43,28 +42,41 @@ Derudover ved vi, at $f'(k)=n+g$ (ved at sætte $\dot{k}=0$ og isolere f(k) og d
 (Inada betingelsen)
 
 ## 2.2 How, if at all, does this affect the $\dot c$ = 0 curve?
-Saddelpunkt - vi ved ikke om C stiger eller falder (figur)
+Vi starter med Eulerligningen:
+$$\frac{\dot c}{c}=\frac{r(t)-\rho-\theta g}{\theta}$$
 
-$\bar{r}-g$. g falder og r ændrer sig ikke (da k ikke ændrer sig som vi lige har fundet ud af)
+Her ved vi, at $r(t)$ (realrenten) er lig med $f'(k(t))$ (marginalproduktet af kapital), da der ingen depreciering antages, hvorved vi også kan få:
 
-##![dotkc](/Users/Kristoffer/Desktop/7. semester/V. Makro/Makro-opgaver-7.-semester/Images.-semester\dotkc.png) 
+$$\frac{\dot c}{c}=\frac{f'(k(t))-\rho-\theta g}{\theta}$$
+ Her sætter vi $\dot{c}=0$ og isolerer for $f'(k(t))$:
+ 
+ $$f'(k(t))=\rho+\theta g$$
+ Her ser vi, at et fald i $g$ må betyde et tilsvarende fald i $f'(k(t))$. Dermed må det betyde at det $k$ som er nødvendigt for at opretholde $\dot{c}=0$ stiger, og således bliver kurven skubbet til højre, som det ses på billedet.
+ 
+![dotkc](/Users/Kristoffer/Desktop/7. semester/V. Makro/Makro-opgaver-7.-semester/Images.-semester\dotkc.png) 
 
 ## 2.3 At the time of the change, does c rise, fall, or stay the same, or is it not possible to tell?
 Her starter vi:
 $f'(k)=r$ og $c=0$
-$\frac{f(k)-P-\theta*g}{\theta}=0$
+$\frac{f(k)-\rho-\theta*g}{\theta}=0$
 
-$f(k)-P-\theta g=0$
+$f(k)-\rho-\theta g=0$
 
 simpel matematik (og faktorering)
 
 Her slutter vi:
 $\frac{\partial r-g}{\partial g}=(\theta-1)$
 
-## 2.4 At the time of the change, does r g rise, fall, or stay the same, or is it not possible to tell?
+
+Saddelpunkt - vi ved ikke om C stiger eller falder (figur)
+
+$\bar{r}-g$. g falder og r ændrer sig ikke (da k ikke ændrer sig som vi lige har fundet ud af)
 
 
-## 2.5 In the long run, does r g rise, fall, or stay the same, or is it not possible to tell? 
+## 2.4 At the time of the change, does r-g rise, fall, or stay the same, or is it not possible to tell?
+
+
+## 2.5 In the long run, does r-g rise, fall, or stay the same, or is it not possible to tell? 
 Der er nok en masse opgaver her i mellem
 
 ## Analyze the effect of a public procurement, including a thorough presentation of the dynamics in Figures 2.8 and 2.9
