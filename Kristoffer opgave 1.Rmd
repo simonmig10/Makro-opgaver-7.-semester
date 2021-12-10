@@ -100,7 +100,6 @@ Hvis $\theta<1$ vil $g$ vokse.
 
 ## 2.6 Find an expression for the impact of a marginal change in g on the fraction of output that is saved on the balanced growth path. Can one tell whether this expression is positive or negative? 
 
-
 We can start by defining the fraction of output that is saved on the balanced growth path called s $s=\frac {(f(k^*) - c^*)} {f(k^*)}$ 
 
 since k is constant on the balanced growth path we can write the function $\dot k = f(k(t))- c(t)- (n+g)k(t)$ as $f(k^*) - c^*= (n+g)k^*$
@@ -125,15 +124,13 @@ We then multiply by $f''(k^*)$ above and under the fraction (above: As the term 
 
 $$\frac{\delta s}{\delta g} = \frac{(n+g)[f(k^*)-k^*f'(k^*)]\theta + f(k^*)k^*f''(k^*)}{[f(k^*)]^2 f''(k^*)}$$
 
-- First term should be positive?
+- First term should be positive
 
 - as we know $f''(k^*)$ is negative the last term in the nummerator is negative. 
 
 - the denominator will be negative for the same reason. 
 
-
-
-The conclution is that we can not say anything about if a change in g has a positve effect on the fraction of output tht is saved on the balanced growthpath 
+Da første del i tælleren er positiv og anden del er negativ ved vi ikke om faldet i g har en positiv eller negativ effekt på $s$ (delen af output som opspares på den balanced growth path)
 
 
 ## 2.7  For the case where the production function is Cobb-Douglas, $f(x) = k^\alpha$, rewrite your answer to part (2.6) in terms of $\rho$, $n$, $g$, $\theta$ and $\alpha$ (Hint: Use the fact that $f'(k^*) = \rho + \theta g$ 
