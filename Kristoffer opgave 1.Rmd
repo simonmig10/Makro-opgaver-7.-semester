@@ -53,7 +53,7 @@ $$\frac{\dot c}{c}=\frac{f'(k(t))-\rho-\theta g}{\theta}$$
  $$f'(k(t))=\rho+\theta g$$
  Her ser vi, at et fald i $g$ må betyde et tilsvarende fald i $f'(k(t))$. Dermed må det betyde at det $k$ som er nødvendigt for at opretholde $\dot{c}=0$ stiger, og således bliver kurven skubbet til højre, som det ses på billedet.
  
-![dotkc](/Users/Kristoffer/Desktop/7. semester/V. Makro/Makro-opgaver-7.-semester/Images.-semester\dotkc.png) 
+![dotkc](/Users/Kristoffer/Desktop/7. semester/V. Makro/Makro-opgaver-7.-semester/Images.-semester/dotkc.png) 
 
 ## 2.3 At the time of the change, does c rise, fall, or stay the same, or is it not possible to tell?
 
@@ -159,12 +159,25 @@ $$\frac{\delta s}{\delta g}= \alpha \frac {(\rho - n \theta)} {(\rho + \theta g)
 
 
 ## 3. Analyze the effect of a public procurement, including a thorough presentation of the dynamics in Figures 2.8 and 2.9
-$T=G$
-$\dot{k}=f(k)-C-T-(n+g)k$
-
-$\dot{c}=0$ kurven (den som er lodret) og 2 halvcirkler med $\dot{k}=0$
 
 
+Firstly the implementation of the government sector makes our k dot function change to this: $$\dot k(t) = f(k(t)) -c(t) - G(t) - (n+g)k(t)$$ where the government buys output at a rate of $G(t)$ per unit of effective labour per unit time. A higher G value shifts the $\dot k = 0$ down, because the more goods that are purchased by the government the fewer that can be purchased privately if $k$ is to be held constant.
+
+Starting with figure 2.8 suppose the economy is on a balanced growth path with $G(t)$ constant at some level $G_L$, and that there is an unexpected, permanent increase in $G$ to $G_H$. From the above equation we know, that this menas that $\dot k = 0$ has to shift downwards by the amount of increase in G. Since the purchase do not affect the euler equation, the $\dot c = 0$ is unaffected. This is shown below.
+
+![figur 2.8](/Users/Kristoffer/Desktop/7. semester/V. Makro/Makro-opgaver-7.-semester/Images.-semester/figur2.8.jpg)
+We know that in response to such a change $c$ must jump so that the economy is on its new saddle path. If not, then as before, either capital would become negative at some point or households would accumulate infinite wealth. In this case, the adjustment takes a simple form: $c$ falls by the amount of the increase in $G$, and the economy is immediately on its new balanced growth path. Intuitively, the permanent increase in government purchases and taxes reduce households' lifetime wealth. And because the increase in purchases and taxes are permanent, there is no scope for households to raise their utility by adjusting the time pattern of their consumption. Thus the size of the immediate fall in consumption is equal to the full amount of the increase in government purchases, and the capital stock and the real interest rate are unaffected.
+    An older approach to modeling consumption behavior assumes that consumption depends only on current disposable income and that it moves less than one-for-one with disposable income. Recall for example, that the Solow model assumes that consumption is simply a fraction $1-s$ of current disposable income. With that approach, consumption falls by less than the amount of the increase in government purchases. As a result, the rise in government purchases crowds out investment, and so the capital stock starts to fall and the real interest rate starts to rise. Our analysis shows that those results rest critically on the asumption that households follow mechanical rules: with full intertemporal optimization, a permanent increase in government purchases does not cause crowding out.
+
+Moving on to 2.9
+Panal (a) shows a case where the increase in G is relatively long-lasting. In this case $c$ falls by most of the amount of the increase in $G$. Because the increase is not permanent, however, households decrease their capital holdings somewhat. $c$ rises as the economy approaches the time that $G$ returns to $G_L$. After that time, $c$ continues to rise and households rebuild their capital holdings. IN the long run, the economy returns to its original balanced growth path.
+
+Panel (b): since $r = f'(k)$, we can deduce the behavior of $r$ from the behavior of $k$. Thus $r$ rises gradually during the period that government spending is high and then gradually returns ti its initial level. This is shown in panel (b): $t_0$ denotes the time of the increase in $G$ and $t_1$ the time of its return to its initial value.
+
+Finally panel (c) shows the case of a short-lived rise in G. Here households change their consumption relatively little, choosing instead to pay for most of the temporarily higher taxes out of their savings. Because government purchases are high for only a short period, the effect on the capital stock and the real interest rate are similar.
+   Note that once again allowing for forward-looking behavior yields insights we would not get from the older approach of assuming that consumption depends only on current disposable income. With that approach, the duration of the change in government purchases is irrelevant to the impact of thechange during the time that $G$ is high. But the idea that households do not look ahead and put some weight on the likely future path of government purchases and taxes is implausable.
+   
+![figur 2.9](/Users/Kristoffer/Desktop/7. semester/V. Makro/Makro-opgaver-7.-semester/Images.-semester/figur2.9.jpg){width=50%, height = 50%}
 
 # Opgave 2 Diamond
 
