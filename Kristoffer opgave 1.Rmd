@@ -223,7 +223,7 @@ Konkluderende kan det siges, at en større diskonteringsrate ($\rho$) vil betyde
 
 ## Derive $S_t$ as a function of $r$, $w$ and $T$. How does an increase in $T$ affect savings (show mathematically)? Discuss the result.
 
-Hertil bruger vi Euler ligningen fra før til at udtrykke $S_t$ i form af labor income, realrentesatsen og skat ved at bruge det faktum, at $\beta = \frac{1}{1-\rho}$. Dermed får vi: $$\frac{C_2}{C_1} = \beta(1+r)$$
+Hertil bruger vi Euler ligningen fra før til at udtrykke $S_t$ i form af labor income, realrentesatsen og skat ved at bruge det faktum, at $\beta = \frac{1}{1+\rho}$. Dermed får vi: $$\frac{C_2}{C_1} = \beta(1+r)$$
 
 Nu indsætter vi funktionerne for $C_1$ og $C_2$
 
@@ -238,3 +238,4 @@ Vi tager $S_t$ ud af parantesen og flytter den over på venstre side af lighedst
 Til sidst faktorerer vi med $S_t$ og dividerer med $(1+\beta)$, så vi ender med:
 
 $$S = \frac{\beta(w-T)}{(1+\beta)}-\frac{T(1+n)}{(1+r)(1+\beta)}$$
+Vi ser, at hvis T stiger, vil første led blive mindre, mens andet led bliver større. Da der er minus imellem trækker begge effekter i retningen af, at **en stigning i T forårsager et fald i S**.
