@@ -177,7 +177,7 @@ Panel (b): since $r = f'(k)$, we can deduce the behavior of $r$ from the behavio
 Finally panel (c) shows the case of a short-lived rise in G. Here households change their consumption relatively little, choosing instead to pay for most of the temporarily higher taxes out of their savings. Because government purchases are high for only a short period, the effect on the capital stock and the real interest rate are similar.
    Note that once again allowing for forward-looking behavior yields insights we would not get from the older approach of assuming that consumption depends only on current disposable income. With that approach, the duration of the change in government purchases is irrelevant to the impact of thechange during the time that $G$ is high. But the idea that households do not look ahead and put some weight on the likely future path of government purchases and taxes is implausable.
    
-![figur 2.9](/Users/Kristoffer/Desktop/7. semester/V. Makro/Makro-opgaver-7.-semester/Images.-semester/figur2.9.jpg){width=50%, height = 50%}
+![figur 2.9](/Users/Kristoffer/Desktop/7. semester/V. Makro/Makro-opgaver-7.-semester/Images.-semester/figur2.9.jpg){width=40%, height = 50%}
 
 # Opgave 2 Diamond
 
@@ -199,11 +199,42 @@ Note that $n$ - $L_t=(1+n)L_{t-1}$ represents population growth. Take the wage $
 
 ## Set up the intertemporal maximazation problem and derive the Euler equation:
 
-sæt op lagrangian ((ln af?) nyttefunktionerne og lambda ganget med budgetrestriktionen) og for at finde euler ligningen differentiere man i forhold til den ene forbrug og sætter ind i den anden forbrug.
+Vores nyttefunktion er givet ved: $$U_t = lnC_{1t} + [\frac{1}{1+\rho}] lnC_{2t+1}$$ 
 
-facit bliver:
-$\frac{1+r}{1+\rho}=\frac{c_2}{c_1}$
+Vi udleder nu budgetrestriktionen ved at omarrangere funktionen for forbrug for ældre ($C_{2t+1}$) for periode $t+1$
+$$C_{2t+1} = S_t(1+r) + (1+n)T$$
+Vi isolerer $S_t$ ved at trække $(1+n)T$ fra på begge sider og derefter dividere med $(1+r)$ på begge sider:
+$$S_t = \frac{C_{2t+1}}{(1+r)} - \frac{(1+n)}{(1+r)}T$$
+Ved at sætte ind i forbrugsfunktionen i første periode får vi: $$C_{1t}+\frac{C_{2t+1}}{(1+r)} - \frac{(1+n)}{(1+r)}T = w - T$$ 
+
+Nu flytter vi $\frac{(1+n)}{(1+r)}T$ over på den anden side af lighedstegnet og får dermed budgetrestriktionen:
+$$C_{1t} + \frac{C_{2t+1}}{(1+r)} = w - T +  \frac{(1+n)}{(1+r)}T$$
+Vi kan nu sætte Lagrangian op:
+$$L = lnC_{1t} + [\frac{1}{1+\rho}] lnC_{2t+1} + \lambda\bigg[w - T +  \frac{(1+n)}{(1+r)}T - \bigg(C_{1t} + \frac{C_{2t+1}}{(1+r)}\bigg)\bigg]$$
+Tager vi nu First Order Conditions (FOC) mht. $C_{1t}$ og $C_{2t+1}$ får vi: $$\frac{1}{C_{1t}} = \lambda$$
+og $$\frac{1}{C_{2t+1}(1+\rho)} = \frac{\lambda}{(1+r)}$$
+
+Nu kan den første sættes ind i den anden, så vi får: $$\frac{1}{C_{2t+1}(1+\rho)} = \frac{1}{C_{1t}(1+r)}$$
+
+Til sidst får vi Euler ligningen ved at rearrangere: $$\frac{C_{2t+1}}{C_{1t}} = \frac{(1+r)}{(1+\rho)}$$
+
+Konkluderende kan det siges, at en større diskonteringsrate ($\rho$) vil betyde mere forbrug i periode 1. Samtidig kan det siges, at en højere rentesats ($r$) vil resultere i højere forbrug i periode 2.
+
 
 ## Derive $S_t$ as a function of $r$, $w$ and $T$. How does an increase in $T$ affect savings (show mathematically)? Discuss the result.
 
-Brug facit ovenfra: $\frac{1+r}{1+\rho}=\frac{c_2}{c_1}$
+Hertil bruger vi Euler ligningen fra før til at udtrykke $S_t$ i form af labor income, realrentesatsen og skat ved at bruge det faktum, at $\beta = \frac{1}{1-\rho}$. Dermed får vi: $$\frac{C_2}{C_1} = \beta(1+r)$$
+
+Nu indsætter vi funktionerne for $C_1$ og $C_2$
+
+$$\frac{S_t(1+r)+T(1+n)}{w-T-S_t} = \beta(1+r)$$
+
+Nu dividerer vi først igennem med $(1+r)$: $$\frac{S_t}{(w-T-S_t)}+\frac{T(1+n)}{(w-T-S_t)(1+r)} = \beta$$
+
+Dernæst ganger vi med $(w-T-S_t)$ på begge sider: $$S_t + \frac{T(1+n)}{(1+r)} = \beta(w-T-S_t)$$
+
+Vi tager $S_t$ ud af parantesen og flytter den over på venstre side af lighedstegnet, og flytter  $\frac{T(1+n)}{(1+r)}$ over på højre side af lighedstegnet, så vi får: $$S_t+\beta S_t = \beta(w-T) -\frac{T(1+n)}{(1+r)}$$ 
+
+Til sidst faktorerer vi med $S_t$ og dividerer med $(1+\beta)$, så vi ender med:
+
+$$S = \frac{\beta(w-T)}{(1+\beta)}-\frac{T(1+n)}{(1+r)(1+\beta)}$$
