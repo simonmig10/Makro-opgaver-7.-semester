@@ -22,22 +22,23 @@ Population growth is exogenous $$\frac{\dot L(t)}{L(t)} = n \quad or \quad \dot 
 ## Derive an expression for the growth rate of capital $g_K(t)$ and growth rate of technology $g_A(t)$
 ### $g_K(t)$
 
+Vi starter med at opskrive produktionsfunktionen for final goods sector:
 $$Y(t)=[(1-a_K)K(t)]^\alpha [A(t)(1-a_L)L(t)]^{1-\alpha}$$
 
 
 
 
-hvor det gælder, at $s(1-\alpha_K)^\alpha*(1-\alpha_L)^{1-\alpha}=C_K$, så:
+hvor det gælder, at $s(1-a_K)^\alpha*(1-a_L)^{1-\alpha}=C_K$, så:
 
 $$\frac{\dot{k}}{k}=C_K*A(t)^{1-\alpha}*K(t)^{\alpha-1}*L(t)^{1-\alpha}$$
 
 $$\frac{\dot{K}}{K}=C_K*\frac{A(t)^{1-\alpha}*L(t)^{1-\alpha}}{K(t)^{1-\alpha}}=C_K*[\frac{A(t)*L(t)}{K(t)}]^{1-\alpha}=g_k$$
 
-Taking logs and differentiating woth respect to time yields:
+Taking logs and differentiating with respect to time yields:
 
 $$\frac{\dot{g_k}}{g_k}=(1-\alpha)(g_A(t)+n-g_K(t))$$
 
-Sætter vi = 0 og fjerner $(1-\alpha)$ ved at dividere med den, så får vi $$g_A^* +n-g_K^*$$ og isloeres $g_K^*$ fåes $$g_K^* = g_A^*+n$$
+Sætter vi = 0 og fjerner $(1-\alpha)$ ved at dividere med den, så får vi $$g_A^* +n-g_K^*$$ og isoleres $g_K^*$ fåes $$g_K^* = g_A^*+n$$
 ### $g_A(t)$
 
 Again we divide the find the change by dividing by $A(t)$ on both sides of the equation $\dot A(t)=B[\alpha_K K(t)]^\beta[\alpha_L L(t)]^\gamma A(t)^\theta$: $$\frac{\dot A(t)}{A(t)}=\frac{B[\alpha_K K(t)]^\beta[\alpha_L L(t)]^\gamma A(t)^\theta}{A(t)}$$
