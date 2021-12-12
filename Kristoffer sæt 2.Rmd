@@ -26,11 +26,12 @@ Vi starter med at opskrive produktionsfunktionen for final goods sector:
 $$Y(t)=[(1-a_K)K(t)]^\alpha [A(t)(1-a_L)L(t)]^{1-\alpha}$$
 
 
-
+Vi indsætter produktionsfunktionen i kapitalakkumuleringsfunktionen og får:
+$$\dot{K}=C_K*A(t)^{1-\alpha}*K(t)^{\alpha-1}*L(t)^{1-\alpha}$$
 
 hvor det gælder, at $s(1-a_K)^\alpha*(1-a_L)^{1-\alpha}=C_K$, så:
 
-$$\frac{\dot{k}}{k}=C_K*A(t)^{1-\alpha}*K(t)^{\alpha-1}*L(t)^{1-\alpha}$$
+$$\dot{K}=C_K*A(t)^{1-\alpha}*K(t)^{\alpha-1}*L(t)^{1-\alpha}$$
 
 $$\frac{\dot{K}}{K}=C_K*\frac{A(t)^{1-\alpha}*L(t)^{1-\alpha}}{K(t)^{1-\alpha}}=C_K*[\frac{A(t)*L(t)}{K(t)}]^{1-\alpha}=g_k$$
 
