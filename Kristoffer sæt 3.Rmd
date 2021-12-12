@@ -1,6 +1,6 @@
 ---
-title: "exam set 3 A"
-author: "Andreas Methling"
+title: "Eksamenssæt 3"
+author: "Kristoffer Herrig Thorndal"
 date: "17/11/2021"
 output: pdf_document
 ---
