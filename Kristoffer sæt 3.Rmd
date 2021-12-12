@@ -1,0 +1,149 @@
+---
+title: "exam set 3 A"
+author: "Andreas Methling"
+date: "17/11/2021"
+output: pdf_document
+---
+
+#Opgave 1:
+
+## a) Identify and discuss weaknesses related to the RBC-models
+
+First and foremost the RBC-model rests on large aggregate technology shocks for which there is little evidence; its predictions about the effects of technology shocks and business-cycle dynamics appear to be far from what we observe;
+
+and it implies that monetary disturbances do not have real effects. 
+
+The models also build on a perfect competitive market which doesnt allow for nominal changes in prices because both firms and consumers are pricetakers.
+
+## b) How does DSGE-models bypass these problems
+
+DSGE-models bypass these problems by incorporating incomplete adjustments of nominal prices, which occurs when labor, credit and goods market deviates from the assumption of perfect competion and uses imperfect competion, where some firms change prices every two period or have a chance to change price each period (not completly flexible both fixed for a number of periods at a time). This means, that a monetary shock has real effects because of the rigid structure of the model (prices cant instantly change for all firms). 
+
+
+## c) Write out and analyse the three main equations in the canonical New Keynesian Model
+
+$$y_t = E_t y_{t+1} - \frac{1}{\sigma}r_t)+\epsilon^D_t$$
+
+$$\pi_t = \beta E_t\pi_{t+1}+ \kappa y_t + e_t^S$$
+
+$$r_t = \phi_\pi E_t \pi_{t+1}+ \phi_y E_t y_{t+1}\epsilon^R_t$$
+
+Going a little closer we can see, that the IS-curve and the money policy function is explained by all three variables and that inflation only is a function of itself and output. 
+
+These equations are easier to understand if we look at a static example where the central bank is perfectly credible so $E_t\pi_{t+1} = \pi_0$ and the economy is very close to full employment, so that the authorities are able to close the gap in the future: $E_ty_{t+1}=y_0$ This makes us able to express the monetary policy rule in terms of the real interest rate (like the taylor rule) and the model can now be express as follows: 
+$$y = y_0-\frac{1}{\sigma}r+\epsilon^D$$ $$\pi = \pi_0 + \kappa y +\epsilon^S$$ $$r = \phi^\pi(\pi-\pi_0) + \phi^Y(y-y_0)+\epsilon^R$$
+When finding the equilibrium all the values of our variables are a linear combination of exogenous shocks.
+
+These shcoks tells us, that a supply shock lowers output, raises inflation and raises the interest rate.
+demand shocks raises all our variables
+And a monetary shock lowers output, lowers inflation and of course raises the interest rate.
+
+
+
+
+# Opgave 2:Consider the model presented in Byrialsen and Olesen 2014
+
+## a) Solve the Lagragian shown on page 78 (the solution is presented later on page 78 - hint: begin with finding the FOC)
+
+$$C_t^{-\sigma} = rE\beta\bigg[\frac{C_{t+1}}{\pi_{t+1}}\bigg]$$
+der mangler noget taylor aproksimation, men ja
+
+## b) In this model a Calvo price setting is used. Explain the intuition behind this method. How does it affect the price settings of the firms?
+A calvo price setting basically means that the firms which can change price is determined by a stochastic proces. So the prices are fixed in the model by every firm but the one who are chosen by $\theta$, so theta can be said to descirbe the inertia of the prices. This means that every period $1-\theta$ of the firms change there prices, and $\theta$ firms does not.
+
+Later in the paper it is stated, that the firms who change their prices will change it to there wanted mark-up over a weighted average of their marginal costs now and in the future. So i mean it says that every time you can change the price you change it to get the wanted markup, but you dont know when you can change it again, so you calculate an average of you future and present marginal costs.
+
+
+## c) How does the choice of $\theta$ affect the New Keynesian Phillips curve?
+
+$\theta$ is present in the last part of the new keynesian Phillips curve so if we say that $\theta$ is constant it is a driver of how much inflation will raise when there is a gap between the frictionless optimal price $\mu+mc_t$ and the current price level $p_t$. Everytime there is a gap here $1-\theta$ firms want to change there price which drives up inflation in the new keynesian phillips curve.
+
+Dette kan blive vist i ligningen her: $$\pi_t = (1-\theta)(p_t^*-p_{t-1})$$
+
+If we say that $theta$ is not fixed and that it can change, then the smaller $theta$ are the more inflation will rise because then multiple firms would push up there price.
+
+
+# Opgave 3 Consider the empirical DSGE-model for the Danish Economy presented in Pedersen and Ravn 2014.
+
+## a) Explain the effect of a shock to government consumption in the model
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\public C.png)  
+
+The effect of a positive shock to public consumption of 1 percent of GDP. GDP increases by approximately 0.7 in the first quarter, but is rapidly crowded out through a decline in exports and lower consumption (not shown). After 4 quarters the increase in government spending has caused a mild but long-lasting period with relatively low growth until the price level is back to its steady state value. The mechanisms behind this multiplier are as follows. The extra demand coming from the extra public consumption results partly in extra production as some firms can not change (increase) their prices due to the assumption of sticky prices, resulting in lower margins. This gives rise to a suboptimal relationship between prices and marginal costs as seen from the firms perspective, increasing the price pressure in the economy. In sum, production increases in the short run, while inflation picks up over time as more and more prices are adjusted. The higher prices implies that firms have lost
+competitiveness vis-a-vis their trading partners. The consequence of this is a crowding out through lower exports and higher imports (not shown in the figure). When firms reoptimise their prices they look not only at their current marginal costs but also at their expected future marginal costs, as they may again find themselves unable to change their price in the future. Observing that they have lost competitiveness, i.e. that they face relatively lower demand, they lower their prices and slowly regain competitiveness.
+
+In the end exports rises because the price level ends lower but GDP falls because of the lower price level on all goods.
+
+
+
+## b) Discuss the three shocks performed in the paper - what are the main intuitions behind these shocks?
+
+So the first shock or scenario is to reduce public consumption between 2006 Q1 and 2008 Q3. This is to test whether a contractionary fiscal policy contributes to the reduction of the output gap. So if the government had used countercyclical fiscal policy, had the crisis of the 2008-09 been easier on the danish economy. 
+
+The second shock is to use countercyclical fiscal policy between 2006 Q1 and 2012Q4. The longer timeline is to obtain a picture of the benefits from having a less overheated economy before the financial crisis as well as the greater ability to withstand the negative shocks which hit the Danish economy during the crisis both in terms of a lower level of wages and prices and in terms of the conduct of extra expansionary fiscal policy made available through lower debt and primary deficit during and after the crisis.
+
+The third shock iscountercyclical fiscal policy between 2006 Q1 and 2012 Q4, but with a broader set of policy tools. Before there had only been used G now also changes in the tax rate on consuption and capital is used. 
+
+## c) Explain the results of the three shocks
+
+Result of the first shock is: The "cost" of having conducted the actual discretionary fiscal policy is that the output gap was between 1 and 2 percentage points of
+GDP lower during 2009 and 2010 than it would have been with a different (closer the the optimal) policy. But in order to get to this result G had to fall from 27% of GDP to 11% of GDP which in a socialistic country like Denmark or in any other country is very much unrealistic.
+
+The result of the second shock was that instead of overheating before the crisis and a sharp decline during, the economy would have been much more stable than without the implied policy measures. But again we see it all depends on G going from 27% of GDP to 11% in a couple of quarters and that again is very unrealistic.
+
+
+In the last shock one might say we get a more realistic outcome. The public consumption will only have to fall around 5 pp, which is still a lot, but less than before. This is due to the fact that the contractionary fiscal policy is not only to reduce G but also to raise taxes up to the crisis and lower them during again to get a much more stable economy.
+
+
+
+## d) Discuss the relevance of the results?
+
+The period we have considered in this study was characterized by large fluctuations seen in the perspective of Denmarks recent economic history, and therefore required large and perhaps unrealistic fiscal policy responses. While less dramatic policy changes may be sufficient in more "normal" times, this raises concerns about the ability of Danish policymakers to cope with large economic fluctuations - or avoid them entirely by dealing with imbalances as they arise - with the economic instruments available today.
+
+# Opgave 4 The Divine Coincidence
+
+We start by assuming that the central bank aims at minimizing a loss function that consists of the deviation of inflation ($\pi_t$) and output ($y_t$) with respect to their long run levels (($\pi^T$) and ($y_e$)). The loss function has the following shape: $$L = (y_t-y_e)^2+\beta(\pi_t-\pi^T)^2 \quad with \quad \beta>0$$
+
+## a) What is the interpretation of the parameter $\beta$? What are the implications of $\beta$ being bigger, equal or smaller than 1?
+
+$\beta$ is the relative weight attached to the loss from inflation. This is a critical parameter: a $\beta >1$ will characterize a central bank that places less weight on deviations in employment from its target than on deviations in inflation, and vice versa. A more inflation—averse central bank is characterized by a higher $\beta$. With $\beta = 1$, the central bank is equally concerned about inflation and output deviations from its targets. 
+
+## b) Plot the loss function in the $y-\pi$ space (you can put $y$ on the horizontal axis and $\pi$ in the vertical, such that the graph is the same that we use when plotting the Phillps curve) for the case where $\beta >1,\quad \beta = 1 \quad and \quad \beta < 1$
+
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\dc base.png) 
+
+Each indifference curve is a circle with ($y_e$, $\pi^t$) at its centre (see Fig. 3.5a). The loss declines as the circle gets smaller. When $\pi_t = pi^t$ and $y_t = y_e$, the circle shrinks to a single point (called the 'bliss point') and the loss is at a minimum, which is zero. With$\beta = 1$, the central bank is indifferent between inflation 1% above (or below) $\pi^t$ and output 1% below (or above) $y_e$. They are on the same loss circle. If $\beta >1$, the central bank is called inflation-averse: it is indifferent between (say) inflation 1% above (or below) $\pi^t$ and output 2% above (or below) $y_e$. They are on the same loss curve. This makes the indifference curves ellipsoid as in Fig. 3.5b. They are flat because the central bank is willing to trade off a small fall in inflation for a large rise in unemployment above equilibrium. A central bank with less aversion to inflation $\beta <1$  will have ellipsoid indifference curves with a vertical rather than a horizontal orientation (Fig. 3.5c). In that case, the indifference curves are steep, reflecting  that the central bank is only willing to trade off a given
+fall in inflation for a smaller fall in output than in the other two cases. If the central bank cares only about inflation then the loss ellipses become one dimensional along the line at $\pi_t = \pi^t$.
+
+The value of $\beta$ does not reflect whether the central bank focuses on achieving an inflation target or an output target. Rather, a central bank with lower $\beta$ is willing to trade off a longer period during which inflation is away from target to reduce the impact on unemployment of the adjustment path back to equilibrium than would a more inflation—averse central bank with a higher $\beta$
+
+## c) Now assume that inflation is determined by a Philips curve which, for simplicity, takes lagged inflation as a proxy of expected inflation ($E[\pi_{t+1}]=\pi_{t-1}$). The Philips curve then takes the following form: $\pi_t = \pi_{t-1}+\alpha(y_t-y_e)$. Plot the Philips curve in the same graphs that you drew the Central Bank’s loss function.
+
+
+The Phillips curve is a constraint for the central bank because it shows all the output and inflation combinations from which the central bank can choose for a given level of expected inflation. In other words, in any period, the central bank can only choose to locate the economy at a point on the Phillips curve it faces. It is assumed that $\alpha = 1$ to get a 45 degree slope. Each Phillips curve is labelled by a given level of expected inflation, which in the adaptive expectations Phillips curve is equal to lagged inflation
+
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\dc med phil.png) 
+
+## d) The loss function tells us that the central bank aims at making inflation converge to its target. The Philips curve describes how inflation is determined over time. As such, it can be considered as a constraint for the central bank (since it must minimize its inflation subject to the way in which inflation is determined in the economy). Given a specific rate of inflation in period t (i.e., a given Philips curve) define what is the optimal point in the loss function where the central bank would want to situate.
+## e) Derive graphically the monetary policy curve, which is given by the combination of all the optimal points for the central bank, each of them given by the different possible Philips curves. For simplicity, just draw two Philips curves and derive the monetary policy rule as the line joining the optimal points that result from those two Philips curves.
+
+I have combined these because the optimal points for each expected inflation yields the Monetary policy rule curve as shown below.
+
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\dc optimal.png) 
+
+So the monetary rule is: $$(y_t-y_e) = -\alpha \beta (\pi_t-\pi^t)$$
+
+The MR tells the central bank what output gap it should choose when it observes that inflation is away from its target. The monetary policy rules used by central banks are often described as Taylor Rules. The difference between the monetary policy rule and a Taylor Rule is that the latter is expressed in terms of the interest rate the central bank should choose to implement its chosen output gap.
+
+## f) Now we will solve analytically the same derivation that we did graphically in the previous points. In order to do that, you have to minimize the loss function of the central bank subject to the constraint given by the Philips curve. You should find a first order condition that is consistent with the concept of the divine coincidence, i.e., the first order condition has to describe a negative relationship between the deviations of output and inflation with respect to their long run levels.
+
+By choosing the interest rate in period zero, the central bank affects output and inflation in period 1, so the loss function we want to minimize is $$L = (y_1-y_e)^2+\beta(\pi_1-\pi^T)^2 \quad with \quad \beta>0$$ subject to the phillips curve: $$\pi_1 = \pi_0+\alpha(y_1-y_e) \quad with \quad \alpha>0$$
+
+Then we substitute the phillips curve into the centralbank loss function to get: $$L = (y_1-y_e)^2+\beta((\pi_0 + \alpha(y_1-y_e))-\pi^T)^2$$
+
+then we differentitate with respect to $y_1$ because this is the variable can control via its choice of interest rate, then we get: $$\frac{\partial L}{\partial y_1} = (y_1-y_e)+\alpha \beta(\pi_0 + \alpha(y_1-y_e)-\pi^T)$$
+
+rearraning the phillips curve to get $\pi_0 = \pi_1 -\alpha(y_1-y_e)$ and plugging the in yields the monetary rule because $\alpha(y_1-y_e)$ disappears and we move the bit with $\pi$'s to the other side and get again the monetary rule: $$(y_1-y_e) = -\alpha \beta(\pi_1-\pi^T)$$
+
+The monetary rules shows the central banks best response to a shcok; it is the relationship between the inflation rate chosen indirectly and the level of output chosen directly by the central bank to maximize its utility (minimize its loss) given its preferences and the constraints
+it faces. The monetary rule is an inverse relation between $\pi$ and $y$ with a negative slope, which shows that the central bank must reduce aggregate demand and output, $y$, below $y_e$ so as to reduce $\pi$ below $\pi^T$.
+In the general form of the MR curve shown above, it can be seen directly that the larger is $\alpha$ (i.e. the more responsive are wages to employment) or the larger is $\pi$ (i.e. the more inflation averse is the central bank), the flatter will be the slope of the monetary rule.
