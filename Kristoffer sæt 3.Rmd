@@ -49,9 +49,9 @@ $$C_t^{-\sigma} = rE\beta\bigg[\frac{C_{t+1}}{\pi_{t+1}}\bigg]$$
 der mangler noget taylor aproksimation, men ja
 
 ## b) In this model a Calvo price setting is used. Explain the intuition behind this method. How does it affect the price settings of the firms?
-A calvo price setting basically means that the firms which can change price is determined by a stochastic proces. So the prices are fixed in the model by every firm but the one who are chosen by $\theta$, so theta can be said to descirbe the inertia of the prices. This means that every period $1-\theta$ of the firms change there prices, and $\theta$ firms does not.
+A calvo price setting basically means that the firms which can change price is determined by a stochastic proces. So the prices are fixed in the model by every firm but the one who are chosen by $\theta$, so theta can be said to describe the inertia of the prices. This means that every period $1-\theta$ of the firms change there prices, and $\theta$ firms does not.
 
-Later in the paper it is stated, that the firms who change their prices will change it to there wanted mark-up over a weighted average of their marginal costs now and in the future. So i mean it says that every time you can change the price you change it to get the wanted markup, but you dont know when you can change it again, so you calculate an average of you future and present marginal costs.
+Later in the paper it is stated, that the firms who change their prices will change it to there wanted mark-up over a weighted average of their marginal costs now and in the future. So i mean it says that every time you can change the price you change it to get the wanted markup, but you don't know when you can change it again, so you calculate an average of your future and present marginal costs.
 
 
 ## c) How does the choice of $\theta$ affect the New Keynesian Phillips curve?
@@ -66,7 +66,7 @@ If we say that $theta$ is not fixed and that it can change, then the smaller $th
 # Opgave 3 Consider the empirical DSGE-model for the Danish Economy presented in Pedersen and Ravn 2014.
 
 ## a) Explain the effect of a shock to government consumption in the model
-![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\public C.png)  
+![test af billede](/Users/Kristoffer/Desktop/7. semester/V. Makro/Makro-opgaver-7.-semester/Images.-semester/public C.png)  
 
 The effect of a positive shock to public consumption of 1 percent of GDP. GDP increases by approximately 0.7 in the first quarter, but is rapidly crowded out through a decline in exports and lower consumption (not shown). After 4 quarters the increase in government spending has caused a mild but long-lasting period with relatively low growth until the price level is back to its steady state value. The mechanisms behind this multiplier are as follows. The extra demand coming from the extra public consumption results partly in extra production as some firms can not change (increase) their prices due to the assumption of sticky prices, resulting in lower margins. This gives rise to a suboptimal relationship between prices and marginal costs as seen from the firms perspective, increasing the price pressure in the economy. In sum, production increases in the short run, while inflation picks up over time as more and more prices are adjusted. The higher prices implies that firms have lost
 competitiveness vis-a-vis their trading partners. The consequence of this is a crowding out through lower exports and higher imports (not shown in the figure). When firms reoptimise their prices they look not only at their current marginal costs but also at their expected future marginal costs, as they may again find themselves unable to change their price in the future. Observing that they have lost competitiveness, i.e. that they face relatively lower demand, they lower their prices and slowly regain competitiveness.
@@ -109,7 +109,7 @@ $\beta$ is the relative weight attached to the loss from inflation. This is a cr
 
 ## b) Plot the loss function in the $y-\pi$ space (you can put $y$ on the horizontal axis and $\pi$ in the vertical, such that the graph is the same that we use when plotting the Phillps curve) for the case where $\beta >1,\quad \beta = 1 \quad and \quad \beta < 1$
 
-![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\dc base.png) 
+![test af billede](/Users/Kristoffer/Desktop/7. semester/V. Makro/Makro-opgaver-7.-semester/Images.-semester/dc base.png) 
 
 Each indifference curve is a circle with ($y_e$, $\pi^t$) at its centre (see Fig. 3.5a). The loss declines as the circle gets smaller. When $\pi_t = pi^t$ and $y_t = y_e$, the circle shrinks to a single point (called the 'bliss point') and the loss is at a minimum, which is zero. With$\beta = 1$, the central bank is indifferent between inflation 1% above (or below) $\pi^t$ and output 1% below (or above) $y_e$. They are on the same loss circle. If $\beta >1$, the central bank is called inflation-averse: it is indifferent between (say) inflation 1% above (or below) $\pi^t$ and output 2% above (or below) $y_e$. They are on the same loss curve. This makes the indifference curves ellipsoid as in Fig. 3.5b. They are flat because the central bank is willing to trade off a small fall in inflation for a large rise in unemployment above equilibrium. A central bank with less aversion to inflation $\beta <1$  will have ellipsoid indifference curves with a vertical rather than a horizontal orientation (Fig. 3.5c). In that case, the indifference curves are steep, reflecting  that the central bank is only willing to trade off a given
 fall in inflation for a smaller fall in output than in the other two cases. If the central bank cares only about inflation then the loss ellipses become one dimensional along the line at $\pi_t = \pi^t$.
@@ -121,14 +121,14 @@ The value of $\beta$ does not reflect whether the central bank focuses on achiev
 
 The Phillips curve is a constraint for the central bank because it shows all the output and inflation combinations from which the central bank can choose for a given level of expected inflation. In other words, in any period, the central bank can only choose to locate the economy at a point on the Phillips curve it faces. It is assumed that $\alpha = 1$ to get a 45 degree slope. Each Phillips curve is labelled by a given level of expected inflation, which in the adaptive expectations Phillips curve is equal to lagged inflation
 
-![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\dc med phil.png) 
+![test af billede](/Users/Kristoffer/Desktop/7. semester/V. Makro/Makro-opgaver-7.-semester/Images.-semester/dc med phil.png) 
 
 ## d) The loss function tells us that the central bank aims at making inflation converge to its target. The Philips curve describes how inflation is determined over time. As such, it can be considered as a constraint for the central bank (since it must minimize its inflation subject to the way in which inflation is determined in the economy). Given a specific rate of inflation in period t (i.e., a given Philips curve) define what is the optimal point in the loss function where the central bank would want to situate.
 ## e) Derive graphically the monetary policy curve, which is given by the combination of all the optimal points for the central bank, each of them given by the different possible Philips curves. For simplicity, just draw two Philips curves and derive the monetary policy rule as the line joining the optimal points that result from those two Philips curves.
 
 I have combined these because the optimal points for each expected inflation yields the Monetary policy rule curve as shown below.
 
-![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\dc optimal.png) 
+![test af billede](/Users/Kristoffer/Desktop/7. semester/V. Makro/Makro-opgaver-7.-semester/Images.-semester/dc optimal.png) 
 
 So the monetary rule is: $$(y_t-y_e) = -\alpha \beta (\pi_t-\pi^t)$$
 
