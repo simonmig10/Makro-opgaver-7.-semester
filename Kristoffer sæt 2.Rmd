@@ -7,13 +7,13 @@ output: pdf_document
 
 # Endogenous growth theory
 
-Assume production function of final goods sector is given by: $$Y(t)=[(1+\alpha_K)K(t)^\alpha][A(t)(1-\alpha_L)L(t)]^{1-\alpha}$$
+Assume production function of final goods sector is given by: $$Y(t)=[(1-a_K)K(t)]^\alpha[A(t)(1-a_L)L(t)]^{1-\alpha}$$
 
 where $1-\alpha_L$ and $1-\alpha_K$ is proportion of labour and capital allocated for final production
 
 Capital stock is given by: $$\dot K(t) = sY(t)$$
 
-Production functions of R&D sector is given by: $$\dot A(t)=B[\alpha_K K(t)]^\beta[\alpha_L L(t)]^\gamma A(t)^\theta$$
+Production functions of R&D sector is given by: $$\dot A(t)=B[a_K K(t)]^\beta[a_L L(t)]^\gamma A(t)^\theta$$
 
 where $B>0$ shows efficiency of research, $\gamma \in(0,1)$ is the output elasticity of labour allocated in R&D, and $\theta \leq 1$ is a parameter describing the elasticity of existing knowledge $(A)$ for the production of increases in the stock of knowledge.
 
