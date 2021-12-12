@@ -39,6 +39,7 @@ Taking logs and differentiating with respect to time yields:
 $$\frac{\dot{g_k}}{g_k}=(1-\alpha)(g_A(t)+n-g_K(t))$$
 
 Sætter vi = 0 og fjerner $(1-\alpha)$ ved at dividere med den, så får vi $$g_A^* +n-g_K^*$$ og isoleres $g_K^*$ fåes $$g_K^* = g_A^*+n$$
+
 ### $g_A(t)$
 
 Again we divide the find the change by dividing by $A(t)$ on both sides of the equation $\dot A(t)=B[\alpha_K K(t)]^\beta[\alpha_L L(t)]^\gamma A(t)^\theta$: $$\frac{\dot A(t)}{A(t)}=\frac{B[\alpha_K K(t)]^\beta[\alpha_L L(t)]^\gamma A(t)^\theta}{A(t)}$$
