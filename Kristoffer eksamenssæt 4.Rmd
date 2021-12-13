@@ -23,7 +23,7 @@ This can be seen in the equation for wages $$w^* = \frac{W}{P} = \frac{1-\pi}{a_
 
 Here is the base model
 
-![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\ks model base.png) 
+![test af billede](/Users/Kristoffer/Desktop/7. semester/V. Makro/Makro-opgaver-7.-semester/Images.-semester/ks model base.png) 
 Have to make the slope of g smaller and higher for u.
 
 In the Kalecki-Steindl model an increase in the labour share $1-\pi$ does not reduced growth. On the contrary, it increases demand and growth. To see this graphically note that the reduction of $\pi$ changed the slope of $g$ given by $g = g_0 +(g_1+g_2/\pi)r$, which rotates $g$ downwards an thereby creating a higher eqilibrium for investment (long run growth), capacity utilization (output), the rate of profit and the real wage. There is no tension between the compensation of labour (the real wage) and capital(the rate of profit) because the level of income has increased as denoted by the outward movement of the wage-profit line u* $u^* = \frac{g_0}{(s_r-g_1)(\pi/a_1)-g_2}$, where the denominator gets smaller and thereby $u^*$ increases. In other words even if distribution is now more favourable for workers, this does not come at the expense of firms' absolute level of income. This would only happen if income cannot be increased, which only occurs when the rate of u is at its maximum level u = 1.
@@ -59,7 +59,7 @@ A danish example: A fall in asset prices leads to worsening of the household bal
 
 
 ## Opgave 3:  Discuss the macroeconomic effects of a drop in house prices within the empirical SFC-model.
-![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\sfc house.png) 
+![test af billede](/Users/Kristoffer/Desktop/7. semester/V. Makro/Makro-opgaver-7.-semester/Images.-semester/sfc house.png) 
 
 A fall in house prices first and for most lowers investment, which inturn lowers the general economic activity. THe fall on investment is only 1% from baseline so the shock has a small shock on the system. Households consume less because of the fall in there wealth due to the fall in house prices and thereby also import less. The unemployment rate deviates 0.05 % from the baseline this is due to the small fall in economic activity we see a very small rise in the unemployment rate. 
 
@@ -67,7 +67,7 @@ The effect of the shock on the financial balances is most notable on the externa
 
 
 ## Opgave 4: Does the high level of household debt pose a risk to macroeconomic stability in case of a negative shock to the Danish Economy?
-![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\both shocks.png) 
+![test af billede](/Users/Kristoffer/Desktop/7. semester/V. Makro/Makro-opgaver-7.-semester/Images.-semester/both shocks.png) 
 
 As can be seen in the above figure, the effect of a 3pp increase in the interest rate and a 10% fall in housing prices on output is still limited, since a fall of GDP by 0.3% in the medium term compared to the baseline. The effect on GDP is mainly explained by a large relative drop in investment and consumption on the one side, and a large drop in import on the other side compared to the baseline. Overall, these results apparently suggest that the recent level of household debt does not seem to pose a serious macroeconomic risk, if the economy is hit by strong interest rate and house price shocks.
 
