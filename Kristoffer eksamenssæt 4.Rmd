@@ -1,0 +1,109 @@
+---
+title: "4. makro part 1"
+author: "Kristoffer Herrig Thorndal"
+date: "13/12/2021"
+output: pdf_document
+---
+
+# Post Keynesian theory
+
+## Opgave 2: Explain the following statement using Kalecki’s micro-foundations: "But pay can rise for a variety of reasons, some more benign than others. For a given level of productivity, higher wages must show up in one of two ways: as higher inflation or as a higher "labour share" of GDP". Why is it that, if nominal wages increase and firms choose not to pass on the higher labour costs to prices, the "labour share" increases?
+
+For et given niveau af $u$ kan der i modellen kun komme højere lønninger ved højere inflation, hvilket vil sige en stigning i $P = (1+\tau)W\alpha0$ eller ved en stigning i lønandel af BNP givet ved  mark-uppen$\tau$ i $\pi = \frac{\tau}{1+\tau}$, der bliver nødt til at falde, hvilket får $\pi$ til at falde, der får lønandel $1-\pi$ til at stige.
+
+given $P = (1+\tau)W\alpha0$ and $\frac{1}{\alpha0}$ is given the mark-up has to fall, then $\pi$ falls and the wage share increases.
+
+## Opgave 3: Assume that the increase in nominal wages discussed in the note is finally passed on to prices one-on-one. What would be the impact on output (proxied by the rate of capacity utilization and growth. Use the graphical setting developed in the Kalecki-Steindl model.
+
+If the increase in the nominal wage is passed on to prices one-to-one, then the real wage would be unchanged, which means that the capacity utilization and growth also would be unchanged.
+
+This can be seen in the equation for wages $$w^* = \frac{W}{P} = \frac{1-\pi}{a_0}$$
+
+## Opgave 4: Evaluate the following statement through the lenses of the Kalecki-Steindl graphical device: "But an ever-rising labour share would be a worry: it would crimp companies' profits and thus the investments that are crucial to improving long-run economic growth". Does an increase in the labour share reduce long-run growth in this model? Why? Why not?
+
+Here is the base model
+
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\ks model base.png) 
+Have to make the slope of g smaller and higher for u.
+
+In the Kalecki-Steindl model an increase in the labour share $1-\pi$ does not reduced growth. On the contrary, it increases demand and growth. To see this graphically note that the reduction of $\pi$ changed the slope of $g$ given by $g = g_0 +(g_1+g_2/\pi)r$, which rotates $g$ downwards an thereby creating a higher eqilibrium for investment (long run growth), capacity utilization (output), the rate of profit and the real wage. There is no tension between the compensation of labour (the real wage) and capital(the rate of profit) because the level of income has increased as denoted by the outward movement of the wage-profit line u* $u^* = \frac{g_0}{(s_r-g_1)(\pi/a_1)-g_2}$, where the denominator gets smaller and thereby $u^*$ increases. In other words even if distribution is now more favourable for workers, this does not come at the expense of firms' absolute level of income. This would only happen if income cannot be increased, which only occurs when the rate of u is at its maximum level u = 1.
+
+In short the firms take a smaller part of the pie, but the pie is bigger, so they get more in absolute value. SO in the end, what matters? the relative level or the total share in absolute value?
+
+## Opgave 5:  The note stresses that: "There is another, happier, possibility. If productivity rises, then wage growth need not cause sustained inflation, nor push up the labour share. Instead the economic pie would grow, with more for everyone."
+
+
+### a) Explain why a raise in productivity could offset the inflationary pressure or increasing wages.
+
+Given $P = (1+\tau)W\alpha0$, an increase in productivity is represented by a decrease in the unit labour requirement $a0$ i.e. it becomes possible to produce more with the same amount of workers. in a context of rising wages as the one described in the note, a fall in a0 could offset the upward pressure on prices, thereby leaving them constant (the overall effect on prices would ultimately depend on the relative changes of $W$ and $a0$.)
+
+A rise in wages in this model is always expansionary, this can be because of the structure i.e. a closed economy.
+
+
+### b) Illustrate this scenario using the Kalecki-Steindl graphical model. Does the model predict a higher size of the income (a.k.a. "the economic pie")? What would be needed for the "economic pie" to grow in the model?
+
+In order to illustrate the scenario you ahve to bear in mind the labour productitivty is one of the determinants of the equilibrium real wage. A higher productivity (lower a0) increased the equillibrium real wage. However since a0 is not a determinat of the equlibrium level of the rate of profit, the rate of capacatiy utilization and the rate of growth alle the three reamin unchanged. The reason why there are no cahnges in outout and growrth is that in PK theiry theses variables are demand determmined, and the shcok on a0 is a supply-side shock. SO, the increase in productivity leads to higher wages and a lower level of employment, leaving total workers' disposable income unchanged. Consumption and output are therefor constant.
+
+Increase realwage on the graph without changing any other levels, can be hard.
+
+# SFC
+## Opgave 1:  Explain crucial differences between Post-Keynesian SFC-models and General Equilibrium models?
+
+DSGE-models is born of the New Neoclassic Synthesis which implies Rationalizes expectations, inter temporal optimizing, imperfect competition, and price inertia. SFC models are older models with keynesian behavioral relations, national accounting identities and single equation estimations. Furthermore DSGE models have recieved critics in the form of that the finacial sector only plays the role of distributing credit not as a cause of instability. Financial flows also didnt play any role or a small one and privat debt played no role. All these three critics can be looked at in an SFC framework with its natural integration between the real and the financial side of the economy with its inclusion of financing, portfolio management and decisions to invest and consume.
+
+SFC-models also include post-keynesian features like backward looking expectations, uncertainty, path dependency, no maximizing behavior, no representative agent, the effect of inequality and the link between growth and distribution of wealth.
+
+## Opgave 2: Explain some of the key transmission channels between financial markets and the real economy - how does a drop in the price of a financial asset affect the realeconomy?
+
+A danish example: A fall in asset prices leads to worsening of the household balance sheet, which increases the risk of defaults and bankruptcies in the case of negative shocks. This is due to the fact that the danish households have a large gross debt which mainly comes from house loans. Debt defaults leads to lower capitalization of the banks, which may lead to a reduction in lending. This then feeds back into the financial system and lower prices of houses, which again can lead to households owning houses with far less value, then they loaned to purchase them for, which can make them insolvent. 
+
+
+## Opgave 3:  Discuss the macroeconomic effects of a drop in house prices within the empirical SFC-model.
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\sfc house.png) 
+
+A fall in house prices first and for most lowers investment, which inturn lowers the general economic activity. THe fall on investment is only 1% from baseline so the shock has a small shock on the system. Households consume less because of the fall in there wealth due to the fall in house prices and thereby also import less. The unemployment rate deviates 0.05 % from the baseline this is due to the small fall in economic activity we see a very small rise in the unemployment rate. 
+
+The effect of the shock on the financial balances is most notable on the external balance, primarily due to the fall in Danish imports. NFC falls a bit due to the overall lower economic activity and so does G due to lower tax revenue. For households the fall in houseprices leads to capital loses, leading to fall in total net wealth, which in turn negativeli affects investment and consumption. Moreover a fall in prices also directly reduces the incentive to invest in new houseing, leading to a slowdown in the demand for loans. The slowdown in demand for loans combined with a fall in consumption leads to an improvement in the financial balance of the household sector.
+
+
+## Opgave 4: Does the high level of household debt pose a risk to macroeconomic stability in case of a negative shock to the Danish Economy?
+![test af billede](C:/Users\andre\Dropbox\Uni\Github\makroopgaver\Makro-opgaver-7.-semester\Images\both shocks.png) 
+
+As can be seen in the above figure, the effect of a 3pp increase in the interest rate and a 10% fall in housing prices on output is still limited, since a fall of GDP by 0.3% in the medium term compared to the baseline. The effect on GDP is mainly explained by a large relative drop in investment and consumption on the one side, and a large drop in import on the other side compared to the baseline. Overall, these results apparently suggest that the recent level of household debt does not seem to pose a serious macroeconomic risk, if the economy is hit by strong interest rate and house price shocks.
+
+If the model is expanded with a thrid shock to global output, then we see a mimic'ed situation of what happend during the financial crisis. So the households level of debt doesnt seem to pose any threat to the economy as long as we dont see a global shock to the economy (which i guess is the most common shock in a small open economy). During the corona crisis we also saw this, which lead to a fall in GDP by 2.7% and because of a big fall in exports by 7.7%, domestic consumption did stay put due to a good timing of fiscal policy.
+
+# MMT
+
+## Opgave 1: Why would a Central Bank normally refrain from setting the policy rate significantly below 0%?
+
+My best guess will be because it creates inflationary pressure which is one of the thinks the central bank tries to avoid. A below 0% interst rate can be good in deflationary periods to kickstart the economy via spending and investing and will lead to a fall in deposits for commercial banks because the money will move to higher-yielding assets. This in my opinion can also create speculative bubbles as we might be seeing right now, because so many people are investing their savings in stocks and bonds instead of deposits. 
+
+## Opgave 2: Can Central Banks keep on pursuing an expansionary monetary policy when the zero-lower bound has been hit? If so, how can they do it?
+
+When interest rate are at there effective lower-bound, money creation and spending in the economy may still be to low to be consistent with the central banks' monetary policy objectives. One possible response is to undertake a series of asset purchases (quantitative easing). QE is intended to boost the amount of money in the economy directly by purchasing assets, mainly from non-bank financial companies.
+
+QE initially increases the amount of bank deposits those companies hold (in place of assets they sell). Those companies will then wish to rebalance their portfolios of assets buying higher-yielding assets, raising the price of those assets and stimulating spending in the economy. As a by-product of QE, new central bank reserves are created
+
+## Opgave 3: Why is it that quantitative easing does not necessarily lead to an increase in lending?
+
+QE involves a shift in the focus of monetary policy to the quantity of money: the central bank purchases a quantity of assets, financed by the creation of broad money and a corresponding increase in the amount of central bank reserves. The sellers of the assets will be left holding the newly created deposits in place of government bonds. They will be likely to be holding more money than they would like, relative to other assets that they wish to hold. They will therefore want to rebalance their portfolios, for example by using the new deposits to buy higher-yielding assets such as bonds and shares issued by companies. This will raise the value of those assets and lower the cost to companies of raising funds in these markets. That, in turn, should lead to higher spending in the economy, so not necessarily higher lending. The bank which end up holding the deposit have kinda received "free money" but ultimately only works here as a middle man and have to pay interest on the deposit to the consumer.
+
+
+## Opgave 4: Taking into account Epstein’s concerns about the international spillovers of expansionary monetary policies, what are the risks of sustaining quantitative easing for an extended period? What might be the reasons why despite these risks, Central Banks these days (end of 2021) are being slow at tapering quantitative easing?
+
+I guess inflationary pressure since increaseing the broad and base money will lead to a fall in the purchasing power at least if the QE continues over a long period of times as we see here in the aftermatch if the corona pandemic.
+
+It can be due to the fact that there are no evidence that increases in money supply and debt monetization leads to high levels of inflation, instead it is often cause by structural disruptions in economies.
+
+deveolp country could have issues
+
+Epstein critics. Interest rate of assets in devolped countries are almost 0, the investestes invest en high yielding countries, so it is 10% in brazil and 0 in USA. So all the liquidity goes to developing countries. This is temporary and then they might see a sudden stop, which is not good, this is Epsteins concern, but it might spill over from US and europe to developing countries. They dont take in to the account of there policy the spillover over there frontier. 
+
+Epstein critics:
+They take debt in foriegn country, when brazil issues a bond, så when it sells the bond it gets dollars, so it has to have the reserve of dollar, so when qe is redrawn and interest rate rise, investers withdraw there money to the safe economies, all these developing countries currency suffers. All these inflows wouldnt have happend if we havent had qe, so US, china etc. has to take in to account this spillover in there policy.
+
+WHat is the reason they are slow to tamper:
+As a result of all this massive liquidity, investors instead of increaseing the capital stock they decid to invest in financial assets. THe economy is in stagnation because of this the liquidity goes into bonds, stocks and so on. so the fear is when the central bank withdrws QE, this lesser amount of liquidity lowers the value of financial assets and the interest rate. SO all those who have invested in financial assets and myabe have a lot of debt will be hurt from this and there is a lot of fear that when the liqudity is redrawn there might be a huge financial crisis thanks to the stop of liquidity.
+
+
